@@ -68,33 +68,26 @@ form?.addEventListener('submit', event => {
   if (finderNote) finderNote.textContent = message;
 });
 
-// WIAN advertising slideshow: uses the same black/red/turbo visual language as the hero.
+// WIAN advertising slideshow — now lives INSIDE the first hero section as a subtle background.
 (function initAdSlideshow(){
-  const finder = document.querySelector('.finder');
-  if (!finder || document.querySelector('.ad-slider-section')) return;
+  const hero = document.querySelector('.hero');
+  if (!hero || document.querySelector('.ad-slider-section')) return;
   const section = document.createElement('section');
-  section.className = 'ad-slider-section';
+  section.className = 'ad-slider-section ad-background';
   section.setAttribute('aria-label','WIAN featured advertisements');
   section.innerHTML = `
-    <div class="container">
-      <div class="ad-slider" id="ad-slider">
-        <article class="ad-slide active"><div class="ad-copy"><p class="eyebrow">WIAN FEATURED OFFER</p><h2>Brake parts.<br><span>Built to stop.</span></h2><p>Quality brake pads, discs and related components for everyday cars and performance builds.</p><a class="button button-primary" href="#categories">Shop Brakes →</a></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-wheel"></div><div class="ad-label">BRAKES</div></div></article>
-        <article class="ad-slide"><div class="ad-copy"><p class="eyebrow">SERVICE PARTS</p><h2>Keep your car<br><span>running right.</span></h2><p>Filters, oils, belts and essential maintenance parts from OEM and trusted aftermarket brands.</p><a class="button button-primary" href="#find-parts">Find Service Parts →</a></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-filter"></div><div class="ad-label">SERVICE</div></div></article>
-        <article class="ad-slide"><div class="ad-copy"><p class="eyebrow">OEM + AFTERMARKET</p><h2>The right part.<br><span>First time.</span></h2><p>Give us your registration, VIN, vehicle details or part number and let WIAN help match it.</p><a class="button button-primary" href="#find-parts">Find a Part →</a></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-turbo-mini"></div><div class="ad-label">WIAN</div></div></article>
-        <div class="ad-dots"><button class="ad-dot active" data-slide="0" aria-label="Advertisement 1"></button><button class="ad-dot" data-slide="1" aria-label="Advertisement 2"></button><button class="ad-dot" data-slide="2" aria-label="Advertisement 3"></button></div>
-      </div>
+    <div class="ad-slider" id="ad-slider">
+      <article class="ad-slide active"><div class="ad-copy"><p class="eyebrow">WIAN FEATURED OFFER</p><h2>Brake parts.<br><span>Built to stop.</span></h2><p>Quality brake pads, discs and related components for everyday cars and performance builds.</p></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-wheel"></div><div class="ad-label">BRAKES</div></div></article>
+      <article class="ad-slide"><div class="ad-copy"><p class="eyebrow">SERVICE PARTS</p><h2>Keep your car<br><span>running right.</span></h2><p>Filters, oils, belts and essential maintenance parts from OEM and trusted aftermarket brands.</p></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-filter"></div><div class="ad-label">SERVICE</div></div></article>
+      <article class="ad-slide"><div class="ad-copy"><p class="eyebrow">OEM + AFTERMARKET</p><h2>The right part.<br><span>First time.</span></h2><p>Give us your registration, VIN, vehicle details or part number and let WIAN help match it.</p></div><div class="ad-mark"><div class="ad-ring"></div><div class="ad-turbo-mini"></div><div class="ad-label">WIAN</div></div></article>
     </div>`;
-  finder.parentNode.insertBefore(section, finder);
+  hero.insertBefore(section, hero.firstChild);
+
   const slides = [...section.querySelectorAll('.ad-slide')];
-  const dots = [...section.querySelectorAll('.ad-dot')];
   let current = 0;
-  let timer;
   const show = index => {
     current = (index + slides.length) % slides.length;
     slides.forEach((slide,i) => slide.classList.toggle('active', i === current));
-    dots.forEach((dot,i) => dot.classList.toggle('active', i === current));
   };
-  const restart = () => { clearInterval(timer); timer = setInterval(() => show(current + 1), 5000); };
-  dots.forEach(dot => dot.addEventListener('click', () => { show(Number(dot.dataset.slide)); restart(); }));
-  restart();
+  setInterval(() => show(current + 1), 5000);
 })();
