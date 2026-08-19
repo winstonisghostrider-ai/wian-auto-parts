@@ -68,10 +68,31 @@ form?.addEventListener('submit', event => {
   if (finderNote) finderNote.textContent = message;
 });
 
-// WIAN advertising slideshow — now lives INSIDE the first hero section as a subtle background.
+// WIAN advertising slideshow — placed inside the FIRST hero section as its visual background.
 (function initAdSlideshow(){
   const hero = document.querySelector('.hero');
   if (!hero || document.querySelector('.ad-slider-section')) return;
+
+  const style = document.createElement('style');
+  style.textContent = `
+    .hero{position:relative;isolation:isolate;overflow:hidden}
+    .hero-grid{position:relative;z-index:3}
+    .ad-background{position:absolute!important;inset:0!important;z-index:1!important;padding:0!important;margin:0!important;background:transparent!important;pointer-events:none!important}
+    .ad-background .ad-slider{position:absolute!important;inset:0!important;min-height:100%!important;height:100%!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:radial-gradient(circle at 76% 48%,rgba(229,9,9,.20),transparent 30%),linear-gradient(115deg,rgba(5,5,5,.98) 32%,rgba(18,3,3,.78) 100%)!important;opacity:1!important}
+    .ad-background .ad-slider:before{opacity:.55}
+    .ad-background .ad-slide{padding:0!important;grid-template-columns:1fr 1fr!important;transform:none!important;transition:opacity .8s ease!important;opacity:0!important}
+    .ad-background .ad-slide.active{opacity:1!important}
+    .ad-background .ad-copy{display:none!important}
+    .ad-background .ad-mark{height:100%!important;width:100%!important;transform:translateX(22%) scale(1.55)!important;opacity:.46!important;filter:drop-shadow(0 25px 35px rgba(0,0,0,.75))}
+    .ad-background .ad-ring{width:420px!important;height:420px!important}
+    .ad-background .ad-wheel{width:215px!important;height:215px!important}
+    .ad-background .ad-filter{width:115px!important;height:180px!important}
+    .ad-background .ad-turbo-mini{width:215px!important;height:215px!important}
+    .ad-background .ad-label{font-size:22px!important;letter-spacing:.25em!important;color:#777!important}
+    @media(max-width:700px){.ad-background .ad-mark{transform:translateX(28%) scale(.95)!important;opacity:.28!important}.ad-background .ad-ring{width:300px!important;height:300px!important}.ad-background .ad-wheel,.ad-background .ad-turbo-mini{width:155px!important;height:155px!important}}
+  `;
+  document.head.appendChild(style);
+
   const section = document.createElement('section');
   section.className = 'ad-slider-section ad-background';
   section.setAttribute('aria-label','WIAN featured advertisements');
