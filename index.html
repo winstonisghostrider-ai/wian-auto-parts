@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WIAN Auto Parts — find the right automotive parts by vehicle, registration or part number.">
+  <meta name="theme-color" content="#090909">
+  <title>WIAN Auto Parts | Parts That Fit. Confidence That Lasts.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="WIAN Auto Parts home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <circle class="logo-ring" cx="32" cy="32" r="29"></circle>
+            <circle class="logo-gear" cx="32" cy="32" r="20"></circle>
+            <circle class="logo-hub" cx="32" cy="32" r="7"></circle>
+            <path class="logo-turbo" d="M20 24c4-7 15-8 21-2 4 4 4 10 1 14-3 4-8 6-13 5 5-2 8-6 8-10 0-4-4-7-8-7-3 0-6 1-9 4z"></path>
+            <path class="logo-oil" d="M23 42c0-3 4-7 4-7s4 4 4 7a4 4 0 0 1-8 0z"></path>
+            <path class="logo-filter" d="M39 39h8v3h-8zm2-4h4v3h-4z"></path>
+            <path class="logo-brake" d="M43 24a10 10 0 0 1 5 8h-4a6 6 0 0 0-3-5z"></path>
+          </svg>
+        </span>
+        <span><strong>WIAN</strong><small>AUTO PARTS</small></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#find-parts">Find Parts</a>
+        <a href="#categories">Categories</a>
+        <a href="#why-wian">Why WIAN</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#find-parts">Find a Part <span>→</span></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <p class="eyebrow">AUTOMOTIVE PARTS • OEM & AFTERMARKET</p>
+          <h1>Find the right part.<br><span>First time.</span></h1>
+          <p class="hero-text">Search by vehicle, registration, VIN or part number. WIAN is being built to make automotive parts sourcing faster, clearer and more reliable.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#find-parts">Start Your Search <span>→</span></a>
+            <a class="button button-ghost" href="#categories">Browse Categories</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>OEM</strong><span>Part numbers</span></div>
+            <div><strong>AFTERMARKET</strong><span>Quality brands</span></div>
+            <div><strong>FITMENT</strong><span>Vehicle matching</span></div>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="gear gear-one">⚙</div>
+          <div class="gear gear-two">⚙</div>
+          <div class="part-card part-card-main"><span class="part-icon">◈</span><div><b>PART MATCH</b><small>Vehicle compatibility</small></div><strong>✓</strong></div>
+          <div class="part-card part-card-small"><span>01</span><div><b>SEARCH</b><small>VIN • REG • PART NO.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="finder" id="find-parts">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">SMART PART FINDER</p>
+          <h2>How do you want to search?</h2>
+          <p>Choose the information you have. We will build the matching engine behind this interface as the catalogue grows.</p>
+        </div>
+        <div class="search-tabs" role="tablist" aria-label="Part search methods">
+          <button class="search-tab active" data-tab="vehicle">Vehicle</button>
+          <button class="search-tab" data-tab="registration">Registration</button>
+          <button class="search-tab" data-tab="vin">VIN / Chassis</button>
+          <button class="search-tab" data-tab="part">Part Number</button>
+        </div>
+        <form class="search-panel" id="finder-form">
+          <div class="search-fields" id="vehicle-fields">
+            <label>Make<select id="make"><option value="">Select make</option><option>Volkswagen</option><option>Skoda</option><option>Maruti Suzuki</option><option>Hyundai</option><option>Tata</option><option>Mahindra</option><option>Ford</option><option>Mercedes-Benz</option><option>BMW</option><option>Audi</option></select></label>
+            <label>Model<select id="model"><option value="">Select model</option></select></label>
+            <label>Year<select id="year"><option value="">Select year</option><option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option></select></label>
+          </div>
+          <div class="search-fields hidden" id="single-field">
+            <label id="single-label">Enter details<input id="single-input" type="text" placeholder="Enter your details"></label>
+          </div>
+          <button class="button button-primary search-submit" type="submit">Search Parts <span>→</span></button>
+          <p class="finder-note" id="finder-note">This first release is the interface foundation. Live catalogue matching will be connected next.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="categories" id="categories">
+      <div class="container">
+        <div class="section-heading split">
+          <div><p class="eyebrow">PARTS CATALOGUE</p><h2>Shop by category.</h2></div>
+          <p>From routine service parts to braking, suspension and engine components. The catalogue is designed to support OEM and trusted aftermarket options.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#contact"><span>01</span><div class="category-icon">◉</div><h3>Service Parts</h3><p>Filters, belts, plugs, oils & maintenance items.</p><b>Explore →</b></a>
+          <a class="category-card" href="#contact"><span>02</span><div class="category-icon">◈</div><h3>Brakes</h3><p>Pads, discs, shoes, drums and brake hardware.</p><b>Explore →</b></a>
+          <a class="category-card" href="#contact"><span>03</span><div class="category-icon">◇</div><h3>Suspension</h3><p>Shocks, struts, arms, bushes and steering parts.</p><b>Explore →</b></a>
+          <a class="category-card" href="#contact"><span>04</span><div class="category-icon">✦</div><h3>Engine</h3><p>Timing, cooling, ignition, fuel and engine components.</p><b>Explore →</b></a>
+          <a class="category-card" href="#contact"><span>05</span><div class="category-icon">⌁</div><h3>Electrical</h3><p>Batteries, sensors, starters, alternators and lighting.</p><b>Explore →</b></a>
+          <a class="category-card" href="#contact"><span>06</span><div class="category-icon">▣</div><h3>Body & Interior</h3><p>Body hardware, mirrors, handles and interior parts.</p><b>Explore →</b></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why-wian">
+      <div class="container why-grid">
+        <div class="why-copy"><p class="eyebrow">THE WIAN STANDARD</p><h2>Parts sourcing without the guesswork.</h2><p>WIAN is being designed around one simple idea: automotive parts should be easier to identify before you buy them.</p><div class="feature-list"><div><strong>01</strong><span><b>Vehicle-first fitment</b><small>Match parts to the vehicle instead of relying on vague descriptions.</small></span></div><div><strong>02</strong><span><b>OEM + aftermarket choice</b><small>See the part number, brand and alternative options clearly.</small></span></div><div><strong>03</strong><span><b>Built for real workshops</b><small>Designed around the way technicians actually source parts.</small></span></div></div></div>
+        <div class="stats-card"><p>WIAN AUTO PARTS</p><strong>01</strong><span>Platform foundation</span><div class="stats-line"></div><small>Catalogue • Fitment • Enquiries • Orders</small></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-box">
+        <div><p class="eyebrow">NEED HELP FINDING A PART?</p><h2>Tell us what you need.</h2><p>For hard-to-find parts, send the vehicle details or part number. The enquiry workflow will be connected to WIAN's sales process in the next phase.</p></div>
+        <a class="button button-primary" href="mailto:parts@wianautoparts.com?subject=WIAN%20Auto%20Parts%20Enquiry">Send an Enquiry <span>→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-wrap"><div class="brand footer-brand"><span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 64 64" role="img"><circle class="logo-ring" cx="32" cy="32" r="29"></circle><circle class="logo-gear" cx="32" cy="32" r="20"></circle><circle class="logo-hub" cx="32" cy="32" r="7"></circle><path class="logo-turbo" d="M20 24c4-7 15-8 21-2 4 4 4 10 1 14-3 4-8 6-13 5 5-2 8-6 8-10 0-4-4-7-8-7-3 0-6 1-9 4z"></path><path class="logo-oil" d="M23 42c0-3 4-7 4-7s4 4 4 7a4 4 0 0 1-8 0z"></path><path class="logo-filter" d="M39 39h8v3h-8zm2-4h4v3h-4z"></path><path class="logo-brake" d="M43 24a10 10 0 0 1 5 8h-4a6 6 0 0 0-3-5z"></path></svg>
+    </span><span><strong>WIAN</strong><small>AUTO PARTS</small></span></div><p>Parts that fit. Confidence that lasts.</p><span>© 2026 WIAN Auto Parts</span></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
