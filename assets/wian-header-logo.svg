@@ -1,26 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" role="img" aria-labelledby="title desc">
-  <title id="title">WIAN Auto Parts</title>
-  <desc id="desc">WIAN Auto Parts wordmark with integrated turbo graphic</desc>
-  <g fill="none" fill-rule="evenodd">
-    <g transform="translate(8 18)">
-      <text x="0" y="84" font-family="Calibri, Arial, sans-serif" font-size="88" font-weight="800" font-style="italic" letter-spacing="-5" fill="#e30613">WIAN</text>
-      <text x="11" y="128" font-family="Calibri, Arial, sans-serif" font-size="38" font-weight="700" font-style="italic" letter-spacing="3.4" fill="#111111">AUTO PARTS</text>
-      <path d="M18 142 C120 155 280 154 430 142" stroke="#e30613" stroke-width="5" stroke-linecap="round"/>
-    </g>
-    <g transform="translate(438 14)">
-      <path d="M38 18 H112 C139 18 160 40 160 67 V82 H132 V68 C132 54 121 43 107 43 H76" stroke="#111111" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M141 80 C171 78 190 92 198 117" stroke="#111111" stroke-width="10" stroke-linecap="round"/>
-      <circle cx="78" cy="89" r="57" stroke="#111111" stroke-width="10"/>
-      <circle cx="78" cy="89" r="33" stroke="#111111" stroke-width="7"/>
-      <circle cx="78" cy="89" r="8" fill="#e30613"/>
-      <g fill="#111111" transform="translate(78 89)">
-        <path d="M0-28 C11-25 19-18 22-9 C12-11 5-8 0 0 C1-10-2-19-10-24 C-7-27-4-28 0-28Z"/>
-        <path d="M28 0 C25 11 18 19 9 22 C11 12 8 5 0 0 C10 1 19-2 24-10 C27-7 28-4 28 0Z"/>
-        <path d="M0 28 C-11 25-19 18-22 9 C-12 11-5 8 0 0 C-1 10 2 19 10 24 C7 27 4 28 0 28Z"/>
-        <path d="M-28 0 C-25-11-18-19-9-22 C-11-12-8-5 0 0 C-10-1-19 2-24 10 C-27 7-28 4-28 0Z"/>
-      </g>
-      <path d="M18 44 C7 54 1 67 1 82" stroke="#111111" stroke-width="9" stroke-linecap="round"/>
-      <path d="M18 137 C36 151 57 157 82 157" stroke="#e30613" stroke-width="5" stroke-linecap="round"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+<title id="title">WIAN Auto Parts</title><desc id="desc">Red WIAN Auto Parts wordmark with detailed turbocharger</desc>
+<defs>
+ <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff171f"/><stop offset=".48" stop-color="#e30613"/><stop offset="1" stop-color="#a90009"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f8f8"/><stop offset=".18" stop-color="#777"/><stop offset=".38" stop-color="#f5f5f5"/><stop offset=".62" stop-color="#555"/><stop offset=".82" stop-color="#eee"/><stop offset="1" stop-color="#333"/></linearGradient>
+ <radialGradient id="dark"><stop offset="0" stop-color="#444"/><stop offset=".55" stop-color="#111"/><stop offset="1" stop-color="#000"/></radialGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity=".28"/></filter>
+</defs>
+<g transform="translate(20 24)">
+ <g transform="skewX(-10)" filter="url(#shadow)"><text x="15" y="126" font-family="Calibri,Arial,sans-serif" font-size="142" font-weight="900" letter-spacing="-10" fill="url(#red)">WIAN</text></g>
+ <text x="34" y="183" font-family="Calibri,Arial,sans-serif" font-size="48" font-weight="800" font-style="italic" letter-spacing="8" fill="#111">AUTO PARTS</text>
+ <path d="M30 198 C190 215 390 213 595 195" fill="none" stroke="#e30613" stroke-width="7" stroke-linecap="round"/>
+ <path d="M425 213 C515 213 590 207 651 194" fill="none" stroke="#111" stroke-width="3" opacity=".7"/>
+</g>
+<g transform="translate(628 18)" filter="url(#shadow)">
+ <path d="M68 18 C121 3 184 12 218 47 L199 61 C170 34 128 29 89 39Z" fill="#111"/><path d="M82 29 C129 15 177 24 207 49" fill="none" stroke="#e30613" stroke-width="5"/>
+ <path d="M129 20 H205 C231 20 250 40 250 65 V86 H221 V68 C221 56 212 47 199 47 H152Z" fill="url(#metal)" stroke="#111" stroke-width="6"/>
+ <path d="M224 84 C252 84 272 99 280 124" fill="none" stroke="#111" stroke-width="13" stroke-linecap="round"/>
+ <circle cx="116" cy="126" r="91" fill="url(#metal)" stroke="#111" stroke-width="7"/>
+ <circle cx="116" cy="126" r="68" fill="#0b0b0b" stroke="#d5d5d5" stroke-width="6"/>
+ <circle cx="116" cy="126" r="56" fill="url(#dark)" stroke="#e30613" stroke-width="5"/>
+ <g transform="translate(116 126)" fill="url(#metal)">
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z"/>
+  <path d="M35-35 C48-22 53-7 49 9 C38-3 22-6 0 0 C16-10 25-23 25-39Z" transform="rotate(45)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(90)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(135)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(180)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(225)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(270)"/>
+  <path d="M0-49 C18-47 31-39 39-25 C23-26 10-17 0 0 C4-18 1-34-10-46Z" transform="rotate(315)"/>
+ </g>
+ <circle cx="116" cy="126" r="15" fill="#ddd" stroke="#222" stroke-width="5"/><circle cx="116" cy="126" r="6" fill="#e30613"/>
+ <circle cx="44" cy="167" r="12" fill="#bbb" stroke="#222" stroke-width="5"/><circle cx="44" cy="167" r="4" fill="#444"/>
+ <path d="M37 56 C15 75 7 99 8 127" fill="none" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+ <path d="M44 203 C78 224 120 229 160 218" fill="none" stroke="#e30613" stroke-width="7" stroke-linecap="round"/>
+</g></svg>
