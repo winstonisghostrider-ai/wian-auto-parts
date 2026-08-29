@@ -1,0 +1,1 @@
+Knight write-access synchronization test.
