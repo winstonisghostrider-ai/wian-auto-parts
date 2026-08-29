@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>WIAN Classifieds | Buy & Sell Automotive in Goa</title>
+  <meta name="description" content="Buy and sell cars, bikes, parts, wheels, accessories and garage equipment in Goa through WIAN Classifieds.">
+  <style>
+    :root{--red:#e50914;--ink:#121212;--muted:#666;--line:#e6e6e6;--soft:#f7f8fa;--white:#fff;--max:1440px;--green:#128c7e}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Calibri,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff}
+    a{text-decoration:none;color:inherit}
+    button,input,select,textarea{font:inherit}
+    .wrap{width:min(calc(100% - 48px),var(--max));margin:auto}
+    .promo{background:linear-gradient(90deg,#d90812,#f01620);color:#fff;text-align:center;font-weight:700;padding:10px 16px;font-size:14px}
+    .header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;box-shadow:0 2px 10px #00000008}
+    .headrow{min-height:92px;display:grid;grid-template-columns:260px 1fr auto;gap:24px;align-items:center}
+    .logo{width:230px;height:74px;object-fit:contain;object-position:left center}
+    .tagline{color:#666;font-size:14px}
+    .quick{display:flex;gap:12px}
+    .qbtn{border:1px solid var(--line);padding:11px 14px;border-radius:8px;font-weight:700;background:#fff}
+    .qbtn.red{background:var(--red);border-color:var(--red);color:#fff}
+    .nav{border-top:1px solid #f2f2f2;background:#fff;overflow:auto}
+    .navin{height:48px;display:flex;align-items:center;gap:26px;font-size:14px;font-weight:700;white-space:nowrap}
+    .navin .active{background:var(--red);color:#fff;padding:10px 16px;border-radius:6px}
+    .hero{background:linear-gradient(180deg,#fff,#f8f8fa);padding:48px 0 34px;border-bottom:1px solid var(--line)}
+    .herogrid{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center}
+    .eyebrow{color:var(--red);font-weight:800;font-size:13px;letter-spacing:.06em}
+    h1{font-size:54px;line-height:1;margin:12px 0 16px;letter-spacing:-.02em}
+    h1 span{color:var(--red)}
+    .lede{font-size:18px;line-height:1.5;color:#555;max-width:720px}
+    .heroactions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .btn{border:0;border-radius:8px;padding:13px 18px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+    .btn.red{background:var(--red);color:#fff}
+    .btn.dark{background:#181818;color:#fff}
+    .btn.light{background:#fff;border:1px solid var(--line);color:#222}
+    .heroaside{background:#181818;color:#fff;border-radius:18px;padding:24px;box-shadow:0 18px 40px #00000020}
+    .heroaside h3{font-size:24px;margin:0 0 10px}
+    .heroaside p{color:#d4d4d4;line-height:1.5;margin:0 0 16px}
+    .heroaside ul{padding-left:20px;margin:0;color:#eee;line-height:1.8}
+    .section{padding:48px 0}
+    .section.soft{background:var(--soft)}
+    .sectionhead{text-align:center;margin-bottom:26px}
+    .sectionhead h2{font-size:36px;margin:8px 0}
+    .sectionhead p{margin:0;color:#666}
+    .cats{display:grid;grid-template-columns:repeat(8,1fr);gap:12px}
+    .cat{border:1px solid var(--line);background:#fff;border-radius:14px;padding:18px 10px;text-align:center;cursor:pointer;transition:.18s;box-shadow:0 8px 20px #00000006}
+    .cat:hover,.cat.active{transform:translateY(-2px);border-color:#ef9ca1;background:#fff7f7}
+    .caticon{font-size:28px;margin-bottom:8px}
+    .cat b{display:block;font-size:14px}
+    .browsegrid{display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start}
+    .filters{border:1px solid var(--line);background:#fff;border-radius:14px;padding:18px;position:sticky;top:160px}
+    .filters h3{margin:0 0 14px}
+    .field{display:flex;flex-direction:column;gap:6px;margin-bottom:13px}
+    .field label{font-weight:700;font-size:13px}
+    .field input,.field select,.field textarea{width:100%;border:1px solid #d9dde3;border-radius:8px;padding:11px 12px;outline:0;background:#fff}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--red);box-shadow:0 0 0 3px #e5091412}
+    .clear{width:100%;border:1px solid var(--line);background:#fafafa;border-radius:8px;padding:10px;font-weight:700;cursor:pointer}
+    .listinghead{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:14px}
+    .listinghead h2{margin:0;font-size:28px}
+    .count{color:#777;font-size:14px}
+    .listings{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .listing{border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 8px 24px #00000008;display:flex;flex-direction:column}
+    .media{height:190px;background:linear-gradient(135deg,#ededed,#fafafa);display:grid;place-items:center;color:#999;font-weight:700;position:relative;overflow:hidden}
+    .media img{width:100%;height:100%;object-fit:cover}
+    .badge{position:absolute;top:12px;left:12px;background:var(--red);color:#fff;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:800}
+    .body{padding:16px;display:flex;flex-direction:column;gap:9px;flex:1}
+    .price{font-size:24px;font-weight:800;color:var(--red)}
+    .title{font-size:19px;font-weight:800;line-height:1.2}
+    .meta{display:flex;flex-wrap:wrap;gap:7px;font-size:12px;color:#666}
+    .pill{border:1px solid var(--line);border-radius:999px;padding:5px 8px;background:#fafafa}
+    .desc{color:#666;font-size:14px;line-height:1.45}
+    .seller{font-size:13px;color:#555;margin-top:auto;border-top:1px solid var(--line);padding-top:10px}
+    .cardactions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:6px}
+    .cardactions a{padding:10px;border-radius:7px;text-align:center;font-weight:800;font-size:13px}
+    .wa{background:var(--green);color:#fff}
+    .call{background:#181818;color:#fff}
+    .empty{grid-column:1/-1;border:2px dashed #ddd;border-radius:16px;padding:46px 22px;text-align:center;background:#fff}
+    .empty .icon{font-size:42px}
+    .empty h3{font-size:24px;margin:10px 0 6px}
+    .empty p{color:#666;max-width:520px;margin:0 auto 16px}
+    .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+    .plan{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;position:relative}
+    .plan.featured{border:2px solid var(--red)}
+    .planflag{position:absolute;right:14px;top:14px;background:#fff1f2;color:var(--red);border-radius:999px;padding:5px 8px;font-size:11px;font-weight:800}
+    .plan h3{margin:0 0 6px;font-size:22px}
+    .planprice{font-size:30px;font-weight:900;color:var(--red)}
+    .planprice small{font-size:13px;color:#777;font-weight:400}
+    .plan p{color:#666;line-height:1.5}
+    .plan ul{padding-left:18px;line-height:1.8;color:#444}
+    .postgrid{display:grid;grid-template-columns:.8fr 1.2fr;gap:22px;align-items:start}
+    .postintro{background:#181818;color:#fff;border-radius:16px;padding:26px}
+    .postintro h2{font-size:34px;margin:8px 0 12px}
+    .postintro p{color:#d2d2d2;line-height:1.55}
+    .notice{background:#fff4f4;border:1px solid #ffd0d3;border-radius:10px;padding:12px;color:#7d2228;font-size:13px;line-height:1.45}
+    .formcard{border:1px solid var(--line);border-radius:16px;background:#fff;padding:22px;box-shadow:0 10px 28px #00000008}
+    .formcard h3{font-size:26px;margin:0 0 18px}
+    .formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+    .full{grid-column:1/-1}
+    textarea{min-height:110px;resize:vertical}
+    .submit{grid-column:1/-1;border:0;background:var(--red);color:#fff;font-weight:800;border-radius:8px;padding:14px;cursor:pointer;font-size:16px}
+    .smallprint{grid-column:1/-1;color:#777;font-size:12px;line-height:1.45}
+    .disclaimer{border-top:1px solid var(--line);padding-top:20px;margin-top:24px;color:#777;font-size:12px;line-height:1.55}
+    .footer{background:#181818;color:#fff;padding:26px 0;border-top:4px solid var(--red)}
+    .footrow{display:grid;grid-template-columns:240px 1fr auto;gap:22px;align-items:center}
+    .footer img{width:210px;height:68px;object-fit:contain;object-position:left center}
+    .footer p{margin:4px 0;color:#ccc}
+    .footer .tiny{font-size:12px;color:#999}
+    @media(max-width:1150px){.cats{grid-template-columns:repeat(4,1fr)}.listings{grid-template-columns:repeat(2,1fr)}.headrow{grid-template-columns:230px 1fr}.quick{display:none}.herogrid,.postgrid{grid-template-columns:1fr}.browsegrid{grid-template-columns:1fr}.filters{position:static;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.filters h3,.filters .clear{grid-column:1/-1}.field{margin:0}.plans{grid-template-columns:1fr 1fr}.plans .plan:last-child{grid-column:1/-1}}
+    @media(max-width:720px){.wrap{width:calc(100% - 24px)}.header{position:static}.headrow{grid-template-columns:1fr;padding:10px 0;text-align:center}.logo{margin:auto}.tagline{display:none}.navin{min-width:660px}.hero{padding-top:34px}h1{font-size:40px}.heroactions{flex-direction:column}.heroactions .btn{width:100%}.cats{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}.listings,.plans,.formgrid{grid-template-columns:1fr}.plans .plan:last-child,.full,.submit,.smallprint{grid-column:1}.listinghead{align-items:flex-start;flex-direction:column}.footrow{grid-template-columns:1fr;text-align:center}.footer img{margin:auto;object-position:center}}
+  </style>
+</head>
+<body>
+  <div class="promo">WIAN Classifieds — Automotive Buy & Sell for Goa</div>
+  <header class="header">
+    <div class="wrap headrow">
+      <a href="../"><img class="logo" src="../assets/wian-header-logo.svg" alt="WIAN Auto Parts"></a>
+      <div class="tagline"><b>WIAN Marketplace</b><br>Cars, bikes, parts, accessories and garage equipment.</div>
+      <div class="quick">
+        <a class="qbtn" href="../">WIAN Auto Parts</a>
+        <a class="qbtn red" href="#post">Post an Ad</a>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="wrap navin">
+        <a href="../">Home</a>
+        <a class="active" href="./">Classifieds</a>
+        <a href="#browse">Browse Listings</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#post">Post an Ad</a>
+        <a href="https://wa.me/919108327761">WhatsApp WIAN</a>
+        <a href="tel:+919108327761">☎ 9108327761</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap herogrid">
+        <div>
+          <span class="eyebrow">WIAN MARKETPLACE</span>
+          <h1>Buy & Sell <span>Automotive</span><br>in Goa.</h1>
+          <p class="lede">A focused marketplace for used cars, bikes, spare parts, wheels, accessories, performance parts and garage equipment. Every listing is reviewed before it goes live.</p>
+          <div class="heroactions">
+            <a class="btn red" href="#browse">Browse Classifieds</a>
+            <a class="btn dark" href="#post">Post an Ad</a>
+            <a class="btn light" href="https://wa.me/919108327761?text=Hi%20WIAN%2C%20I%20have%20a%20question%20about%20Classifieds.">Ask on WhatsApp</a>
+          </div>
+        </div>
+        <aside class="heroaside">
+          <h3>Built for automotive buyers.</h3>
+          <p>We keep the marketplace relevant by accepting automotive listings only.</p>
+          <ul>
+            <li>Goa-focused listings</li>
+            <li>Manual approval before publishing</li>
+            <li>Direct seller call and WhatsApp buttons</li>
+            <li>Featured and top-position upgrades</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <div class="sectionhead">
+          <span class="eyebrow">CATEGORIES</span>
+          <h2>What are you looking for?</h2>
+          <p>Choose a category to filter the marketplace.</p>
+        </div>
+        <div class="cats" id="categoryCards">
+          <button class="cat active" data-category="All"><div class="caticon">▦</div><b>All Listings</b></button>
+          <button class="cat" data-category="Used Cars"><div class="caticon">🚗</div><b>Used Cars</b></button>
+          <button class="cat" data-category="Bikes"><div class="caticon">🏍</div><b>Bikes</b></button>
+          <button class="cat" data-category="Car Parts"><div class="caticon">⚙</div><b>Car Parts</b></button>
+          <button class="cat" data-category="Wheels & Tyres"><div class="caticon">◉</div><b>Wheels & Tyres</b></button>
+          <button class="cat" data-category="Accessories"><div class="caticon">✦</div><b>Accessories</b></button>
+          <button class="cat" data-category="Performance Parts"><div class="caticon">⚡</div><b>Performance</b></button>
+          <button class="cat" data-category="Tools & Garage Equipment"><div class="caticon">🔧</div><b>Tools & Equipment</b></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="browse">
+      <div class="wrap browsegrid">
+        <aside class="filters">
+          <h3>Filter Listings</h3>
+          <div class="field">
+            <label for="searchInput">Search</label>
+            <input id="searchInput" type="search" placeholder="Car, part, brand...">
+          </div>
+          <div class="field">
+            <label for="categoryFilter">Category</label>
+            <select id="categoryFilter">
+              <option>All</option>
+              <option>Used Cars</option>
+              <option>Bikes</option>
+              <option>Car Parts</option>
+              <option>Wheels & Tyres</option>
+              <option>Accessories</option>
+              <option>Performance Parts</option>
+              <option>Tools & Garage Equipment</option>
+              <option>Salvage / Used Parts</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="locationFilter">Location</label>
+            <select id="locationFilter">
+              <option>All Goa</option>
+              <option>Margao</option>
+              <option>Vasco</option>
+              <option>Panaji</option>
+              <option>Ponda</option>
+              <option>Mapusa</option>
+              <option>South Goa</option>
+              <option>North Goa</option>
+            </select>
+          </div>
+          <button class="clear" id="clearFilters" type="button">Clear Filters</button>
+        </aside>
+
+        <div>
+          <div class="listinghead">
+            <div>
+              <span class="eyebrow">LIVE CLASSIFIEDS</span>
+              <h2>Automotive Listings</h2>
+            </div>
+            <div class="count" id="listingCount">0 listings</div>
+          </div>
+          <div class="listings" id="listings"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="pricing">
+      <div class="wrap">
+        <div class="sectionhead">
+          <span class="eyebrow">SELL FASTER</span>
+          <h2>Classified Advertising Plans</h2>
+          <p>Simple launch pricing for private sellers and automotive businesses.</p>
+        </div>
+        <div class="plans">
+          <article class="plan">
+            <h3>Standard</h3>
+            <div class="planprice">₹99 <small>/ 30 days</small></div>
+            <p>A clean listing for private sellers who want straightforward visibility.</p>
+            <ul><li>1 listing</li><li>Up to 8 photos after approval</li><li>Call + WhatsApp contact</li><li>30-day listing</li></ul>
+            <a class="btn light" href="#post">Choose Standard</a>
+          </article>
+          <article class="plan featured">
+            <span class="planflag">POPULAR</span>
+            <h3>Featured</h3>
+            <div class="planprice">₹299 <small>/ 30 days</small></div>
+            <p>More visibility with a featured badge and priority placement.</p>
+            <ul><li>Everything in Standard</li><li>Featured badge</li><li>Priority above normal listings</li><li>Highlighted listing card</li></ul>
+            <a class="btn red" href="#post">Choose Featured</a>
+          </article>
+          <article class="plan">
+            <h3>Top Listing</h3>
+            <div class="planprice">₹499 <small>/ 30 days</small></div>
+            <p>Maximum classified visibility for vehicles, premium parts and dealer stock.</p>
+            <ul><li>Everything in Featured</li><li>Top-of-category placement</li><li>Homepage promotion eligibility</li><li>Priority renewal support</li></ul>
+            <a class="btn dark" href="#post">Choose Top Listing</a>
+          </article>
+        </div>
+        <div class="disclaimer">Dealer and business packages with multiple active listings will be priced separately. WIAN may revise launch pricing as marketplace traffic grows.</div>
+      </div>
+    </section>
+
+    <section class="section" id="post">
+      <div class="wrap postgrid">
+        <div class="postintro">
+          <span class="eyebrow">POST A CLASSIFIED</span>
+          <h2>Send your listing to WIAN.</h2>
+          <p>Complete the form and we will open a pre-filled WhatsApp message to WIAN. Send the message, then attach your listing photos in WhatsApp. We review the ad before publishing.</p>
+          <div class="notice"><b>Automotive only.</b> WIAN Classifieds is for vehicles, parts, accessories and automotive equipment. Non-automotive listings will not be accepted.</div>
+        </div>
+        <form class="formcard" id="classifiedForm">
+          <h3>Listing Details</h3>
+          <div class="formgrid">
+            <div class="field">
+              <label for="adCategory">Category *</label>
+              <select id="adCategory" required>
+                <option value="">Select category</option>
+                <option>Used Cars</option><option>Bikes</option><option>Car Parts</option><option>Wheels & Tyres</option><option>Accessories</option><option>Performance Parts</option><option>Tools & Garage Equipment</option><option>Salvage / Used Parts</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="adPlan">Listing Plan *</label>
+              <select id="adPlan" required><option>Standard - ₹99 / 30 days</option><option>Featured - ₹299 / 30 days</option><option>Top Listing - ₹499 / 30 days</option><option>Dealer / Business Package - Contact WIAN</option></select>
+            </div>
+            <div class="field full">
+              <label for="adTitle">Listing Title *</label>
+              <input id="adTitle" required placeholder="e.g. 2017 Volkswagen Vento 1.5 TDI">
+            </div>
+            <div class="field">
+              <label for="adPrice">Price *</label>
+              <input id="adPrice" required placeholder="e.g. ₹6,75,000">
+            </div>
+            <div class="field">
+              <label for="adLocation">Location *</label>
+              <input id="adLocation" required placeholder="e.g. Margao, Goa">
+            </div>
+            <div class="field">
+              <label for="sellerName">Seller Name *</label>
+              <input id="sellerName" required placeholder="Your name / business name">
+            </div>
+            <div class="field">
+              <label for="sellerPhone">Phone / WhatsApp *</label>
+              <input id="sellerPhone" required inputmode="tel" placeholder="e.g. 98XXXXXXXX">
+            </div>
+            <div class="field">
+              <label for="sellerType">Seller Type</label>
+              <select id="sellerType"><option>Private Seller</option><option>Used Car Dealer</option><option>Garage / Workshop</option><option>Parts Seller</option><option>Automotive Business</option></select>
+            </div>
+            <div class="field">
+              <label for="adYear">Year / Part Number</label>
+              <input id="adYear" placeholder="Vehicle year or part number">
+            </div>
+            <div class="field full">
+              <label for="adDescription">Description *</label>
+              <textarea id="adDescription" required placeholder="Condition, mileage, fuel, transmission, compatibility, modifications, ownership, documents or other important details."></textarea>
+            </div>
+            <button class="submit" type="submit">Send Listing to WIAN on WhatsApp</button>
+            <div class="smallprint">By submitting, you confirm that the information supplied is accurate and that you have the right to advertise the vehicle or item. Publication is subject to WIAN approval.</div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <div class="disclaimer"><b>Marketplace disclaimer:</b> WIAN Auto Parts provides the classified listing platform only and is not a party to transactions between buyers and sellers. Buyers must independently verify vehicle/item condition, ownership, documentation, pricing and seller identity before making payment. WIAN does not guarantee third-party listings.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footrow">
+      <a href="../"><img src="../assets/wian-header-logo.svg" alt="WIAN Auto Parts"></a>
+      <div><p><b>WIAN Auto Parts</b> · Margao, Goa</p><p>Quality Parts. Performance Driven.</p><p class="tiny">Classifieds are independently listed by third-party sellers unless specifically marked as WIAN stock.</p></div>
+      <div><p><a href="tel:+919108327761">9108327761</a></p><p><a href="mailto:winston.kennedy@wianautoparts.com">winston.kennedy@wianautoparts.com</a></p></div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script>
+    const listingsEl = document.getElementById('listings');
+    const listingCount = document.getElementById('listingCount');
+    const searchInput = document.getElementById('searchInput');
+    const categoryFilter = document.getElementById('categoryFilter');
+    const locationFilter = document.getElementById('locationFilter');
+    const categoryCards = [...document.querySelectorAll('[data-category]')];
+    const allListings = Array.isArray(window.WIAN_CLASSIFIEDS) ? window.WIAN_CLASSIFIEDS : [];
+
+    const money = value => {
+      if (typeof value === 'number') return new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(value);
+      return value || 'Price on request';
+    };
+
+    const cleanPhone = value => String(value || '').replace(/\D/g,'');
+    const waPhone = value => {
+      let p = cleanPhone(value);
+      if (p.length === 10) p = '91' + p;
+      return p;
+    };
+
+    function renderListings(){
+      const q = searchInput.value.trim().toLowerCase();
+      const category = categoryFilter.value;
+      const location = locationFilter.value;
+      const filtered = allListings.filter(item => {
+        const haystack = [item.title,item.category,item.location,item.description,item.year,item.fuel,item.transmission,item.kilometres].join(' ').toLowerCase();
+        const matchesSearch = !q || haystack.includes(q);
+        const matchesCategory = category === 'All' || item.category === category;
+        const matchesLocation = location === 'All Goa' || String(item.location || '').toLowerCase().includes(location.toLowerCase().replace(' goa',''));
+        return matchesSearch && matchesCategory && matchesLocation;
+      }).sort((a,b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
+
+      listingCount.textContent = `${filtered.length} ${filtered.length === 1 ? 'listing' : 'listings'}`;
+
+      if (!filtered.length){
+        listingsEl.innerHTML = `<div class="empty"><div class="icon">🚘</div><h3>No live listings here yet.</h3><p>Be among the first sellers on WIAN Classifieds. Submit your vehicle, part or automotive item for review.</p><a class="btn red" href="#post">Post the First Ad</a></div>`;
+        return;
+      }
+
+      listingsEl.innerHTML = filtered.map(item => {
+        const phone = waPhone(item.phone);
+        const safeTitle = String(item.title || 'Automotive Listing');
+        const waText = encodeURIComponent(`Hi, I am interested in your WIAN Classifieds listing: ${safeTitle}`);
+        const image = item.image ? `<img src="${item.image}" alt="${safeTitle.replace(/"/g,'&quot;')}" loading="lazy">` : 'Photo coming soon';
+        const meta = [item.year,item.fuel,item.transmission,item.kilometres,item.location].filter(Boolean).map(v => `<span class="pill">${v}</span>`).join('');
+        return `<article class="listing"><div class="media">${image}${item.featured ? '<span class="badge">FEATURED</span>' : ''}</div><div class="body"><div class="price">${money(item.price)}</div><div class="title">${safeTitle}</div><div class="meta">${meta}</div><div class="desc">${item.description || ''}</div><div class="seller">${item.sellerType || 'Seller'}${item.contactName ? ' · ' + item.contactName : ''}</div><div class="cardactions">${phone ? `<a class="wa" href="https://wa.me/${phone}?text=${waText}">WhatsApp</a><a class="call" href="tel:+${phone}">Call Seller</a>` : '<a class="wa" href="https://wa.me/919108327761">Ask WIAN</a><a class="call" href="tel:+919108327761">Call WIAN</a>'}</div></div></article>`;
+      }).join('');
+    }
+
+    searchInput.addEventListener('input',renderListings);
+    categoryFilter.addEventListener('change',renderListings);
+    locationFilter.addEventListener('change',renderListings);
+
+    categoryCards.forEach(card => card.addEventListener('click',() => {
+      categoryCards.forEach(c => c.classList.remove('active'));
+      card.classList.add('active');
+      categoryFilter.value = card.dataset.category;
+      renderListings();
+      document.getElementById('browse').scrollIntoView({behavior:'smooth'});
+    }));
+
+    document.getElementById('clearFilters').addEventListener('click',() => {
+      searchInput.value='';
+      categoryFilter.value='All';
+      locationFilter.value='All Goa';
+      categoryCards.forEach(c => c.classList.toggle('active',c.dataset.category==='All'));
+      renderListings();
+    });
+
+    document.getElementById('classifiedForm').addEventListener('submit',event => {
+      event.preventDefault();
+      const v = id => document.getElementById(id).value.trim();
+      const message = [
+        'WIAN CLASSIFIED SUBMISSION',
+        '',
+        `Category: ${v('adCategory')}`,
+        `Plan: ${v('adPlan')}`,
+        `Title: ${v('adTitle')}`,
+        `Price: ${v('adPrice')}`,
+        `Location: ${v('adLocation')}`,
+        `Seller: ${v('sellerName')}`,
+        `Phone / WhatsApp: ${v('sellerPhone')}`,
+        `Seller Type: ${v('sellerType')}`,
+        `Year / Part Number: ${v('adYear') || 'N/A'}`,
+        '',
+        'Description:',
+        v('adDescription'),
+        '',
+        'I will attach the listing photos in WhatsApp.'
+      ].join('\n');
+      window.open(`https://wa.me/919108327761?text=${encodeURIComponent(message)}`,'_blank','noopener');
+    });
+
+    renderListings();
+  </script>
+</body>
+</html>
