@@ -7,7 +7,7 @@ async function submitEnquiry(e){
  const f=document.getElementById('wianEnquiry'),b=document.getElementById('sendBtn'),s=document.getElementById('formStatus');
  if(b.disabled)return;
  const data={email:document.getElementById('femail').value.trim(),name:document.getElementById('fname').value.trim(),phone:document.getElementById('fphone').value.trim(),vehicle:document.getElementById('fvehicle').value.trim(),service:document.getElementById('fservice').value,message:document.getElementById('fmessage').value.trim()};
- if(!WIAN_EMAIL_PATTERN.test(data.email)){s.textContent='Please enter a valid email address so we can acknowledge your enquiry.';document.getElementById('femail').focus();return}
+ if(!WIAN_EMAIL_PATTERN.test(data.email)){s.textContent='Please enter a valid email address.';document.getElementById('femail').focus();return}
  b.disabled=true;b.textContent='Sending...';s.textContent='Submitting your enquiry securely...';
  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),WIAN_SUBMISSION_TIMEOUT_MS);
  try{
