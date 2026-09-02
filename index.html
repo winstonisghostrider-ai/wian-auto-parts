@@ -27,7 +27,7 @@ const finderMethods={
  make:{tab:'tabMake',panel:'panelMake',required:['finderMake','finderModel']}
 };
 let activeFinderMethod='registration';
-function setFinderMethod(method){
+function setFinderMethod(method,focusFirst){
  activeFinderMethod=method;
  Object.entries(finderMethods).forEach(function(entry){
    const key=entry[0],config=entry[1],active=key===method,tab=document.getElementById(config.tab),panel=document.getElementById(config.panel);
@@ -36,7 +36,7 @@ function setFinderMethod(method){
  });
  document.getElementById('finderStatus').textContent='';
  updateFinderSteps();
- const first=document.getElementById(finderMethods[method].required[0]);if(first)first.focus();
+ const first=document.getElementById(finderMethods[method].required[0]);if(focusFirst!==false&&first)first.focus();
 }
 function activeFinderData(){
  if(activeFinderMethod==='registration')return{methodLabel:'Registration Number',idLabel:'Registration',idValue:document.getElementById('finderRegistration').value.trim().toUpperCase(),year:document.getElementById('finderRegYear').value,fuel:document.getElementById('finderRegFuel').value};
@@ -77,5 +77,5 @@ document.querySelectorAll('.finder-tab').forEach(function(tab){tab.addEventListe
 document.getElementById('partsFinder').addEventListener('input',updateFinderSteps);
 document.getElementById('finderRegistration').addEventListener('input',function(e){e.target.value=e.target.value.toUpperCase()});
 document.getElementById('finderVin').addEventListener('input',function(e){e.target.value=e.target.value.toUpperCase()});
-setFinderMethod('registration');
+setFinderMethod('registration',false);
 </script></body></html>
