@@ -33,7 +33,7 @@ tabs.forEach(tab => tab.addEventListener('click', () => {
   if (type === 'vehicle') {
     vehicleFields?.classList.remove('hidden');
     singleField?.classList.add('hidden');
-    if (finderNote) finderNote.textContent = 'Select your vehicle. Live catalogue matching will be connected next.';
+    if (finderNote) finderNote.textContent = 'Select your vehicle. K&N catalogue search is now live; full multi-brand matching is being added next.';
     return;
   }
   vehicleFields?.classList.add('hidden');
@@ -41,14 +41,14 @@ tabs.forEach(tab => tab.addEventListener('click', () => {
   const config = {
     registration: ['Registration number','e.g. GA 01 AB 1234'],
     vin: ['VIN / Chassis number','Enter 17-character VIN or chassis number'],
-    part: ['Part number','e.g. 03L 115 562']
+    part: ['Part number','e.g. 33-2955']
   }[type];
   if (singleLabel && singleInput && config) {
     singleLabel.firstChild.textContent = config[0];
     singleInput.placeholder = config[1];
     singleInput.value = '';
   }
-  if (finderNote) finderNote.textContent = 'Enter your details. Validation and live matching will be connected next.';
+  if (finderNote) finderNote.textContent = 'K&N catalogue search is live. Multi-brand live matching will be connected as each catalogue is approved.';
 }));
 
 form?.addEventListener('submit', event => {
@@ -58,10 +58,10 @@ form?.addEventListener('submit', event => {
   if (active === 'vehicle') {
     const year = document.getElementById('year')?.value;
     message = make?.value && model?.value && year
-      ? `Search prepared for ${make.value} ${model.value} (${year}). The live catalogue is the next connection.`
+      ? `Search prepared for ${make.value} ${model.value} (${year}). Use the K&N catalogue above for current K&N matches.`
       : 'Please select make, model and year to prepare your search.';
   } else if (singleInput?.value.trim()) {
-    message = `Search prepared for: ${singleInput.value.trim()}. The live catalogue is the next connection.`;
+    message = `Search prepared for: ${singleInput.value.trim()}. Use the K&N catalogue above for current K&N matches.`;
   } else {
     message = 'Please enter the requested details first.';
   }
@@ -113,10 +113,10 @@ form?.addEventListener('submit', event => {
   setInterval(() => show(current + 1), 5000);
 })();
 
-// Load the live WIAN product catalogue layer.
+// Load the approved live WIAN K&N catalogue layer.
 (() => {
   const script = document.createElement('script');
-  script.src = '/catalogue.js?v=20260906';
+  script.src = '/catalogue-v2.js?v=20260906-3';
   script.defer = true;
   document.head.appendChild(script);
 })();
