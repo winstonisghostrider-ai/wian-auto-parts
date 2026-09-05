@@ -112,3 +112,11 @@ form?.addEventListener('submit', event => {
   };
   setInterval(() => show(current + 1), 5000);
 })();
+
+// Load the live WIAN product catalogue layer.
+(() => {
+  const script = document.createElement('script');
+  script.src = '/catalogue.js?v=20260906';
+  script.defer = true;
+  document.head.appendChild(script);
+})();
