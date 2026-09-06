@@ -7,9 +7,9 @@
   <meta name="description" content="Search WIAN Auto Parts' K&amp;N performance air filter catalogue by part number, vehicle, model, year, engine and fitment status.">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260903">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=20260903">
-  <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
-  <link rel="dns-prefetch" href="https://www.knfilters.com">
-  <link rel="stylesheet" href="./catalogue.css?v=20260906-hero1">
+  <link rel="preconnect" href="https://www.knfilters.com" crossorigin>
+  <link rel="preload" as="image" type="image/avif" href="/assets/brands/kn/kn-hero-base-1280.avif?v=20260906" imagesrcset="/assets/brands/kn/kn-hero-base-768.avif?v=20260906 768w, /assets/brands/kn/kn-hero-base-1280.avif?v=20260906 1280w, /assets/brands/kn/kn-hero-base-1918.avif?v=20260906 1918w" imagesizes="(max-width: 850px) calc(100vw - 48px), min(94vw, 1400px)" fetchpriority="high">
+  <link rel="stylesheet" href="./catalogue.css?v=20260906-hero2">
   <script src="./catalogue.js?v=20260906" defer></script>
 </head>
 <body>
@@ -45,7 +45,11 @@
     </div>
 
     <section class="hero" aria-labelledby="heroTitle">
-      <img class="hero-visual" src="https://res.cloudinary.com/knfilters-com/image/upload/c_lpad,dpr_2.0,f_auto,q_auto/v1/media/wysiwyg/a/r/artistic-metal-intake-1e_1.jpg" alt="Official K&amp;N conical performance air intake and filter" fetchpriority="high" decoding="async">
+      <picture class="hero-media">
+        <source type="image/avif" srcset="/assets/brands/kn/kn-hero-base-768.avif?v=20260906 768w, /assets/brands/kn/kn-hero-base-1280.avif?v=20260906 1280w, /assets/brands/kn/kn-hero-base-1918.avif?v=20260906 1918w" sizes="(max-width: 850px) calc(100vw - 48px), min(94vw, 1400px)">
+        <source type="image/webp" srcset="/assets/brands/kn/kn-hero-base-768.webp?v=20260906 768w, /assets/brands/kn/kn-hero-base-1280.webp?v=20260906 1280w, /assets/brands/kn/kn-hero-base-1918.webp?v=20260906 1918w" sizes="(max-width: 850px) calc(100vw - 48px), min(94vw, 1400px)">
+        <img class="hero-visual" src="/assets/brands/kn/kn-hero-base.png?v=20260906" width="1918" height="820" alt="K&amp;N conical performance air filter with blue airflow entering through the red pleated filter media" fetchpriority="high" decoding="async">
+      </picture>
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-copy">
         <img class="kn-hero-logo" src="https://www.knfilters.com/static/version1788494892/frontend/kn/theme-frontend-knfilters/en_US/images/logo.svg" alt="K&amp;N Filtercharger Equipped">
