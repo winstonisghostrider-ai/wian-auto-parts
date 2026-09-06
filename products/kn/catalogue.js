@@ -108,6 +108,7 @@
     return [application[0], application[1], application[2]]
       .map((value) => String(value || "").toLowerCase())
       .join("-")
+      .replace(/\+/g, "-plus-")
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/^-+|-+$/g, "");
   }
