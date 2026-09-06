@@ -78,39 +78,81 @@ button { cursor: pointer; }
 .hero {
   width: min(calc(100% - 48px), var(--max));
   margin: 0 auto 30px;
-  padding: 42px;
-  display: grid;
-  grid-template-columns: minmax(0, .85fr) minmax(460px, 1.15fr);
-  align-items: center;
-  gap: 54px;
-  background: linear-gradient(125deg, #141619 0%, #22262b 63%, #301317 100%);
+  min-height: 535px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: #080a0d;
   border-radius: 18px;
   color: #fff;
   box-shadow: var(--shadow);
 }
-.eyebrow { color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: .11em; }
-.hero h1 { max-width: 620px; margin: 8px 0 12px; font-size: clamp(34px, 4.1vw, 56px); line-height: 1.02; letter-spacing: -.035em; }
-.hero-copy p { max-width: 660px; margin: 0; color: #d1d5db; font-size: 17px; line-height: 1.55; }
-.kn-logo-surface {
-  width: 112px;
-  height: 112px;
-  margin: 0 0 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 12px;
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 68% 48%, rgba(20, 139, 190, .13), transparent 22%),
+    radial-gradient(circle at 92% 74%, rgba(229, 9, 20, .2), transparent 28%);
 }
-.kn-brand-logo { width: 100%; height: 100%; display: block; object-fit: contain; }
-.catalogue-search { padding: 24px; color: var(--ink); background: #fff; border-radius: 14px; box-shadow: 0 16px 35px rgba(0, 0, 0, .2); }
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 40%;
+  top: 45%;
+  width: 34%;
+  height: 130px;
+  opacity: .42;
+  transform: rotate(-8deg);
+  pointer-events: none;
+  background: repeating-radial-gradient(ellipse at left, transparent 0 11px, rgba(61, 181, 230, .22) 12px 14px, transparent 15px 23px);
+  filter: blur(1px);
+}
+.hero-visual {
+  position: absolute;
+  inset: 0 0 0 auto;
+  z-index: 0;
+  width: 61%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, #07090c 0%, rgba(7, 9, 12, .98) 31%, rgba(7, 9, 12, .7) 53%, rgba(7, 9, 12, .12) 78%, rgba(7, 9, 12, .38) 100%);
+}
+.eyebrow { color: var(--red); font-size: 12px; font-weight: 900; letter-spacing: .11em; }
+.hero-copy { position: relative; z-index: 2; width: 57%; padding: 40px 0 38px 44px; }
+.kn-hero-logo { width: 174px; height: 72px; margin: 0 0 18px; display: block; object-fit: contain; object-position: left center; }
+.hero h1 { max-width: 640px; margin: 9px 0 15px; font-size: clamp(44px, 4.2vw, 64px); line-height: .94; letter-spacing: -.045em; text-transform: uppercase; }
+.hero h1 span, .hero h1 strong { display: block; }
+.hero h1 strong { margin-top: 5px; color: #ef101a; }
+.hero-copy > p:not(.enthusiast-signature) { max-width: 590px; margin: 0; color: #d5d8dd; font-size: 17px; line-height: 1.48; }
+.benefit-strip { max-width: 520px; margin-top: 27px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.benefit-item { min-width: 0; padding: 0 14px; display: grid; justify-items: center; gap: 7px; border-right: 1px solid rgba(255, 255, 255, .2); text-align: center; }
+.benefit-item:first-child { padding-left: 0; }
+.benefit-item:last-child { padding-right: 0; border-right: 0; }
+.benefit-item svg { width: 29px; height: 29px; fill: none; stroke: #ef101a; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.benefit-item span { color: #f4f5f6; font-size: 10px; font-weight: 900; line-height: 1.18; letter-spacing: .045em; text-transform: uppercase; }
+.enthusiast-signature { margin: 18px 0 0 !important; color: rgba(255, 255, 255, .53) !important; font-family: "Segoe Script", "Brush Script MT", cursive; font-size: 21px !important; font-weight: 700; line-height: 1.02 !important; transform: rotate(-4deg); transform-origin: left center; text-transform: uppercase; }
+.catalogue-search { position: absolute; z-index: 3; right: 34px; bottom: 62px; width: min(48%, 640px); padding: 25px; color: var(--ink); background: rgba(255, 255, 255, .97); border: 1px solid rgba(255, 255, 255, .75); border-radius: 16px; box-shadow: 0 18px 42px rgba(0, 0, 0, .42), 9px 9px 0 rgba(229, 9, 20, .16); backdrop-filter: blur(5px); }
 .catalogue-search label { display: block; margin-bottom: 9px; font-weight: 900; }
 .search-control { display: grid; grid-template-columns: 1fr auto; border: 1px solid #cfd4da; border-radius: 9px; overflow: hidden; }
 .search-control:focus-within { border-color: var(--red); box-shadow: 0 0 0 3px rgba(229, 9, 20, .14); }
 .search-control input { min-width: 0; height: 50px; padding: 0 15px; border: 0; outline: 0; }
-.search-control button { min-width: 98px; padding: 0 18px; color: #fff; background: var(--red); border: 0; font-weight: 900; }
+.search-control button { min-width: 112px; padding: 0 18px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; color: #fff; background: var(--red); border: 0; font-weight: 900; }
 .search-control button:hover { background: var(--red-dark); }
+.search-control button:focus-visible { outline: 3px solid #fff; outline-offset: -5px; box-shadow: 0 0 0 3px var(--red); }
 .catalogue-search p { margin: 9px 0 0; color: var(--muted); font-size: 12px; line-height: 1.4; }
+.hero-corner { position: absolute; z-index: 3; right: 35px; bottom: 18px; margin: 0; display: grid; color: rgba(255, 255, 255, .62); font-size: 9px; letter-spacing: .16em; text-align: right; text-transform: uppercase; }
+.hero-corner::before { content: ""; width: 42px; height: 2px; margin: 0 0 6px auto; background: var(--red); }
+.hero-corner strong { color: rgba(255, 255, 255, .85); font-size: 10px; }
 
 .catalogue { display: grid; grid-template-columns: 272px minmax(0, 1fr); gap: 26px; padding: 4px 0 60px; }
 .filters {
@@ -201,7 +243,10 @@ button { cursor: pointer; }
 .footer-row a { color: #fff; font-weight: 800; }
 
 @media (max-width: 1180px) {
-  .hero { grid-template-columns: 1fr 1fr; gap: 30px; padding: 32px; }
+  .hero { min-height: 555px; }
+  .hero-copy { width: 61%; padding-left: 34px; }
+  .hero h1 { font-size: 50px; }
+  .catalogue-search { width: 47%; right: 26px; }
   .product-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer-row { grid-template-columns: 200px 1fr; }
   .footer-row p:last-child { grid-column: 1 / -1; padding-bottom: 20px; }
@@ -213,7 +258,15 @@ button { cursor: pointer; }
   .brand img { width: 194px; height: 62px; }
   .header-actions { gap: 18px; }
   .nav-row { width: calc(100% - 24px); }
-  .hero { grid-template-columns: 1fr; }
+  .hero { min-height: 0; padding: 25px; display: flex; flex-direction: column; gap: 22px; }
+  .hero::after { left: 8%; top: 38%; width: 74%; opacity: .27; }
+  .hero-visual { position: relative; inset: auto; order: 2; width: 100%; height: 265px; border-radius: 13px; object-position: center; }
+  .hero-shade { background: linear-gradient(180deg, rgba(7, 9, 12, .38), rgba(7, 9, 12, .04) 55%, rgba(7, 9, 12, .33)); }
+  .hero-copy { order: 1; width: 100%; padding: 0; }
+  .hero-copy > p:not(.enthusiast-signature) { max-width: 650px; }
+  .benefit-strip { max-width: 680px; }
+  .catalogue-search { position: relative; inset: auto; order: 3; width: 100%; }
+  .hero-corner { position: relative; inset: auto; order: 4; margin: -10px 0 0 auto; }
   .catalogue { grid-template-columns: 1fr; }
   .filters {
     position: fixed;
@@ -241,9 +294,14 @@ button { cursor: pointer; }
   .header-row { justify-content: center; }
   .header-actions { display: none; }
   .breadcrumbs { padding-block: 13px; }
-  .hero { padding: 26px 18px; border-radius: 13px; }
-  .hero h1 { font-size: 36px; }
+  .hero { padding: 21px 17px; border-radius: 13px; }
+  .kn-hero-logo { width: 146px; height: 60px; margin-bottom: 13px; }
+  .hero h1 { font-size: 38px; }
   .hero-copy p { font-size: 15px; }
+  .benefit-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 0; }
+  .benefit-item:nth-child(2) { border-right: 0; }
+  .benefit-item:nth-child(3) { padding-left: 0; }
+  .hero-visual { height: 210px; }
   .catalogue-search { padding: 16px; }
   .search-control { grid-template-columns: 1fr; border: 0; overflow: visible; }
   .search-control input { border: 1px solid #cfd4da; border-radius: 8px; }

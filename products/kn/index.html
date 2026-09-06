@@ -7,7 +7,9 @@
   <meta name="description" content="Search WIAN Auto Parts' K&amp;N performance air filter catalogue by part number, vehicle, model, year, engine and fitment status.">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260903">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=20260903">
-  <link rel="stylesheet" href="./catalogue.css?v=20260906">
+  <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.knfilters.com">
+  <link rel="stylesheet" href="./catalogue.css?v=20260906-hero1">
   <script src="./catalogue.js?v=20260906" defer></script>
 </head>
 <body>
@@ -42,23 +44,43 @@
       <span>K&amp;N Performance</span>
     </div>
 
-    <section class="hero">
+    <section class="hero" aria-labelledby="heroTitle">
+      <img class="hero-visual" src="https://res.cloudinary.com/knfilters-com/image/upload/c_lpad,dpr_2.0,f_auto,q_auto/v1/media/wysiwyg/a/r/artistic-metal-intake-1e_1.jpg" alt="Official K&amp;N conical performance air intake and filter" fetchpriority="high" decoding="async">
+      <div class="hero-shade" aria-hidden="true"></div>
       <div class="hero-copy">
-        <span class="kn-logo-surface">
-          <img class="kn-brand-logo" src="/assets/brands/kn/kn-logo-official.png?v=20260906" alt="K&amp;N">
-        </span>
+        <img class="kn-hero-logo" src="https://www.knfilters.com/static/version1788494892/frontend/kn/theme-frontend-knfilters/en_US/images/logo.svg" alt="K&amp;N Filtercharger Equipped">
         <span class="eyebrow">PERFORMANCE CATALOGUE</span>
-        <h1>K&amp;N Performance Air Filters</h1>
-        <p>High-flow replacement air filters for supported vehicle applications. Search the catalogue, then confirm fitment with WIAN before ordering.</p>
+        <h1 id="heroTitle"><span>K&amp;N PERFORMANCE</span><strong>AIR FILTERS</strong></h1>
+        <p>High-flow performance air filters engineered for improved airflow, reusable filtration and enthusiast-focused performance.</p>
+        <div class="benefit-strip" aria-label="K&amp;N performance filter benefits">
+          <div class="benefit-item">
+            <svg aria-hidden="true" viewBox="0 0 32 32"><path d="M3 22h6v7H3zM13 16h6v13h-6zM23 8h6v21h-6zM4 14l8-6 6 3L28 3M23 3h5v5"/></svg>
+            <span>Improved<br>Airflow</span>
+          </div>
+          <div class="benefit-item">
+            <svg aria-hidden="true" viewBox="0 0 32 32"><path d="M5 25a12 12 0 1 1 22 0M16 16l7-6M9 22h.01M23 22h.01M16 8v.01"/></svg>
+            <span>Performance<br>Focused</span>
+          </div>
+          <div class="benefit-item">
+            <svg aria-hidden="true" viewBox="0 0 32 32"><path d="M25 11a10 10 0 0 0-17-2l-2 3M6 6v6h6M7 21a10 10 0 0 0 17 2l2-3M26 26v-6h-6"/></svg>
+            <span>Reusable<br>Filter Media</span>
+          </div>
+          <div class="benefit-item">
+            <svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 3l10 4v8c0 6-4 11-10 14C10 26 6 21 6 15V7zM11 16l3 3 7-8"/></svg>
+            <span>Built<br>To Last</span>
+          </div>
+        </div>
+        <p class="enthusiast-signature">More air.<br>More performance.</p>
       </div>
       <form class="catalogue-search" id="catalogueSearch" role="search">
         <label for="q">Find the right K&amp;N filter</label>
         <div class="search-control">
-          <input id="q" type="search" autocomplete="off" placeholder="Part number, vehicle, year or engine — e.g. 33-2955 or EcoSport">
-          <button type="submit">Search</button>
+          <input id="q" type="search" autocomplete="off" placeholder="Part number, vehicle, year or engine...">
+          <button type="submit">Search <span aria-hidden="true">→</span></button>
         </div>
         <p>Try: 33-2955, E-2997, Polo, Creta, EcoSport, 320d or 2.0 Diesel</p>
       </form>
+      <p class="hero-corner"><span>Performance parts</span><strong>by WIAN Auto Parts</strong></p>
     </section>
 
     <section class="catalogue wrap" aria-labelledby="catalogueTitle">
