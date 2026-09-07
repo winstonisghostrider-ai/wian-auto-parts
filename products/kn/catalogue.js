@@ -126,7 +126,7 @@
       const identity = `${path}|${manifest.pictured_year_range || ""}|${manifest.generation || ""}`;
       if (seen.has(identity)) return images;
       seen.add(identity);
-      images.push({ source: `/${path}?v=20260907-verified-vehicles`, manifest });
+      images.push({ source: `/${path}?v=20260907-verified-vehicles-3`, manifest });
       return images;
     }, []);
   }

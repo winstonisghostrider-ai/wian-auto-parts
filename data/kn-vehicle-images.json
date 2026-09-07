@@ -1119,17 +1119,17 @@
     "model": "XE",
     "year_range": "2023-2025",
     "application_year_range": "2023-2025",
-    "pictured_year_range": "2021-2025",
+    "pictured_year_range": "2024",
     "engine": "2.0 Diesel",
     "fitment_status": "Verify Vin",
-    "generation": "XE facelift (X760, 2021 model-year update)",
+    "generation": "XE facelift (X760, 2024 model year)",
     "body_style": "Four-door compact executive sedan",
     "image_path": "assets/vehicles/jaguar/xe/facelift-sedan-2023-2025.webp",
     "image_url": null,
-    "source_url": "https://media.jaguar.com/image-packs/xe-21my-exterior-images",
-    "source_type": "Official Jaguar media image pack",
+    "source_url": "https://www.jaguar.com/en-xi/jdx/jaguar-range/xe/models/index.html",
+    "source_type": "Official Jaguar global 2024 model page",
     "verification": "VERIFIED EXACT",
-    "notes": "Official 21MY exterior gallery documents the facelift XE generation that continues through the 2023-2025 catalogue application; fitment remains Verify Vin."
+    "notes": "Official Jaguar model artwork is identified as X76024GL and documents the 2024 facelift XE within the 2023-2025 catalogue application; fitment remains Verify Vin."
   },
   {
     "vehicle_key": "jaguar-xf-2021",
