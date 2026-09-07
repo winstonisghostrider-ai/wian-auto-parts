@@ -197,7 +197,7 @@
   function vehicleImageMarkup(application, context = "card") {
     const configured = configuredVehicleImages(application);
     if (!configured.length) return pendingVehicleMarkup(context);
-    const selected = context === "card" && configured.length > 1 ? [configured[configured.length - 1]] : configured;
+    const selected = context === "card" && configured.length > 1 ? [configured[0]] : configured;
     const className = context === "details" ? "fitment-vehicle-image" : "vehicle-card-photo";
     const shots = selected.map(({ source, manifest }) => {
       const picturedRange = manifest.pictured_year_range || application[2];
