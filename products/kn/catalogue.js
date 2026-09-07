@@ -113,14 +113,22 @@
       .replace(/^-+|-+$/g, "");
   }
 
-  function configuredVehicleImage(application) {
-    const manifest = state.vehicleManifest.get(vehicleKey(application));
-    if (!manifest || manifest.verification !== "VERIFIED EXACT") return null;
-    if (manifest.make !== application[0] || manifest.model !== application[1] || manifest.year_range !== application[2]) return null;
-    if (typeof manifest.image_path !== "string") return null;
-    const path = manifest.image_path.trim().replace(/^\/+/, "");
-    if (!/^assets\/vehicles\/[a-z0-9][a-z0-9._\/-]*\.(?:avif|webp|png|jpe?g)$/i.test(path)) return null;
-    return { source: `/${path}`, manifest };
+  function configuredVehicleImages(application) {
+    const manifests = state.vehicleManifest.get(vehicleKey(application)) || [];
+    const seen = new Set();
+    return manifests.reduce((images, manifest) => {
+      const applicationRange = manifest.application_year_range || manifest.year_range;
+      if (!manifest || manifest.verification !== "VERIFIED EXACT") return images;
+      if (manifest.make !== application[0] || manifest.model !== application[1] || applicationRange !== application[2]) return images;
+      if (typeof manifest.image_path !== "string") return images;
+      const path = manifest.image_path.trim().replace(/^\/+/, "");
+      if (!/^assets\/vehicles\/[a-z0-9][a-z0-9._\/-]*\.(?:avif|webp|png|jpe?g)$/i.test(path)) return images;
+      const identity = `${path}|${manifest.pictured_year_range || ""}|${manifest.generation || ""}`;
+      if (seen.has(identity)) return images;
+      seen.add(identity);
+      images.push({ source: `/${path}?v=20260907-verified-vehicles`, manifest });
+      return images;
+    }, []);
   }
 
   function productStatuses(product) {
@@ -174,7 +182,7 @@
   }
 
   function genericProductImageMarkup(product) {
-    return `<div class="product-media is-representative"><img class="product-image product-image-generic" src="${GENERIC_PRODUCT_IMAGE}" alt="Representative K&amp;N conical performance air filter" loading="lazy" decoding="async" data-part="${escapeHtml(product.p)}" data-image-kind="generic"><span class="representative-label">Representative K&amp;N filter image</span></div>`;
+    return `<div class="product-media"><img class="product-image product-image-generic" src="${GENERIC_PRODUCT_IMAGE}" alt="K&amp;N conical performance air filter" loading="lazy" decoding="async" data-part="${escapeHtml(product.p)}" data-image-kind="generic"></div>`;
   }
 
   function pendingImageMarkup(product) {
@@ -187,11 +195,17 @@
   }
 
   function vehicleImageMarkup(application, context = "card") {
-    const configured = configuredVehicleImage(application);
-    if (!configured) return pendingVehicleMarkup(context);
+    const configured = configuredVehicleImages(application);
+    if (!configured.length) return pendingVehicleMarkup(context);
+    const selected = context === "card" && configured.length > 1 ? [configured[configured.length - 1]] : configured;
     const className = context === "details" ? "fitment-vehicle-image" : "vehicle-card-photo";
-    const alt = `${application[0]} ${application[1]} ${application[2]}`;
-    return `<img class="vehicle-image ${className}" src="${escapeHtml(configured.source)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" data-vehicle-context="${context}">`;
+    const shots = selected.map(({ source, manifest }) => {
+      const picturedRange = manifest.pictured_year_range || application[2];
+      const alt = [application[0], application[1], manifest.generation, manifest.body_style, picturedRange].filter(Boolean).join(" ");
+      const rangeLabel = configured.length > 1 ? `<span class="vehicle-shot-range">${escapeHtml(picturedRange)}</span>` : "";
+      return `<figure class="vehicle-shot"><img class="vehicle-image ${className}" src="${escapeHtml(source)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async" data-vehicle-context="${context}">${rangeLabel}</figure>`;
+    }).join("");
+    return `<div class="vehicle-image-set vehicle-image-set-${context}">${shots}</div>`;
   }
 
   function cardMarkup(product) {
@@ -212,7 +226,6 @@
           <div>
             <p class="vehicle-summary">${escapeHtml(vehicleSummary)}</p>
             <p class="application-meta">${escapeHtml(detailLine)}</p>
-            <p class="vehicle-image-status">${configuredVehicleImage(first) ? "Verified vehicle generation image" : "Vehicle image being verified"}</p>
           </div>
         </div>
         ${product.compoundParts ? `<p class="compound-note">Catalogue rows include ${escapeHtml((product.sourceRows || [product.sourcePart]).join("; "))} · Verify VIN before ordering</p>` : ""}
@@ -247,11 +260,17 @@
         }
       }, { once: true });
     });
-    $$(".vehicle-image", elements.grid).forEach((image) => {
-      image.addEventListener("error", () => {
-        image.outerHTML = pendingVehicleMarkup(image.dataset.vehicleContext);
-      }, { once: true });
-    });
+    $$(".vehicle-image", elements.grid).forEach(bindVehicleImageFallback);
+  }
+
+  function bindVehicleImageFallback(image) {
+    image.addEventListener("error", () => {
+      const set = image.closest(".vehicle-image-set");
+      const shot = image.closest(".vehicle-shot");
+      if (set && shot && set.children.length > 1) shot.remove();
+      else if (set) set.outerHTML = pendingVehicleMarkup(image.dataset.vehicleContext);
+      else image.outerHTML = pendingVehicleMarkup(image.dataset.vehicleContext);
+    }, { once: true });
   }
 
   function updateActiveState(items) {
@@ -313,11 +332,7 @@
     }).join("");
     const compoundNote = product.compoundParts ? `<p class="dialog-warning">This SKU appears in catalogue rows ${escapeHtml((product.sourceRows || [product.sourcePart]).join("; "))}. Verify VIN before ordering.</p>` : "";
     elements.dialogContent.innerHTML = `<div class="dialog-intro"><p>Performance Air Filter · ${applications(product).length} ${applications(product).length === 1 ? "application" : "applications"}</p><strong>Enquire for Price</strong></div>${compoundNote}<div class="fitment-list">${rows}</div><div class="dialog-actions"><a class="button button-whatsapp" href="${whatsappUrl(product)}" target="_blank" rel="noopener">WhatsApp Enquiry</a></div>`;
-    $$(".vehicle-image", elements.dialogContent).forEach((image) => {
-      image.addEventListener("error", () => {
-        image.outerHTML = pendingVehicleMarkup("details");
-      }, { once: true });
-    });
+    $$(".vehicle-image", elements.dialogContent).forEach(bindVehicleImageFallback);
     if (typeof elements.dialog.showModal === "function") elements.dialog.showModal();
     else elements.dialog.setAttribute("open", "");
   }
@@ -413,7 +428,12 @@
       } catch (manifestError) {
         console.warn("K&N vehicle image manifest unavailable; using verification placeholders", manifestError);
       }
-      if (Array.isArray(vehicleManifest)) vehicleManifest.forEach((item) => { if (item && item.vehicle_key) state.vehicleManifest.set(item.vehicle_key, item); });
+      if (Array.isArray(vehicleManifest)) vehicleManifest.forEach((item) => {
+        if (!item || !item.vehicle_key) return;
+        const entries = state.vehicleManifest.get(item.vehicle_key) || [];
+        entries.push(item);
+        state.vehicleManifest.set(item.vehicle_key, entries);
+      });
       state.products = normaliseProducts(data);
       buildMakeFilters();
       render();
