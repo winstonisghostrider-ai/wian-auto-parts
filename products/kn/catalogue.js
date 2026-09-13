@@ -3,7 +3,7 @@
 
   const DATA_URL = "/data/kn-products.json?v=20260907";
   const PRODUCT_IMAGES_URL = "/data/kn-product-images.json?v=20260907";
-  const VEHICLE_IMAGES_URL = "/data/kn-vehicle-images.json?v=20260912-full-library";
+  const VEHICLE_IMAGES_URL = "/data/kn-vehicle-images.json?v=20260913-vehicle-cleanup";
   const GENERIC_PRODUCT_IMAGE = "/assets/products/kn/kn-generic-conical.webp?v=20260907";
   const WHATSAPP_NUMBER = "919108327761";
   const state = { products: [], imageManifest: new Map(), vehicleManifest: new Map(), query: "", makes: new Set(), statuses: new Set(), sort: "relevance" };
@@ -126,7 +126,7 @@
       const identity = `${path}|${manifest.pictured_year_range || ""}|${manifest.generation || ""}`;
       if (seen.has(identity)) return images;
       seen.add(identity);
-      images.push({ source: `/${path}?v=20260912-full-library`, manifest });
+      images.push({ source: `/${path}?v=20260913-vehicle-cleanup`, manifest });
       return images;
     }, []);
   }
