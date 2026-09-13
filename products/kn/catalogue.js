@@ -3,7 +3,7 @@
 
   const DATA_URL = "/data/kn-products.json?v=20260907";
   const PRODUCT_IMAGES_URL = "/data/kn-product-images.json?v=20260907";
-  const VEHICLE_IMAGES_URL = "/data/kn-vehicle-images.json?v=20260913-vehicle-cleanup";
+  const VEHICLE_IMAGES_URL = "/data/kn-vehicle-images.json?v=20260913-final-vehicle-qa";
   const GENERIC_PRODUCT_IMAGE = "/assets/products/kn/kn-generic-conical.webp?v=20260907";
   const WHATSAPP_NUMBER = "919108327761";
   const state = { products: [], imageManifest: new Map(), vehicleManifest: new Map(), query: "", makes: new Set(), statuses: new Set(), sort: "relevance" };
@@ -120,13 +120,14 @@
       const applicationRange = manifest.application_year_range || manifest.year_range;
       if (!manifest || manifest.verification !== "VERIFIED EXACT") return images;
       if (manifest.make !== application[0] || manifest.model !== application[1] || applicationRange !== application[2]) return images;
+      if (typeof manifest.engine === "string" && manifest.engine.trim() && manifest.engine !== application[3]) return images;
       if (typeof manifest.image_path !== "string") return images;
       const path = manifest.image_path.trim().replace(/^\/+/, "");
       if (!/^assets\/vehicles\/[a-z0-9][a-z0-9._\/-]*\.(?:avif|webp|png|jpe?g)$/i.test(path)) return images;
       const identity = `${path}|${manifest.pictured_year_range || ""}|${manifest.generation || ""}`;
       if (seen.has(identity)) return images;
       seen.add(identity);
-      images.push({ source: `/${path}?v=20260913-vehicle-cleanup`, manifest });
+      images.push({ source: `/${path}?v=20260913-final-vehicle-qa`, manifest });
       return images;
     }, []);
   }

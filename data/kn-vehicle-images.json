@@ -2222,15 +2222,15 @@
     "year_range": "2018",
     "engine": "1.8 Petrol",
     "fitment_status": "Verify Vin",
-    "generation": "A6 C8",
+    "generation": "A6 C7 / 4G facelift (2015-2018)",
     "body_style": "Four-door executive sedan",
-    "image_path": "assets/vehicles/audi/a6/c8-sedan-2018.webp",
+    "image_path": "assets/vehicles/audi/a6/c7-facelift-sedan-2016.webp",
     "image_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:2018_Audi_A6_S_Line_40_TDi_S-A_2.0.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2016_Audi_A6_(4G_MY17)_3.0_TDI_Biturbo_sedan_(2018-10-29)_01.jpg",
     "source_type": "Wikimedia Commons file page",
     "verification": "VERIFIED EXACT",
-    "notes": "Approved-source image verified against Commons file title, description and categories: File:2018 Audi A6 S Line 40 TDi S-A 2.0.jpg. Fitment status remains Verify Vin.",
-    "pictured_year_range": "2018"
+    "notes": "C7/4G facelift four-door sedan visual verified from the Commons file title, description, category and structured-data identification. The pictured car is a 2016 MY17 3.0 TDI; it is used solely as the exact generation/facelift/body visual for the 2018 1.8 TFSI application. Engine fitment remains Verify Vin. Source by EurovisionNim, CC BY-SA 4.0; original converted to local WebP.",
+    "pictured_year_range": "2016 (MY17)"
   },
   {
     "vehicle_key": "skoda-rapid-2012",
