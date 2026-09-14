@@ -127,13 +127,13 @@
     "fitment_status": "Verified",
     "generation": "Amaze first generation DF1 pre-facelift",
     "body_style": "Four-door subcompact sedan",
-    "image_path": "assets/vehicles/honda/amaze/df1-sedan-2013-2016.webp",
+    "image_path": "assets/vehicles/honda/amaze/df1-sedan-2014-clean.webp",
     "image_url": null,
-    "source_url": "https://commons.wikimedia.org/wiki/File:Honda_Brio_Amaze_(DF1,_2013_-_2016)_(50766503346).jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Honda_Brio_Amaze_1.3_V_2014.jpg",
     "source_type": "Wikimedia Commons file page",
     "verification": "VERIFIED EXACT",
-    "notes": "Second-pass source verified against Commons file title, description, metadata and categories: File:Honda Brio Amaze (DF1, 2013 - 2016) (50766503346).jpg. Fitment status remains Verified.",
-    "pictured_year_range": "2013-2016"
+    "notes": "Wikimedia Commons identifies this as a 2014 Honda Brio Amaze 1.3 V and categorizes it under Honda Amaze (2013). The first-generation DF1 sedan is shown in a clear front three-quarter view; the source was cropped to a landscape frame around the whole car and converted to WebP for legible catalogue thumbnails. Photograph by Captainmorlypogi1959, CC BY-SA 4.0. Fitment status remains Verified.",
+    "pictured_year_range": "2014"
   },
   {
     "vehicle_key": "honda-amaze-2013-2018",
