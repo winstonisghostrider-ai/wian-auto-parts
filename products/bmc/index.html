@@ -8,6 +8,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=20260903">
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=20260903">
   <link rel="stylesheet" href="./catalogue.css?v=20260915-bmc-phase1">
+  <link rel="stylesheet" href="./hero.css?v=20260919-official-lineup">
+  <link rel="preload" as="image" href="/assets/brands/bmc/hero/fb01020.webp" fetchpriority="high">
   <script src="./catalogue.js?v=20260915-bmc-phase1" defer></script>
 </head>
 <body>
@@ -33,22 +35,26 @@
   <main>
     <div class="wrap crumb"><a href="/">Home</a><span>›</span><a href="/performance/">Performance</a><span>›</span><span>BMC Performance</span></div>
 
-    <section class="hero">
+    <section class="hero bmc-hero" aria-labelledby="bmcHeroTitle">
       <div class="wrap hero-grid">
-        <div>
-          <div class="brand-word">BMC</div>
+        <div class="bmc-hero-copy">
+          <div class="bmc-logo-stage"><img class="bmc-official-logo" src="/assets/brands/bmc/bmc-logo-official.png" alt="BMC Air Filters" width="300" height="164"></div>
           <span class="eyebrow">PERFORMANCE AIR FILTERS</span>
-          <h1>Racing technology.<br>Road-car fitment.</h1>
-          <p class="lede">Search WIAN's BMC India performance-air-filter catalogue by BMC part number, make, model or engine. Public prices shown are source MRPs only.</p>
+          <h1 id="bmcHeroTitle">Racing technology.<br>Road-car fitment.</h1>
+          <p class="lede">Founded in 1973 from Gaetano Bergami’s passion for motorcycling, BMC is based in Italy’s Motor Valley. Formula 1 experience helped shape its high-performance replacement filters for road cars — manufactured in Italy.</p>
           <div class="chips">
             <span>WASHABLE</span><span>REUSABLE</span><span>OEM AIRBOX REPLACEMENT</span><span>MADE IN ITALY</span>
           </div>
         </div>
-        <div class="hero-panel" aria-hidden="true">
-          <div class="filter-visual"><span></span><span></span><span></span><span></span><span></span><span></span></div>
-          <strong>BMC PERFORMANCE</strong>
-          <small>Oiled multilayer cotton filtration</small>
-        </div>
+        <!-- Official product photographs and brand-history sources: /assets/brands/bmc/hero/SOURCES.md -->
+        <figure class="bmc-product-lineup">
+          <div class="bmc-lineup-stage">
+            <img class="bmc-filter bmc-filter-square" src="/assets/brands/bmc/hero/fb01030.webp" alt="BMC FB01030 shaped panel replacement air filter" width="1200" height="800" decoding="async">
+            <img class="bmc-filter bmc-filter-panel" src="/assets/brands/bmc/hero/fb01033.webp" alt="BMC FB01033 replacement air filter with a contoured frame" width="1200" height="800" decoding="async">
+            <img class="bmc-filter bmc-filter-front" src="/assets/brands/bmc/hero/fb01020.webp" alt="BMC FB01020 replacement air filter showing its molded frame and cotton-gauze pleats" width="1200" height="800" fetchpriority="high" decoding="async">
+          </div>
+          <figcaption><strong>BMC REPLACEMENT FILTERS</strong><span>Washable · Reusable · Made in Italy</span></figcaption>
+        </figure>
       </div>
     </section>
 
@@ -57,7 +63,7 @@
         <div class="search-card">
           <label for="searchInput">Find your BMC filter</label>
           <div class="search-row">
-            <input id="searchInput" type="search" placeholder="Search BMC code, Audi, Polo, Tiago, TFSI..." autocomplete="off">
+            <input id="searchInput" type="search" placeholder="Search BMC code, make, model or engine..." autocomplete="off">
             <button id="clearSearch" type="button">Clear</button>
           </div>
           <div class="catalogue-meta"><strong id="resultCount">240</strong> products · 372 source applications · BMC India July 2024 source</div>
