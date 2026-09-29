@@ -9,8 +9,8 @@
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=20260903">
   <style>
     :root{--red:#e50914;--ink:#17191d;--muted:#667085;--line:#e2e5e9;--soft:#f6f7f9;--max:1280px}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:#fff;font-family:Calibri,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}.wrap{width:min(calc(100% - 48px),var(--max));margin:auto}.promo{padding:9px 16px;color:#fff;background:linear-gradient(90deg,#d90812,#f01620);text-align:center;font-size:13px;font-weight:800}.header{background:#fff;border-bottom:1px solid var(--line)}.headrow{min-height:88px;display:flex;align-items:center;justify-content:space-between;gap:24px}.logo{width:224px;height:72px;display:block;object-fit:contain;object-position:left}.contact{font-size:14px;font-weight:800}.contact span{color:var(--red)}.nav{border-top:1px solid #f0f1f3}.navrow{min-height:47px;display:flex;align-items:center;gap:28px;overflow:auto;font-size:14px;font-weight:800;scrollbar-width:none}.navrow::-webkit-scrollbar{display:none}.navrow a{padding:15px 0;white-space:nowrap;border-bottom:3px solid transparent}.navrow a:hover,.navrow .active{color:var(--red);border-bottom-color:var(--red)}.crumb{display:flex;gap:9px;padding:17px 0;color:var(--muted);font-size:13px}.hero{padding:68px 0 44px;background:linear-gradient(180deg,#fff,#f7f8fa)}.eyebrow{color:var(--red);font-size:12px;font-weight:900;letter-spacing:.11em}.hero h1{margin:8px 0 12px;font-size:clamp(42px,6vw,68px);letter-spacing:-.04em}.lede{max-width:780px;margin:0;color:var(--muted);font-size:18px;line-height:1.55}.catalogues{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:36px 0 72px}.card{display:flex;flex-direction:column;min-height:330px;padding:32px;background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:0 14px 36px rgba(16,24,40,.07)}.status{width:max-content;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.06em}.status.live{color:#087a45;background:#e9f7f0}.status.soon{color:#667085;background:#eef1f4}.card h2{margin:26px 0 10px;font-size:33px;letter-spacing:-.025em}.card p{max-width:530px;margin:0;color:var(--muted);font-size:16px;line-height:1.55}.note{margin-top:14px!important;color:#333!important;font-size:13px!important}.btn{width:max-content;margin-top:auto;padding:13px 18px;color:#fff;background:var(--red);border-radius:8px;font-weight:900}.btn:hover{background:#bd0710}.disabled{width:max-content;margin-top:auto;padding:13px 18px;color:#667085;background:#eef1f4;border-radius:8px;font-weight:900}.footer{padding:28px 0;color:#fff;background:#17191d;border-top:4px solid var(--red)}.footerrow{display:flex;justify-content:space-between;gap:20px;color:#c8ccd1;font-size:13px}.footer a{color:#fff;font-weight:800}@media(max-width:720px){.wrap{width:calc(100% - 24px)}.headrow{justify-content:center}.contact{display:none}.logo{width:205px}.hero{padding:48px 0 30px}.catalogues{grid-template-columns:1fr}.card{min-height:300px;padding:25px}.footerrow{flex-direction:column;text-align:center}}
-    .kn-brand-text,.bmc-brand-text{width:max-content;margin:0 0 18px;color:var(--ink);font-size:28px;font-weight:900;letter-spacing:-.04em}.bmc-brand-text{padding:3px 9px;color:#fff;background:#d71920;font-family:Arial Black,Arial,sans-serif;font-size:24px;transform:skew(-8deg)}
   </style>
+  <link rel="stylesheet" href="./banners.css?v=20260929-final">
 </head>
 <body>
   <div class="promo">Premium Automotive Parts, Diagnostics &amp; Performance Solutions</div>
@@ -32,20 +32,29 @@
     </div></section>
     <section class="wrap catalogues" aria-label="Performance catalogues">
       <article class="card">
-        <p class="kn-brand-text">K&amp;N</p>
-        <span class="status live">LIVE CATALOGUE</span>
-        <h2>K&amp;N Performance Air Filters</h2>
-        <p>Search available applications by K&amp;N part number, vehicle make, model, year or engine.</p>
-        <p class="note">Exact product images appear only after SKU-level verification.</p>
-        <a class="btn" href="/products/kn/">Browse K&amp;N Performance</a>
+        <div class="catalogue-banner catalogue-banner-kn">
+          <img class="kn-banner-photo" src="/assets/brands/kn/kn-hero-base-768.webp" srcset="/assets/brands/kn/kn-hero-base-768.webp 768w, /assets/brands/kn/kn-hero-base-1280.webp 1280w" sizes="(max-width:720px) calc(100vw - 24px), (max-width:1328px) calc((100vw - 70px) / 2), 629px" alt="K&amp;N performance air filter in an engine bay" width="1918" height="820">
+          <div class="banner-brand banner-brand-kn"><img src="/assets/brands/kn/kn-logo-official.png" alt="K&amp;N" width="2500" height="2500"></div>
+        </div>
+        <div class="card-body">
+          <span class="status live">LIVE CATALOGUE</span>
+          <h2>K&amp;N Performance Air Filters</h2>
+          <p>K&amp;N high-flow replacement filters for a wide range of vehicle applications.</p>
+          <a class="btn" href="/products/kn/">Browse K&amp;N Performance</a>
+        </div>
       </article>
       <article class="card">
-        <p class="bmc-brand-text">BMC</p>
-        <span class="status live">LIVE CATALOGUE</span>
-        <h2>BMC Performance Air Filters</h2>
-        <p>Search 240 BMC performance-filter SKUs across 372 source applications by BMC code, vehicle make, model or engine.</p>
-        <p class="note">Public prices use BMC India July 2024 source MRP only. Conflicting source prices remain enquiry-only.</p>
-        <a class="btn" href="/products/bmc/">Browse BMC Performance</a>
+        <div class="catalogue-banner catalogue-banner-bmc">
+          <img class="bmc-banner-filter bmc-banner-filter-back" src="/assets/brands/bmc/hero/fb01033.webp" alt="BMC FB01033 replacement air filter" width="1200" height="800">
+          <img class="bmc-banner-filter bmc-banner-filter-front" src="/assets/brands/bmc/hero/fb01020.webp" alt="BMC FB01020 replacement air filter" width="1200" height="800">
+          <div class="banner-brand banner-brand-bmc"><img src="/assets/brands/bmc/bmc-logo-official.png" alt="BMC Air Filters" width="300" height="164"></div>
+        </div>
+        <div class="card-body">
+          <span class="status live">LIVE CATALOGUE</span>
+          <h2>BMC Performance Air Filters</h2>
+          <p>BMC washable replacement filters developed from Italian motorsport filtration technology.</p>
+          <a class="btn" href="/products/bmc/">Browse BMC Performance</a>
+        </div>
       </article>
     </section>
   </main>

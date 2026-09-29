@@ -1,0 +1,21 @@
+/* Public catalogue presentation; source prices and fitment data remain intact. */
+.product-card { min-height: 0; }
+.card-body { padding: 20px; }
+.product-media { display: block; height: 188px; padding: 16px; }
+.product-media img { display: block; width: 100%; height: 100%; min-width: 0; min-height: 0; object-fit: contain; }
+.product-card .price { padding-top: 20px; }
+.actions { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }
+.actions .btn { padding: 10px 7px; font-size: 12px; white-space: nowrap; }
+.detail-media { height: 230px; margin: 18px 0; border: 1px solid var(--line); border-radius: 12px; }
+.applications-title { margin: 20px 0 12px; font-size: 17px; }
+.detail-enquiry { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 22px; }
+.detail-enquiry .price { margin: 0; padding: 0; }
+.detail-enquiry .btn { padding: 12px 18px; white-space: nowrap; }
+@media (min-width: 851px) and (max-width: 1320px) {
+  .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .product-media { height: 200px; }
+  .card-body { padding: 20px; }
+  .actions .btn { min-height: 44px; font-size: 13px; }
+}

@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "part_number": "FB01020",
+    "image_path": "assets/brands/bmc/hero/fb01020.webp",
+    "verification": "VERIFIED EXACT",
+    "source_url": "https://www.bmcairfilters.com/en/products/engine-filter/car/panel/fb01020",
+    "source_image_url": "https://www.bmcairfilters.com/sites/default/files/products/fb01020-1.png"
+  },
+  {
+    "part_number": "FB01030",
+    "image_path": "assets/brands/bmc/hero/fb01030.webp",
+    "verification": "VERIFIED EXACT",
+    "source_url": "https://www.bmcairfilters.com/en/products/engine-filter/car/panel/fb01030",
+    "source_image_url": "https://www.bmcairfilters.com/sites/default/files/products/fb01030-1.png"
+  },
+  {
+    "part_number": "FB01033",
+    "image_path": "assets/brands/bmc/hero/fb01033.webp",
+    "verification": "VERIFIED EXACT",
+    "source_url": "https://www.bmcairfilters.com/en/products/engine-filter/car/panel/fb01033",
+    "source_image_url": "https://www.bmcairfilters.com/sites/default/files/products/fb01033-1.png"
+  }
+]

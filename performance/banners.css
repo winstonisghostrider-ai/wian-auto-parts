@@ -1,0 +1,121 @@
+/* Existing approved brand assets, presented without altering the source files. */
+.catalogues .card {
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.catalogue-banner {
+  position: relative;
+  flex: 0 0 auto;
+  height: 190px;
+  overflow: hidden;
+  background: #11171c;
+}
+
+.kn-banner-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 67% center;
+}
+
+.banner-brand {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 24px;
+  display: grid;
+  place-items: center;
+  width: 146px;
+  height: 94px;
+  overflow: hidden;
+  border-radius: 9px;
+  background: #fff;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, .18);
+  transform: translateY(-50%);
+}
+
+.banner-brand img {
+  display: block;
+  width: 132px;
+  height: auto;
+}
+
+/* The original square K&N PNG has transparent top/bottom padding. Only that
+   transparent padding extends beyond the plate; all logo artwork is visible. */
+.banner-brand-kn img {
+  position: absolute;
+  top: 50%;
+  width: 140px;
+  transform: translateY(-50%);
+}
+
+.catalogue-banner-bmc {
+  background: radial-gradient(ellipse at 75% 65%, #512327 0, #1e2026 49%, #10151b 100%);
+}
+
+.bmc-banner-filter {
+  position: absolute;
+  display: block;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, .32));
+}
+
+.bmc-banner-filter-back {
+  z-index: 1;
+  top: -54px;
+  right: -2%;
+  width: 62%;
+}
+
+.bmc-banner-filter-front {
+  z-index: 2;
+  top: 25px;
+  right: -4%;
+  width: 77%;
+}
+
+.card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 27px 30px 30px;
+}
+
+.card-body h2 {
+  margin: 19px 0 10px;
+  font-size: 31px;
+}
+
+.card-body p {
+  margin-bottom: 25px;
+}
+
+.card-body .btn {
+  margin-top: auto;
+}
+
+@media (min-width: 721px) and (max-width: 1050px) {
+  .banner-brand { left: 16px; width: 118px; height: 82px; }
+  .banner-brand img { width: 106px; }
+  .banner-brand-kn img { width: 114px; }
+  .bmc-banner-filter-back { top: -12px; width: 69%; }
+  .bmc-banner-filter-front { top: 64px; width: 83%; }
+}
+
+@media (max-width: 720px) {
+  .catalogue-banner { height: clamp(155px, 40vw, 190px); }
+  .card-body { padding: 24px; }
+  .card-body h2 { font-size: 29px; }
+}
+
+@media (max-width: 450px) {
+  .banner-brand { left: 16px; width: 112px; height: 78px; }
+  .banner-brand img { width: 102px; }
+  .banner-brand-kn img { width: 108px; }
+  .bmc-banner-filter-back { top: -10px; right: -6%; width: 71%; }
+  .bmc-banner-filter-front { top: 51px; right: -9%; width: 88%; }
+}
