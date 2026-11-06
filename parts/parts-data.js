@@ -1,0 +1,45 @@
+/* WIAN service parts — cabin air filters for Indian-market cars.
+   Source: "Cabin Filter List.pdf" (WIAN Product Catalogue Source PDFs, Sep 2026), rows 2–40, transcribed
+   row by row from the PDF. Row 1 (industrial compressor) and row 17 (DAF trucks) are excluded.
+   MRP is the list MRP in that source. Year/generation ranges are not given in the source, so every
+   fit is confirmed against the customer's registration before supply. */
+window.WIAN_SERVICE_PARTS = [
+  { make: "Ford",          vehicles: "EcoSport, Figo",                                   brand: "MANN", part: "CU 2436/2",   mrp: 300, row: 2 },
+  { make: "Ford",          vehicles: "EcoSport, Figo",                                   brand: "WIX",  part: "WP10522A",    mrp: 238, row: 18 },
+  { make: "Honda",         vehicles: "City (6th gen), Jazz (2nd gen), WR-V, Amaze",      brand: "MANN", part: "CU 21 003/2", mrp: 308, row: 34 },
+  { make: "Hyundai",       vehicles: "Creta",                                            brand: "MANN", part: "CU 24 013/2", mrp: 260, row: 3 },
+  { make: "Hyundai",       vehicles: "Creta",                                            brand: "WIX",  part: "WP10536A",    mrp: 245, row: 19 },
+  { make: "Hyundai",       vehicles: "Creta (new), Alcazar · Kia Seltos",                brand: "MANN", part: "CU 24 045",   mrp: 308, row: 37 },
+  { make: "Hyundai",       vehicles: "i20, i20 II",                                      brand: "MANN", part: "CU 2336/1",   mrp: 260, row: 4 },
+  { make: "Hyundai",       vehicles: "i20, i20 II",                                      brand: "WIX",  part: "WP10524A",    mrp: 252, row: 21 },
+  { make: "Hyundai",       vehicles: "Verna",                                            brand: "MANN", part: "CU 21 008/1", mrp: 260, row: 5 },
+  { make: "Hyundai",       vehicles: "Verna",                                            brand: "WIX",  part: "WP10526A",    mrp: 238, row: 22 },
+  { make: "Hyundai",       vehicles: "Venue, Verna · Kia Sonet",                         brand: "MANN", part: "CU 23 019/2", mrp: 308, row: 36 },
+  { make: "Hyundai",       vehicles: "i10",                                              brand: "MANN", part: "CU 1910/1",   mrp: 260, row: 6 },
+  { make: "Hyundai",       vehicles: "Eon, Xcent / Aura, i10",                           brand: "WIX",  part: "WP10520A",    mrp: 238, row: 20 },
+  { make: "Hyundai",       vehicles: "Aura, Santro (new), Grand i10 (new)",              brand: "MANN", part: "CU 18 002/2", mrp: 308, row: 35 },
+  { make: "Mahindra",      vehicles: "Scorpio",                                          brand: "MANN", part: "CU 25 018",   mrp: 260, row: 7 },
+  { make: "Mahindra",      vehicles: "Scorpio (new)",                                    brand: "MANN", part: "CU 23 051",   mrp: 350, row: 39 },
+  { make: "Mahindra",      vehicles: "XUV500",                                           brand: "MANN", part: "CU 28 011-2", mrp: 638, row: 9 },
+  { make: "Mahindra",      vehicles: "Bolero, XUV500",                                   brand: "WIX",  part: "WP10532A",    mrp: 575, row: 23 },
+  { make: "Mahindra",      vehicles: "XUV700",                                           brand: "MANN", part: "CU 25 039",   mrp: 615, row: 31 },
+  { make: "Mahindra",      vehicles: "Verito · Renault Duster",                          brand: "MANN", part: "CU 22 019/1", mrp: 260, row: 8 },
+  { make: "Mahindra",      vehicles: "Verito · Renault Duster",                          brand: "WIX",  part: "WP10538A",    mrp: 238, row: 24 },
+  { make: "Maruti Suzuki", vehicles: "Swift, Dzire, Baleno, Baleno II, Ertiga, Ritz, SX4", brand: "MANN", part: "CU 19 005",  mrp: 260, row: 11 },
+  { make: "Maruti Suzuki", vehicles: "Swift, Dzire, Baleno, Baleno II, Ertiga, Ritz, SX4", brand: "WIX",  part: "WP10528A",   mrp: 238, row: 25 },
+  { make: "Maruti Suzuki", vehicles: "Baleno, Ciaz, S-Cross, Vitara Brezza",             brand: "MANN", part: "CU 22 023",   mrp: 260, row: 12 },
+  { make: "Maruti Suzuki", vehicles: "Baleno, Ciaz, S-Cross, Vitara Brezza",             brand: "WIX",  part: "WP10604A",    mrp: 238, row: 26 },
+  { make: "Maruti Suzuki", vehicles: "Alto, A-Star",                                     brand: "MANN", part: "CU 17 001",   mrp: 260, row: 10 },
+  { make: "Maruti Suzuki", vehicles: "Wagon R, Estilo",                                  brand: "MANN", part: "CU 19 012",   mrp: 260, row: 13 },
+  { make: "Maruti Suzuki", vehicles: "Ignis, Jimny",                                     brand: "MANN", part: "CU 17 005",   mrp: 260, row: 14 },
+  { make: "Maruti Suzuki", vehicles: "Ignis",                                            brand: "WIX",  part: "WP10530A",    mrp: 260, row: 27 },
+  { make: "MG",            vehicles: "Hector",                                           brand: "MANN", part: "CU 22 038",   mrp: 410, row: 29 },
+  { make: "MG",            vehicles: "Hector (facelift)",                                brand: "MANN", part: "CU 22 038/1", mrp: 410, row: 30 },
+  { make: "Renault",       vehicles: "Kwid",                                             brand: "WIX",  part: "WP10534A",    mrp: 260, row: 28 },
+  { make: "Skoda / VW",    vehicles: "Polo, Vento, Ameo · Skoda Fabia, Rapid",           brand: "MANN", part: "CU 26 010/4", mrp: 308, row: 38 },
+  { make: "Skoda / VW",    vehicles: "Skoda Kushaq · Renault Kiger, Triber",             brand: "MANN", part: "CU 26 049",   mrp: 308, row: 32 },
+  { make: "Tata",          vehicles: "Nexon",                                            brand: "MANN", part: "CU 23 050",   mrp: 308, row: 40 },
+  { make: "Tata",          vehicles: "Harrier, Safari",                                  brand: "MANN", part: "CU 28 021",   mrp: 325, row: 33 },
+  { make: "Toyota",        vehicles: "Innova, Camry (VI)",                               brand: "MANN", part: "CU 1919/1",   mrp: 260, row: 15 },
+  { make: "Toyota",        vehicles: "Etios",                                            brand: "MANN", part: "CU 28 008",   mrp: 260, row: 16 }
+];
