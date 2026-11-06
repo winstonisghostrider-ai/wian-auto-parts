@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' https://script.google.com https://script.googleusercontent.com; frame-src https://www.google.com https://maps.google.com; form-action 'self' https://wa.me; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>WIAN Classifieds | Buy & Sell Automotive in Goa</title>
   <meta name="description" content="Buy and sell cars, bikes, parts, wheels, accessories and garage equipment in Goa through WIAN Classifieds.">
@@ -334,9 +335,11 @@
 
     const money = value => {
       if (typeof value === 'number') return new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(value);
-      return value || 'Price on request';
+      return esc(value || 'Price on request');
     };
 
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+    const safeImage = value => { const v = String(value || ''); const rest = v.replace(/^(\.\.\/|\/)/, ''); return /^assets\/[\w\-./]+\.(webp|jpe?g|png)$/i.test(rest) && !rest.includes('..') ? v : ''; };
     const cleanPhone = value => String(value || '').replace(/\D/g,'');
     const waPhone = value => {
       let p = cleanPhone(value);
@@ -365,11 +368,13 @@
 
       listingsEl.innerHTML = filtered.map(item => {
         const phone = waPhone(item.phone);
-        const safeTitle = String(item.title || 'Automotive Listing');
-        const waText = encodeURIComponent(`Hi, I am interested in your WIAN Classifieds listing: ${safeTitle}`);
-        const image = item.image ? `<img src="${item.image}" alt="${safeTitle.replace(/"/g,'&quot;')}" loading="lazy">` : 'Photo coming soon';
-        const meta = [item.year,item.fuel,item.transmission,item.kilometres,item.location].filter(Boolean).map(v => `<span class="pill">${v}</span>`).join('');
-        return `<article class="listing"><div class="media">${image}${item.featured ? '<span class="badge">FEATURED</span>' : ''}</div><div class="body"><div class="price">${money(item.price)}</div><div class="title">${safeTitle}</div><div class="meta">${meta}</div><div class="desc">${item.description || ''}</div><div class="seller">${item.sellerType || 'Seller'}${item.contactName ? ' · ' + item.contactName : ''}</div><div class="cardactions">${phone ? `<a class="wa" href="https://wa.me/${phone}?text=${waText}">WhatsApp</a><a class="call" href="tel:+${phone}">Call Seller</a>` : '<a class="wa" href="https://wa.me/919108327761">Ask WIAN</a><a class="call" href="tel:+919108327761">Call WIAN</a>'}</div></div></article>`;
+        const rawTitle = String(item.title || 'Automotive Listing');
+        const safeTitle = esc(rawTitle);
+        const img = safeImage(item.image);
+        const waText = encodeURIComponent(`Hi, I am interested in your WIAN Classifieds listing: ${rawTitle}`);
+        const image = img ? `<img src="${esc(img)}" alt="${safeTitle}" loading="lazy">` : 'Photo coming soon';
+        const meta = [item.year,item.fuel,item.transmission,item.kilometres,item.location].filter(Boolean).map(v => `<span class="pill">${esc(v)}</span>`).join('');
+        return `<article class="listing"><div class="media">${image}${item.featured ? '<span class="badge">FEATURED</span>' : ''}</div><div class="body"><div class="price">${money(item.price)}</div><div class="title">${safeTitle}</div><div class="meta">${meta}</div><div class="desc">${esc(item.description)}</div><div class="seller">${esc(item.sellerType || 'Seller')}${item.contactName ? ' · ' + esc(item.contactName) : ''}</div><div class="cardactions">${phone ? `<a class="wa" href="https://wa.me/${phone}?text=${waText}">WhatsApp</a><a class="call" href="tel:+${phone}">Call Seller</a>` : '<a class="wa" href="https://wa.me/919108327761">Ask WIAN</a><a class="call" href="tel:+919108327761">Call WIAN</a>'}</div></div></article>`;
       }).join('');
     }
 
