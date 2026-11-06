@@ -94,7 +94,7 @@ function submitHeaderSearch(e){
  wianPrefillFinder(part,q?('Searched for: '+q+(map[cat]?' ('+cat+')':'')):'');
 }
 document.querySelectorAll('.cat[data-part]').forEach(function(card){
- const go=function(){wianPrefillFinder(card.dataset.part,'')};
+ const go=function(){if(card.dataset.href){location.href=card.dataset.href;return}wianPrefillFinder(card.dataset.part,'')};
  card.addEventListener('click',go);
  card.addEventListener('keydown',function(ev){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();go()}});
 });
