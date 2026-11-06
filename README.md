@@ -32,3 +32,8 @@ The first website foundation is now in place:
 7. Add admin tools for inventory, pricing and catalogue management.
 
 > No API keys, payment secrets or customer data should be committed to this repository.
+
+
+## Official WIAN business address
+
+The current official address is maintained in [BUSINESS_ADDRESS.md](BUSINESS_ADDRESS.md). Keep the homepage map and all public site footers consistent with that source of truth.
