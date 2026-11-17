@@ -1,6 +1,7 @@
 /* WIAN shared catalogue list renderer.
    Page config lives on <main id="catalogue" data-source="WINDOW_VAR" data-noun="product" data-ask="...">.
-   Data shape: window[VAR] = { meta, items: [{ group, segment?, brand, title, part, detail, mrp, apps }] } */
+   Data shape: window[VAR] = { meta, items: [{ group, segment?, brand, title, part, detail, mrp, apps, img? }] }
+   img must be a local /assets/products/*.webp path; anything else is ignored. */
 (function () {
   const root = document.getElementById("catalogue");
   if (!root) return;
@@ -54,7 +55,8 @@
       return;
     }
     grid.innerHTML = list.slice(0, shown).map((i) => `
-      <article class="pcard">
+      <article class="pcard${i.img ? " hasimg" : ""}">
+        ${i.img && /^\/assets\/products\/[\w\/-]+\.webp$/.test(i.img) ? `<div class="pimg"><img src="${esc(i.img)}" alt="${esc(i.brand + " " + i.title)}" loading="lazy" decoding="async"></div>` : ""}
         <span class="pmake">${esc(i.brand)} · ${esc(i.group)}</span>
         <h3>${esc(i.title)}</h3>
         ${i.part || i.detail ? `<p class="pline">${[i.part && `<b>${esc(i.part)}</b>`, esc(i.detail)].filter(Boolean).join(" · ")}</p>` : ""}

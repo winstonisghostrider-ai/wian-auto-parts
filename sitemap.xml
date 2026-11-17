@@ -9,6 +9,8 @@
   <url><loc>https://wianautoparts.com/oils/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://wianautoparts.com/accessories/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://wianautoparts.com/car-care/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://wianautoparts.com/parts/cabin-imported/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://wianautoparts.com/car-care/vista/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://wianautoparts.com/workshops/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://wianautoparts.com/classifieds/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 </urlset>
