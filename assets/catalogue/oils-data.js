@@ -1,7 +1,7 @@
-/* Generated from WIAN Master Product Catalogue (Sep 2026), Ready rows only. Do not hand-edit. */
+/* Generated from WIAN Master Product Catalogue (Sep 2026) + hand-checked Würth list (scripts/merge-wurth.py). Do not hand-edit. */
 window.WIAN_OILS = {
 "meta": {
-"source": "Liqui Moly retailer list 15 Jul 2025; Hella lube rate list"
+"source": "Liqui Moly retailer list 15 Jul 2025; Hella lube rate list; Würth Automotive Solutions catalogue"
 },
 "items": [
 {
@@ -284,6 +284,159 @@ window.WIAN_OILS = {
 "apps": ""
 },
 {
+"group": "Additives",
+"brand": "Würth",
+"title": "Diesel additive",
+"part": "5861001325",
+"detail": "250 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Diesel additive cetane booster",
+"part": "5861005300",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Diesel injection cleaner",
+"part": "5861111303",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Diesel particulate filter (DPF) cleaner",
+"part": "5861014500",
+"detail": "400 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Engine flush & cleaner",
+"part": "0893016250",
+"detail": "250 ml · also 50 ml (0893016050)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Engine oil additive",
+"part": "5861300305",
+"detail": "50 ml · also 250 ml (5861300325)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Gear additive ATF flush",
+"part": "5861410150",
+"detail": "150 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Gear additive, automatic transmission fluid",
+"part": "5861401150",
+"detail": "150 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Gear additive, manual transmission treatment",
+"part": "5861400125",
+"detail": "125 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "LBW 400 petrol fuel injection valve cleaner",
+"part": "089356091",
+"detail": "",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Oil leak protector",
+"part": "5861311150",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Oil smoke stop",
+"part": "5861301300",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Petrol additive",
+"part": "5861101350",
+"detail": "50 ml · also 250 ml (5861101250)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Petrol additive octane booster",
+"part": "5861103300",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Petrol injection cleaner",
+"part": "5861011300",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Radiator flush & cleaner",
+"part": "0893556002",
+"detail": "250 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Additives",
+"brand": "Würth",
+"title": "Radiator seal",
+"part": "5861501300",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
 "group": "Coolant & brake fluid",
 "brand": "Hella",
 "title": "Brake Fluid DOT 3 100ML",
@@ -398,6 +551,51 @@ window.WIAN_OILS = {
 "part": "21139",
 "detail": "1LTR",
 "mrp": 1047,
+"apps": ""
+},
+{
+"group": "Coolant & brake fluid",
+"brand": "Würth",
+"title": "Anti-freeze coolant concentrate",
+"part": "0893556371",
+"detail": "1 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Coolant & brake fluid",
+"brand": "Würth",
+"title": "Brake fluid DOT 3",
+"part": "089200025045",
+"detail": "250 ml · also 500 ml (0892000024045)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Coolant & brake fluid",
+"brand": "Würth",
+"title": "Brake fluid DOT 4",
+"part": "0892000027045",
+"detail": "250 ml · also 500 ml (0892000026045)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Coolant & brake fluid",
+"brand": "Würth",
+"title": "Radiator coolant WTC",
+"part": "0892601601",
+"detail": "1 L · green, blue, violet, red · also 210 L drums",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Coolant & brake fluid",
+"brand": "Würth",
+"title": "Radiator coolant WTPC (ready to use)",
+"part": "0892501603",
+"detail": "1 L · green, red, blue, violet · 1 L to 5 L",
+"mrp": null,
 "apps": ""
 },
 {
@@ -1427,6 +1625,78 @@ window.WIAN_OILS = {
 "apps": ""
 },
 {
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 0W-40 fully synthetic",
+"part": "0897104401",
+"detail": "1 L · also 4 L (0897104402), 210 L (0897104405)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 10W-40",
+"part": "0897110411",
+"detail": "1 L · also 3 L, 4 L, 55 L, 210 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 15W-40",
+"part": "5869115411",
+"detail": "1 L · also 4 L, 5 L, 7.5 L, 15 L, 55 L, 210 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 20W-40",
+"part": "5869120401",
+"detail": "1 L · also 900 ml (5869120407)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 20W-50",
+"part": "5869120501",
+"detail": "1 L · also 3 L, 5 L, 210 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 5W-30 NXGEN premium",
+"part": "0897105523045",
+"detail": "3.5 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 5W-30 fully synthetic",
+"part": "0897105508",
+"detail": "3.5 L · also 55 L (0897105503), 210 L (0897105505)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Engine oils",
+"brand": "Würth",
+"title": "Würth engine oil 5W-40 fully synthetic",
+"part": "0897102401",
+"detail": "1 L · also 3.5 L, 4 L, 55 L, 210 L",
+"mrp": null,
+"apps": ""
+},
+{
 "group": "Grease & lubricants",
 "brand": "Hella",
 "title": "Diesel Injector Cleaner Plus 200ml",
@@ -1667,6 +1937,87 @@ window.WIAN_OILS = {
 "part": "21345",
 "detail": "5KG",
 "mrp": 2844,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Brake paste (display box)",
+"part": "08931105045",
+"detail": "5.5 ml sachets",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "CU 800 copper paste",
+"part": "08938001",
+"detail": "100 g · also 1 kg (08938002)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "CU 800 copper paste spray",
+"part": "0893800",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "HHS 2000 adhesive lubricant spray",
+"part": "0893106",
+"detail": "500 ml · also 150 ml (08931061)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "HHS Dry Lube (dry PTFE lubricant)",
+"part": "08931061045",
+"detail": "400 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Lubricating grease WGF 130 (MoS2)",
+"part": "0893530",
+"detail": "1 kg · -30 to +130 °C",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Multi-purpose grease II (lithium, graphite, EP)",
+"part": "08938711045",
+"detail": "400 g",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Silicone spray grease",
+"part": "0893223",
+"detail": "500 ml · insulating silicone grease",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Synthetic adhesive lubricant",
+"part": "0893105653",
+"detail": "Anti-corrosive lubricant for hinges, locks, cables and chains",
+"mrp": null,
 "apps": ""
 },
 {
@@ -2102,6 +2453,168 @@ window.WIAN_OILS = {
 "apps": ""
 },
 {
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Air intake & throttle valve cleaner",
+"part": "5997704983",
+"detail": "500 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "BMF cleaner (workshop and machinery cleaner)",
+"part": "0893118825",
+"detail": "5 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Battery terminal protector",
+"part": "0890104",
+"detail": "150 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Brake cleaner",
+"part": "0890108700",
+"detail": "700 ml · also 100 ml (0890101000)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Carburettor & injector cleaner",
+"part": "0893105525",
+"detail": "500 ml · also 100 ml (0893101150)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "EGR cleaner",
+"part": "5997759942090",
+"detail": "500 ml · cleans EGR valve, intake and inlet valves without dismantling",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Electrical contact cleaner",
+"part": "0893600500",
+"detail": "500 ml · also 100 ml (0890600512)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Exhaust assembly paste",
+"part": "0890100045",
+"detail": "140 g",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Exhaust putty",
+"part": "0890100046",
+"detail": "200 g",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Liquid Metal FE1 (2-component metal repair)",
+"part": "0893449",
+"detail": "",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Metal parts cleaner",
+"part": "5997756956",
+"detail": "500 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Metal restorer",
+"part": "08931211",
+"detail": "400 g",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Rust Off Ice Plus (cold-shock rust release)",
+"part": "0893241060045",
+"detail": "400 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Rust Off penetrating oil",
+"part": "0890200011",
+"detail": "300 ml · also 100 ml and 50 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Sealant remover",
+"part": "08931000",
+"detail": "300 ml",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Silicone Special 180, transparent",
+"part": "0890320",
+"detail": "70 ml · engine and bodywork sealant",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "Silicone Special 250, high-temperature (red / black)",
+"part": "0890321",
+"detail": "70 ml · red 0890321, black 0890323 · up to 300 °C",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Service & care products",
+"brand": "Würth",
+"title": "V-belt spray",
+"part": "0893230",
+"detail": "400 ml",
+"mrp": null,
+"apps": ""
+},
+{
 "group": "Transmission & gear oils",
 "brand": "Hella",
 "title": "ATF TQ Steering oil 1L",
@@ -2417,6 +2930,24 @@ window.WIAN_OILS = {
 "apps": ""
 },
 {
+"group": "Transmission & gear oils",
+"brand": "Würth",
+"title": "Würth gear oil 80W-90",
+"part": "0897180901",
+"detail": "1 L · also 500 ml, 55 L, 210 L",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Transmission & gear oils",
+"brand": "Würth",
+"title": "Würth gear oil 85W-140",
+"part": "0897185146",
+"detail": "5 L · also 210 L (0897185140)",
+"mrp": null,
+"apps": ""
+},
+{
 "group": "Engine oils",
 "brand": "Hella",
 "title": "Cool Maker 5W30 Fully Synthetic 210L",
@@ -2667,6 +3198,24 @@ window.WIAN_OILS = {
 "detail": "26L · Bulk / workshop pack",
 "mrp": 7972,
 "apps": "Universal"
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Hydraulic oil 46",
+"part": "0897746022045",
+"detail": "210 L · Bulk / workshop pack",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Grease & lubricants",
+"brand": "Würth",
+"title": "Hydraulic oil 68",
+"part": "0897746023045",
+"detail": "26 L · Bulk / workshop pack",
+"mrp": null,
+"apps": ""
 },
 {
 "group": "Motorbike",

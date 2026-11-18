@@ -1,7 +1,7 @@
-/* Generated from WIAN Master Product Catalogue (Sep 2026), Ready rows only. Do not hand-edit. */
+/* Generated from WIAN Master Product Catalogue (Sep 2026) + hand-checked Würth list (scripts/merge-wurth.py). Do not hand-edit. */
 window.WIAN_ACCESSORIES = {
 "meta": {
-"source": "Car X price list"
+"source": "Car X price list; Würth Automotive Solutions catalogue"
 },
 "items": [
 {
@@ -136,6 +136,105 @@ window.WIAN_ACCESSORIES = {
 "title": "Mobile Holder One – Alpha Charge (USB)",
 "part": "",
 "detail": "6-month warranty",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H4 halogen bulb 12 V 100/90 W",
+"part": "5997725313",
+"detail": "P43t · passenger car",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H4 halogen bulb 12 V 60/55 W",
+"part": "5997725315",
+"detail": "P43t · passenger car",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H4 halogen bulb 24 V 100/90 W (truck)",
+"part": "5997725319",
+"detail": "P43t · cargo / truck",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H7 halogen bulb 12 V 55 W, 40% extra bright",
+"part": "5997725316",
+"detail": "PX26d",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H7 halogen bulb 12 V 100 W",
+"part": "5997725317",
+"detail": "PX26d · off-road use only",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth H1 halogen bulb 12 V 55 W",
+"part": "5997725318",
+"detail": "P14.5s",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth HS1 bulb 12 V 35/35 W (two-wheeler)",
+"part": "5997773662090",
+"detail": "",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth Rally Xen H4 12 V 100/90 W",
+"part": "5997772427090",
+"detail": "Xenon-effect halogen · also 130/100 W (5997772426090)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth Xen H4 24 V (truck)",
+"part": "5997772428090",
+"detail": "Cargo / truck xenon-effect bulb",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth Xenon HS1 12 V 35/35 W (two-wheeler)",
+"part": "5997751681090",
+"detail": "Also 45/40 W (5997751680090)",
+"mrp": null,
+"apps": ""
+},
+{
+"group": "Bulbs & wipers",
+"brand": "Würth",
+"title": "Würth windscreen wiper blade (flat)",
+"part": "0848370",
+"detail": "Sizes 12\"–28\" (300–700 mm): 0848 370 300 to 0848 370 700",
 "mrp": null,
 "apps": ""
 }

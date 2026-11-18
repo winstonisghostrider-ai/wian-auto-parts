@@ -1,4 +1,5 @@
 """Build website catalogue data (assets/catalogue/*.js) from the WIAN Master Product Catalogue xlsx (Ready rows only).
+# After running this, run scripts/merge-wurth.py to add the hand-checked Würth list (oils, car care, accessories, workshop tools).
 Usage: python3 scripts/build-catalogue-data.py "WIAN Master Product Catalogue.xlsx" assets/catalogue"""
 import sys, re, json
 import pandas as pd
