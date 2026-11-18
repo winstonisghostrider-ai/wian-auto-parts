@@ -1602,7 +1602,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 4 L (0897104402), 210 L (0897104405)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897104401.webp"
 },
 {
 "group": "Engine oils",
@@ -1612,7 +1613,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 3 L, 4 L, 55 L, 210 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897110411.webp"
 },
 {
 "group": "Engine oils",
@@ -1622,7 +1624,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 4 L, 5 L, 7.5 L, 15 L, 55 L, 210 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5869115411.webp"
 },
 {
 "group": "Engine oils",
@@ -1632,7 +1635,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 900 ml (5869120407)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5869120401.webp"
 },
 {
 "group": "Engine oils",
@@ -1642,7 +1646,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 3 L, 5 L, 210 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5869120501.webp"
 },
 {
 "group": "Engine oils",
@@ -1662,7 +1667,8 @@ window.WIAN_OILS = {
 "detail": "3.5 L · also 55 L (0897105503), 210 L (0897105505)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897105508.webp"
 },
 {
 "group": "Engine oils",
@@ -1672,7 +1678,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 3.5 L, 4 L, 55 L, 210 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897102401.webp"
 },
 {
 "group": "Transmission & gear oils",
@@ -1682,7 +1689,8 @@ window.WIAN_OILS = {
 "detail": "1 L · also 500 ml, 55 L, 210 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897180901.webp"
 },
 {
 "group": "Transmission & gear oils",
@@ -1702,7 +1710,8 @@ window.WIAN_OILS = {
 "detail": "1 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893556371.webp"
 },
 {
 "group": "Coolant & brake fluid",
@@ -1712,7 +1721,8 @@ window.WIAN_OILS = {
 "detail": "250 ml · also 500 ml (0892000024045)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/089200025045.webp"
 },
 {
 "group": "Coolant & brake fluid",
@@ -1722,7 +1732,8 @@ window.WIAN_OILS = {
 "detail": "250 ml · also 500 ml (0892000026045)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0892000027045.webp"
 },
 {
 "group": "Coolant & brake fluid",
@@ -1732,7 +1743,8 @@ window.WIAN_OILS = {
 "detail": "1 L · green, blue, violet, red · also 210 L drums",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0892601601.webp"
 },
 {
 "group": "Coolant & brake fluid",
@@ -1742,7 +1754,8 @@ window.WIAN_OILS = {
 "detail": "1 L · green, red, blue, violet · 1 L to 5 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0892501603.webp"
 },
 {
 "group": "Additives",
@@ -1752,7 +1765,8 @@ window.WIAN_OILS = {
 "detail": "250 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861001325.webp"
 },
 {
 "group": "Additives",
@@ -1762,7 +1776,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861005300.webp"
 },
 {
 "group": "Additives",
@@ -1772,7 +1787,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861111303.webp"
 },
 {
 "group": "Additives",
@@ -1782,7 +1798,8 @@ window.WIAN_OILS = {
 "detail": "400 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861014500.webp"
 },
 {
 "group": "Additives",
@@ -1812,7 +1829,8 @@ window.WIAN_OILS = {
 "detail": "150 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861410150.webp"
 },
 {
 "group": "Additives",
@@ -1822,7 +1840,8 @@ window.WIAN_OILS = {
 "detail": "150 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861401150.webp"
 },
 {
 "group": "Additives",
@@ -1832,7 +1851,8 @@ window.WIAN_OILS = {
 "detail": "125 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861400125.webp"
 },
 {
 "group": "Additives",
@@ -1852,7 +1872,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861311150.webp"
 },
 {
 "group": "Additives",
@@ -1882,7 +1903,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861103300.webp"
 },
 {
 "group": "Additives",
@@ -1892,7 +1914,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861011300.webp"
 },
 {
 "group": "Additives",
@@ -1902,7 +1925,8 @@ window.WIAN_OILS = {
 "detail": "250 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893556002.webp"
 },
 {
 "group": "Additives",
@@ -1952,7 +1976,8 @@ window.WIAN_OILS = {
 "detail": "500 ml · also 150 ml (08931061)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893106.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -1972,7 +1997,8 @@ window.WIAN_OILS = {
 "detail": "1 kg · -30 to +130 °C",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893530.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -1982,7 +2008,8 @@ window.WIAN_OILS = {
 "detail": "400 g",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08938711045.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -1992,7 +2019,8 @@ window.WIAN_OILS = {
 "detail": "500 ml · insulating silicone grease",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893223.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -2002,7 +2030,8 @@ window.WIAN_OILS = {
 "detail": "Anti-corrosive lubricant for hinges, locks, cables and chains",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893105653.webp"
 },
 {
 "group": "Service & care products",
@@ -2012,7 +2041,8 @@ window.WIAN_OILS = {
 "detail": "500 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5997704983.webp"
 },
 {
 "group": "Service & care products",
@@ -2022,7 +2052,8 @@ window.WIAN_OILS = {
 "detail": "5 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893118825.webp"
 },
 {
 "group": "Service & care products",
@@ -2032,7 +2063,8 @@ window.WIAN_OILS = {
 "detail": "150 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890104.webp"
 },
 {
 "group": "Service & care products",
@@ -2042,7 +2074,8 @@ window.WIAN_OILS = {
 "detail": "700 ml · also 100 ml (0890101000)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890108700.webp"
 },
 {
 "group": "Service & care products",
@@ -2062,7 +2095,8 @@ window.WIAN_OILS = {
 "detail": "500 ml · cleans EGR valve, intake and inlet valves without dismantling",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5997759942090.webp"
 },
 {
 "group": "Service & care products",
@@ -2072,7 +2106,8 @@ window.WIAN_OILS = {
 "detail": "500 ml · also 100 ml (0890600512)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893600500.webp"
 },
 {
 "group": "Service & care products",
@@ -2082,7 +2117,8 @@ window.WIAN_OILS = {
 "detail": "140 g",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890100045.webp"
 },
 {
 "group": "Service & care products",
@@ -2092,7 +2128,8 @@ window.WIAN_OILS = {
 "detail": "200 g",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890100046.webp"
 },
 {
 "group": "Service & care products",
@@ -2112,7 +2149,8 @@ window.WIAN_OILS = {
 "detail": "500 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5997756956.webp"
 },
 {
 "group": "Service & care products",
@@ -2122,7 +2160,8 @@ window.WIAN_OILS = {
 "detail": "400 g",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08931211.webp"
 },
 {
 "group": "Service & care products",
@@ -2132,7 +2171,8 @@ window.WIAN_OILS = {
 "detail": "400 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893241060045.webp"
 },
 {
 "group": "Service & care products",
@@ -2142,7 +2182,8 @@ window.WIAN_OILS = {
 "detail": "300 ml · also 100 ml and 50 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890200011.webp"
 },
 {
 "group": "Service & care products",
@@ -2152,7 +2193,8 @@ window.WIAN_OILS = {
 "detail": "300 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08931000.webp"
 },
 {
 "group": "Service & care products",
@@ -2162,7 +2204,8 @@ window.WIAN_OILS = {
 "detail": "70 ml · engine and bodywork sealant",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890320.webp"
 },
 {
 "group": "Service & care products",
@@ -2172,7 +2215,8 @@ window.WIAN_OILS = {
 "detail": "70 ml · red 0890321, black 0890323 · up to 300 °C",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0890321.webp"
 },
 {
 "group": "Service & care products",
@@ -2192,7 +2236,8 @@ window.WIAN_OILS = {
 "detail": "210 L · Bulk / workshop pack",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897746022045.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -2202,7 +2247,8 @@ window.WIAN_OILS = {
 "detail": "26 L · Bulk / workshop pack",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897746023045.webp"
 },
 {
 "group": "Engine oils",

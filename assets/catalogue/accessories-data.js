@@ -209,7 +209,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997772427090",
 "detail": "Xenon-effect halogen · also 130/100 W (5997772426090)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997772427090.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -227,7 +228,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997751681090",
 "detail": "Also 45/40 W (5997751680090)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997751681090.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -236,7 +238,8 @@ window.WIAN_ACCESSORIES = {
 "part": "0848370",
 "detail": "Sizes 12\"–28\" (300–700 mm): 0848 370 300 to 0848 370 700",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0848370.webp"
 }
 ]
 };

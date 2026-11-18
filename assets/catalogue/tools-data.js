@@ -11,7 +11,8 @@ window.WIAN_TOOLS = {
 "part": "08911063",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08911063.webp"
 },
 {
 "group": "Body & paint tools",
@@ -29,7 +30,8 @@ window.WIAN_TOOLS = {
 "part": "0891130003",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891130003.webp"
 },
 {
 "group": "Electrical",
@@ -38,7 +40,8 @@ window.WIAN_TOOLS = {
 "part": "0695589544",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0695589544.webp"
 },
 {
 "group": "Electrical",
@@ -47,7 +50,8 @@ window.WIAN_TOOLS = {
 "part": "07155310",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07155310.webp"
 },
 {
 "group": "Electrical",
@@ -65,7 +69,8 @@ window.WIAN_TOOLS = {
 "part": "5208005",
 "detail": "5–40 A",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5208005.webp"
 },
 {
 "group": "Electrical",
@@ -74,16 +79,18 @@ window.WIAN_TOOLS = {
 "part": "520830005",
 "detail": "5–30 A",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/520830005.webp"
 },
 {
 "group": "Electrical",
 "brand": "Würth",
-"title": "FLP fuse assortment",
+"title": "Electrical insulating tapes, set of 10",
 "part": "0985100",
-"detail": "",
+"detail": "VDE tested",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0985100.webp"
 },
 {
 "group": "Electrical",
@@ -92,7 +99,8 @@ window.WIAN_TOOLS = {
 "part": "0714101111",
 "detail": "0.5–6.0 mm²",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714101111.webp"
 },
 {
 "group": "Electrical",
@@ -119,7 +127,8 @@ window.WIAN_TOOLS = {
 "part": "5964077100",
 "detail": "130 pcs",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964077100.webp"
 },
 {
 "group": "Electrical",
@@ -128,7 +137,8 @@ window.WIAN_TOOLS = {
 "part": "0984990100",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0984990100.webp"
 },
 {
 "group": "Tyre shop",
@@ -137,7 +147,8 @@ window.WIAN_TOOLS = {
 "part": "0830000205",
 "detail": "5–60 g (0830000205 to 0830000260)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0830000205.webp"
 },
 {
 "group": "Tyre shop",
@@ -146,7 +157,8 @@ window.WIAN_TOOLS = {
 "part": "083010005",
 "detail": "5–60 g (083010005 to 083010160)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/083010005.webp"
 },
 {
 "group": "Tyre shop",
@@ -155,7 +167,8 @@ window.WIAN_TOOLS = {
 "part": "08305105",
 "detail": "5–60 g",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08305105.webp"
 },
 {
 "group": "Tyre shop",
@@ -164,7 +177,8 @@ window.WIAN_TOOLS = {
 "part": "083014700",
 "detail": "Also 083014750",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/083014700.webp"
 },
 {
 "group": "Tyre shop",
@@ -173,7 +187,8 @@ window.WIAN_TOOLS = {
 "part": "083014413",
 "detail": "4 × 5 g + 4 × 10 g, 60 g strip",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/083014413.webp"
 },
 {
 "group": "Tyre shop",
@@ -182,7 +197,8 @@ window.WIAN_TOOLS = {
 "part": "08901221",
 "detail": "5 kg",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08901221.webp"
 },
 {
 "group": "Tyre shop",
@@ -191,7 +207,8 @@ window.WIAN_TOOLS = {
 "part": "06930800",
 "detail": "28 cm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/06930800.webp"
 },
 {
 "group": "AC service equipment",
@@ -209,7 +226,8 @@ window.WIAN_TOOLS = {
 "part": "5997776520",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997776520.webp"
 },
 {
 "group": "AC service equipment",
@@ -218,7 +236,8 @@ window.WIAN_TOOLS = {
 "part": "0900764991",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0900764991.webp"
 },
 {
 "group": "AC service equipment",
@@ -227,7 +246,8 @@ window.WIAN_TOOLS = {
 "part": "W050105005",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/W050105005.webp"
 },
 {
 "group": "AC service equipment",
@@ -236,7 +256,8 @@ window.WIAN_TOOLS = {
 "part": "W050115025",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/W050115025.webp"
 },
 {
 "group": "AC service equipment",
@@ -245,7 +266,8 @@ window.WIAN_TOOLS = {
 "part": "5997772422090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997772422090.webp"
 },
 {
 "group": "AC service equipment",
@@ -254,7 +276,8 @@ window.WIAN_TOOLS = {
 "part": "0764000103",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0764000103.webp"
 },
 {
 "group": "Workshop equipment",
@@ -263,7 +286,8 @@ window.WIAN_TOOLS = {
 "part": "085352",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/085352.webp"
 },
 {
 "group": "Workshop equipment",
@@ -272,7 +296,8 @@ window.WIAN_TOOLS = {
 "part": "071593910611",
 "detail": "With 7 suction tubes",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071593910611.webp"
 },
 {
 "group": "Workshop equipment",
@@ -281,7 +306,8 @@ window.WIAN_TOOLS = {
 "part": "0704510",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0704510.webp"
 },
 {
 "group": "Workshop equipment",
@@ -299,7 +325,8 @@ window.WIAN_TOOLS = {
 "part": "05391",
 "detail": "8 mm to 110 mm grip range",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/05391.webp"
 },
 {
 "group": "Workshop consumables",
@@ -308,7 +335,8 @@ window.WIAN_TOOLS = {
 "part": "05392",
 "detail": "8–16 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/05392.webp"
 },
 {
 "group": "Workshop consumables",
@@ -317,7 +345,8 @@ window.WIAN_TOOLS = {
 "part": "05391207",
 "detail": "121 pcs",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/05391207.webp"
 },
 {
 "group": "Workshop consumables",
@@ -326,7 +355,8 @@ window.WIAN_TOOLS = {
 "part": "094915",
 "detail": "2.4–5 mm rivets",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/094915.webp"
 },
 {
 "group": "Workshop consumables",
@@ -344,7 +374,8 @@ window.WIAN_TOOLS = {
 "part": "5763114017",
 "detail": "RED STRIPE · ORSY case",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763114017.webp"
 },
 {
 "group": "Hand tools",
@@ -353,7 +384,8 @@ window.WIAN_TOOLS = {
 "part": "5763114024",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763114024.webp"
 },
 {
 "group": "Hand tools",
@@ -362,7 +394,8 @@ window.WIAN_TOOLS = {
 "part": "5763114032",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763114032.webp"
 },
 {
 "group": "Hand tools",
@@ -380,7 +413,8 @@ window.WIAN_TOOLS = {
 "part": "5763112022",
 "detail": "10–32 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763112022.webp"
 },
 {
 "group": "Hand tools",
@@ -389,7 +423,8 @@ window.WIAN_TOOLS = {
 "part": "5763138024",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763138024.webp"
 },
 {
 "group": "Hand tools",
@@ -398,7 +433,8 @@ window.WIAN_TOOLS = {
 "part": "5763100072",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763100072.webp"
 },
 {
 "group": "Hand tools",
@@ -407,7 +443,8 @@ window.WIAN_TOOLS = {
 "part": "5763100154",
 "detail": "ORSY 8.4 case",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763100154.webp"
 },
 {
 "group": "Hand tools",
@@ -425,7 +462,8 @@ window.WIAN_TOOLS = {
 "part": "5754221110",
 "detail": "6\" to 15\"",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5754221110.webp"
 },
 {
 "group": "Hand tools",
@@ -434,7 +472,8 @@ window.WIAN_TOOLS = {
 "part": "5752042030",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5752042030.webp"
 },
 {
 "group": "Hand tools",
@@ -452,7 +491,8 @@ window.WIAN_TOOLS = {
 "part": "575239101",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/575239101.webp"
 },
 {
 "group": "Hand tools",
@@ -470,7 +510,8 @@ window.WIAN_TOOLS = {
 "part": "5754101917",
 "detail": "6–36 mm sizes · 8/12/17/25 pc sets",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5754101917.webp"
 },
 {
 "group": "Hand tools",
@@ -479,7 +520,8 @@ window.WIAN_TOOLS = {
 "part": "5754104912",
 "detail": "6×7 to 32×36 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5754104912.webp"
 },
 {
 "group": "Hand tools",
@@ -488,7 +530,8 @@ window.WIAN_TOOLS = {
 "part": "5754105912",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5754105912.webp"
 },
 {
 "group": "Hand tools",
@@ -506,7 +549,8 @@ window.WIAN_TOOLS = {
 "part": "071330440",
 "detail": "8, 10 or 12 pcs",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071330440.webp"
 },
 {
 "group": "Hand tools",
@@ -515,7 +559,8 @@ window.WIAN_TOOLS = {
 "part": "071330250",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071330250.webp"
 },
 {
 "group": "Hand tools",
@@ -524,7 +569,8 @@ window.WIAN_TOOLS = {
 "part": "071330341",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071330341.webp"
 },
 {
 "group": "Hand tools",
@@ -533,7 +579,8 @@ window.WIAN_TOOLS = {
 "part": "071330851",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071330851.webp"
 },
 {
 "group": "Hand tools",
@@ -542,7 +589,8 @@ window.WIAN_TOOLS = {
 "part": "071522108",
 "detail": "8\" · also 10\" (071522110)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071522108.webp"
 },
 {
 "group": "Hand tools",
@@ -551,7 +599,8 @@ window.WIAN_TOOLS = {
 "part": "071540100",
 "detail": "1.5–10 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071540100.webp"
 },
 {
 "group": "Hand tools",
@@ -560,7 +609,8 @@ window.WIAN_TOOLS = {
 "part": "071536100",
 "detail": "TX9–TX40",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071536100.webp"
 },
 {
 "group": "Hand tools",
@@ -569,7 +619,8 @@ window.WIAN_TOOLS = {
 "part": "071537100",
 "detail": "TX9–TX40",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071537100.webp"
 },
 {
 "group": "Hand tools",
@@ -578,7 +629,8 @@ window.WIAN_TOOLS = {
 "part": "071531100",
 "detail": "1.5–10 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071531100.webp"
 },
 {
 "group": "Hand tools",
@@ -587,7 +639,8 @@ window.WIAN_TOOLS = {
 "part": "071531120",
 "detail": "1.5–10 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071531120.webp"
 },
 {
 "group": "Hand tools",
@@ -596,7 +649,8 @@ window.WIAN_TOOLS = {
 "part": "0613640",
 "detail": "With LED and 6 bits",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0613640.webp"
 },
 {
 "group": "Hand tools",
@@ -605,7 +659,8 @@ window.WIAN_TOOLS = {
 "part": "0614250300",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0614250300.webp"
 },
 {
 "group": "Hand tools",
@@ -614,7 +669,8 @@ window.WIAN_TOOLS = {
 "part": "0613630400",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0613630400.webp"
 },
 {
 "group": "Hand tools",
@@ -632,7 +688,8 @@ window.WIAN_TOOLS = {
 "part": "061391205",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/061391205.webp"
 },
 {
 "group": "Hand tools",
@@ -641,7 +698,8 @@ window.WIAN_TOOLS = {
 "part": "06139366",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/06139366.webp"
 },
 {
 "group": "Hand tools",
@@ -650,7 +708,8 @@ window.WIAN_TOOLS = {
 "part": "061391406",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/061391406.webp"
 },
 {
 "group": "Hand tools",
@@ -659,7 +718,8 @@ window.WIAN_TOOLS = {
 "part": "07135141",
 "detail": "13, 20 or 21 blades",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07135141.webp"
 },
 {
 "group": "Hand tools",
@@ -695,7 +755,8 @@ window.WIAN_TOOLS = {
 "part": "071401560",
 "detail": "Combination, wire, snipe and power pliers",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071401560.webp"
 },
 {
 "group": "Hand tools",
@@ -704,7 +765,8 @@ window.WIAN_TOOLS = {
 "part": "071402",
 "detail": "Straight and curved",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071402.webp"
 },
 {
 "group": "Hand tools",
@@ -713,7 +775,8 @@ window.WIAN_TOOLS = {
 "part": "07146190",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07146190.webp"
 },
 {
 "group": "Hand tools",
@@ -722,7 +785,8 @@ window.WIAN_TOOLS = {
 "part": "071458245",
 "detail": "Trim removal",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071458245.webp"
 },
 {
 "group": "Hand tools",
@@ -749,7 +813,8 @@ window.WIAN_TOOLS = {
 "part": "06972",
 "detail": "2 rows · also 4 rows (06974)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/06972.webp"
 },
 {
 "group": "Hand tools",
@@ -776,7 +841,8 @@ window.WIAN_TOOLS = {
 "part": "07157230",
 "detail": "Also D 40 mm (0715721)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07157230.webp"
 },
 {
 "group": "Hand tools",
@@ -785,7 +851,8 @@ window.WIAN_TOOLS = {
 "part": "07157235",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07157235.webp"
 },
 {
 "group": "Hand tools",
@@ -794,7 +861,8 @@ window.WIAN_TOOLS = {
 "part": "0714732403",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714732403.webp"
 },
 {
 "group": "Hand tools",
@@ -803,7 +871,8 @@ window.WIAN_TOOLS = {
 "part": "07157252",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07157252.webp"
 },
 {
 "group": "Hand tools",
@@ -830,7 +899,8 @@ window.WIAN_TOOLS = {
 "part": "07120380",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07120380.webp"
 },
 {
 "group": "Hand tools",
@@ -839,7 +909,8 @@ window.WIAN_TOOLS = {
 "part": "071512140",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071512140.webp"
 },
 {
 "group": "Hand tools",
@@ -857,7 +928,8 @@ window.WIAN_TOOLS = {
 "part": "0714720200",
 "detail": "Also 3/8\" 20–100 Nm, 1/2\" 20–100 Nm and 60–300 Nm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714720200.webp"
 },
 {
 "group": "Hand tools",
@@ -866,7 +938,8 @@ window.WIAN_TOOLS = {
 "part": "5760071001",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5760071001.webp"
 },
 {
 "group": "Hand tools",
@@ -875,7 +948,8 @@ window.WIAN_TOOLS = {
 "part": "0965905701",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0965905701.webp"
 },
 {
 "group": "Hand tools",
@@ -884,7 +958,8 @@ window.WIAN_TOOLS = {
 "part": "09651116",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09651116.webp"
 },
 {
 "group": "Hand tools",
@@ -893,7 +968,8 @@ window.WIAN_TOOLS = {
 "part": "09651234",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09651234.webp"
 },
 {
 "group": "Hand tools",
@@ -902,7 +978,8 @@ window.WIAN_TOOLS = {
 "part": "096513230",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/096513230.webp"
 },
 {
 "group": "Hand tools",
@@ -911,7 +988,8 @@ window.WIAN_TOOLS = {
 "part": "09651415",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09651415.webp"
 },
 {
 "group": "Hand tools",
@@ -920,7 +998,8 @@ window.WIAN_TOOLS = {
 "part": "09651512",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09651512.webp"
 },
 {
 "group": "Hand tools",
@@ -929,7 +1008,8 @@ window.WIAN_TOOLS = {
 "part": "09651756",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09651756.webp"
 },
 {
 "group": "Hand tools",
@@ -938,7 +1018,8 @@ window.WIAN_TOOLS = {
 "part": "096593180",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/096593180.webp"
 },
 {
 "group": "Hand tools",
@@ -947,7 +1028,8 @@ window.WIAN_TOOLS = {
 "part": "0624700019",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0624700019.webp"
 },
 {
 "group": "Hand tools",
@@ -965,7 +1047,8 @@ window.WIAN_TOOLS = {
 "part": "07146340",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07146340.webp"
 },
 {
 "group": "Hand tools",
@@ -983,7 +1066,8 @@ window.WIAN_TOOLS = {
 "part": "069014",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/069014.webp"
 },
 {
 "group": "Hand tools",
@@ -992,7 +1076,8 @@ window.WIAN_TOOLS = {
 "part": "06904211",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/06904211.webp"
 },
 {
 "group": "Hand tools",
@@ -1001,7 +1086,8 @@ window.WIAN_TOOLS = {
 "part": "0695684353",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0695684353.webp"
 },
 {
 "group": "Hand tools",
@@ -1010,7 +1096,8 @@ window.WIAN_TOOLS = {
 "part": "5964096171",
 "detail": "70 pcs",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964096171.webp"
 },
 {
 "group": "Hand tools",
@@ -1019,7 +1106,8 @@ window.WIAN_TOOLS = {
 "part": "5964065244",
 "detail": "M3–M12",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964065244.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1028,7 +1116,8 @@ window.WIAN_TOOLS = {
 "part": "5964502002",
 "detail": "VDE insulated · also 16 pcs (5964502001)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964502002.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1037,7 +1126,8 @@ window.WIAN_TOOLS = {
 "part": "0715003038",
 "detail": "1000 V AC / 1500 V DC",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0715003038.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1073,7 +1163,8 @@ window.WIAN_TOOLS = {
 "part": "071500404",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071500404.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1082,7 +1173,8 @@ window.WIAN_TOOLS = {
 "part": "071553165",
 "detail": "CAT IV 1000 V",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071553165.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1091,7 +1183,8 @@ window.WIAN_TOOLS = {
 "part": "071553370",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071553370.webp"
 },
 {
 "group": "EV & hybrid tools",
@@ -1100,7 +1193,8 @@ window.WIAN_TOOLS = {
 "part": "071553415",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071553415.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1109,7 +1203,8 @@ window.WIAN_TOOLS = {
 "part": "070331138",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/070331138.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1118,7 +1213,8 @@ window.WIAN_TOOLS = {
 "part": "07037560",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037560.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1127,7 +1223,8 @@ window.WIAN_TOOLS = {
 "part": "07037360",
 "detail": "Max releasing torque 569 Nm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037360.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1136,7 +1233,8 @@ window.WIAN_TOOLS = {
 "part": "070331134961",
 "detail": "Max torque 1490 Nm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/070331134961.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1145,7 +1243,8 @@ window.WIAN_TOOLS = {
 "part": "07032290",
 "detail": "6 mm and 1/4\" collets",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07032290.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1154,7 +1253,8 @@ window.WIAN_TOOLS = {
 "part": "071413251",
 "detail": "17, 19, 21, 22 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071413251.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1163,7 +1263,8 @@ window.WIAN_TOOLS = {
 "part": "071413030",
 "detail": "17, 19, 21 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071413030.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1172,7 +1273,8 @@ window.WIAN_TOOLS = {
 "part": "07037700",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037700.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1181,7 +1283,8 @@ window.WIAN_TOOLS = {
 "part": "07037900",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037900.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1190,7 +1293,8 @@ window.WIAN_TOOLS = {
 "part": "07037760",
 "detail": "4 torque levels 895–1694 Nm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037760.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1199,7 +1303,8 @@ window.WIAN_TOOLS = {
 "part": "07141500",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07141500.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1208,7 +1313,8 @@ window.WIAN_TOOLS = {
 "part": "07142110",
 "detail": "Individual sizes available",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07142110.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1217,7 +1323,8 @@ window.WIAN_TOOLS = {
 "part": "07144319",
 "detail": "Individual sizes available",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07144319.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1226,7 +1333,8 @@ window.WIAN_TOOLS = {
 "part": "071421191",
 "detail": "19 and 21 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071421191.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1235,7 +1343,8 @@ window.WIAN_TOOLS = {
 "part": "071443024",
 "detail": "24–36 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071443024.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1244,7 +1353,8 @@ window.WIAN_TOOLS = {
 "part": "071410271",
 "detail": "27–36 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071410271.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1253,7 +1363,8 @@ window.WIAN_TOOLS = {
 "part": "071421125",
 "detail": "75, 125 and 250 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071421125.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1262,7 +1373,8 @@ window.WIAN_TOOLS = {
 "part": "0703999010",
 "detail": "Also self-vacuum (0703999009)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703999010.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1271,7 +1383,8 @@ window.WIAN_TOOLS = {
 "part": "07032810",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07032810.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1280,7 +1393,8 @@ window.WIAN_TOOLS = {
 "part": "07032710",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07032710.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1289,7 +1403,8 @@ window.WIAN_TOOLS = {
 "part": "070393722",
 "detail": "2.4–5.0 mm blind rivets",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/070393722.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1298,7 +1413,8 @@ window.WIAN_TOOLS = {
 "part": "07037950",
 "detail": "10 mm chuck",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037950.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1307,7 +1423,8 @@ window.WIAN_TOOLS = {
 "part": "069910112",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/069910112.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1325,7 +1442,8 @@ window.WIAN_TOOLS = {
 "part": "0699940610",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0699940610.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1334,7 +1452,8 @@ window.WIAN_TOOLS = {
 "part": "07149220",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07149220.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1343,7 +1462,8 @@ window.WIAN_TOOLS = {
 "part": "0714922100",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714922100.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1361,7 +1481,8 @@ window.WIAN_TOOLS = {
 "part": "0695941625",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0695941625.webp"
 },
 {
 "group": "Workshop equipment",
@@ -1379,7 +1500,8 @@ window.WIAN_TOOLS = {
 "part": "0765500120",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0765500120.webp"
 },
 {
 "group": "Workshop consumables",
@@ -1388,7 +1510,8 @@ window.WIAN_TOOLS = {
 "part": "5997784966090",
 "detail": "Yellow · red (5997784967090) · white (5997784968090)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997784966090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1397,7 +1520,8 @@ window.WIAN_TOOLS = {
 "part": "5997756364",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997756364.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1406,7 +1530,8 @@ window.WIAN_TOOLS = {
 "part": "5964691169",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964691169.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1415,7 +1540,8 @@ window.WIAN_TOOLS = {
 "part": "071464400",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071464400.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1424,7 +1550,8 @@ window.WIAN_TOOLS = {
 "part": "07157470",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07157470.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1433,7 +1560,8 @@ window.WIAN_TOOLS = {
 "part": "07157401",
 "detail": "Wing, edge, Mercedes, heel and toe shapes",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07157401.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1442,7 +1570,8 @@ window.WIAN_TOOLS = {
 "part": "0981115",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0981115.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1451,7 +1580,8 @@ window.WIAN_TOOLS = {
 "part": "07038570",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07038570.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1460,7 +1590,8 @@ window.WIAN_TOOLS = {
 "part": "0703881",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703881.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1487,7 +1618,8 @@ window.WIAN_TOOLS = {
 "part": "0714692411",
 "detail": "For angle grinders",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714692411.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1496,7 +1628,8 @@ window.WIAN_TOOLS = {
 "part": "0714691411",
 "detail": "For angle grinders",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714691411.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1514,7 +1647,8 @@ window.WIAN_TOOLS = {
 "part": "067298960",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/067298960.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1523,7 +1657,8 @@ window.WIAN_TOOLS = {
 "part": "0703231014",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703231014.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1532,7 +1667,8 @@ window.WIAN_TOOLS = {
 "part": "5997768010090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997768010090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1541,7 +1677,8 @@ window.WIAN_TOOLS = {
 "part": "5997783710090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997783710090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1550,7 +1687,8 @@ window.WIAN_TOOLS = {
 "part": "0982008200",
 "detail": "0.8 mm 12.5 kg · 1.2 mm 15 kg",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0982008200.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1559,7 +1697,8 @@ window.WIAN_TOOLS = {
 "part": "096574417",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/096574417.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1568,7 +1707,8 @@ window.WIAN_TOOLS = {
 "part": "071409103",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071409103.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1577,7 +1717,8 @@ window.WIAN_TOOLS = {
 "part": "5964089301",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5964089301.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1595,7 +1736,8 @@ window.WIAN_TOOLS = {
 "part": "5952200050",
 "detail": "Up to 10 mm · 50 A",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5952200050.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1613,7 +1755,8 @@ window.WIAN_TOOLS = {
 "part": "07146173",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07146173.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1622,7 +1765,8 @@ window.WIAN_TOOLS = {
 "part": "071557010",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071557010.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1631,7 +1775,8 @@ window.WIAN_TOOLS = {
 "part": "071557010",
 "detail": "Catalogue lists the same Art. No. as the 10 ton kit; confirm on order",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071557010.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1649,7 +1794,8 @@ window.WIAN_TOOLS = {
 "part": "07150246",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07150246.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1658,7 +1804,8 @@ window.WIAN_TOOLS = {
 "part": "07037121",
 "detail": "With 5 chisels",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07037121.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1667,7 +1814,8 @@ window.WIAN_TOOLS = {
 "part": "0703090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1676,7 +1824,8 @@ window.WIAN_TOOLS = {
 "part": "0691500221",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0691500221.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1703,7 +1852,8 @@ window.WIAN_TOOLS = {
 "part": "0891300310",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891300310.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1712,7 +1862,8 @@ window.WIAN_TOOLS = {
 "part": "0891001",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891001.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1721,7 +1872,8 @@ window.WIAN_TOOLS = {
 "part": "0703891310",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703891310.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1739,7 +1891,8 @@ window.WIAN_TOOLS = {
 "part": "0891660",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891660.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1757,7 +1910,8 @@ window.WIAN_TOOLS = {
 "part": "089958561",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089958561.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1766,7 +1920,8 @@ window.WIAN_TOOLS = {
 "part": "5997787530",
 "detail": "Nozzle kit 5997572071",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997787530.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1784,7 +1939,8 @@ window.WIAN_TOOLS = {
 "part": "0891700521",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891700521.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1793,7 +1949,8 @@ window.WIAN_TOOLS = {
 "part": "089170007",
 "detail": "1.7 mm nozzle · 1.4 mm nozzle 0891700071",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089170007.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1829,7 +1986,8 @@ window.WIAN_TOOLS = {
 "part": "089170040",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089170040.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1838,7 +1996,8 @@ window.WIAN_TOOLS = {
 "part": "0891700225",
 "detail": "Also 0891700226/227/228",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891700225.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1847,7 +2006,8 @@ window.WIAN_TOOLS = {
 "part": "5997682131090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997682131090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1856,7 +2016,8 @@ window.WIAN_TOOLS = {
 "part": "5997785104090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997785104090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1865,7 +2026,8 @@ window.WIAN_TOOLS = {
 "part": "5997662410090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997662410090.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1874,7 +2036,8 @@ window.WIAN_TOOLS = {
 "part": "5717010010",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5717010010.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1883,7 +2046,8 @@ window.WIAN_TOOLS = {
 "part": "0703000871",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0703000871.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1892,7 +2056,8 @@ window.WIAN_TOOLS = {
 "part": "07032330",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07032330.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1910,7 +2075,8 @@ window.WIAN_TOOLS = {
 "part": "0586999996",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0586999996.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1919,7 +2085,8 @@ window.WIAN_TOOLS = {
 "part": "071466335",
 "detail": "Spare blades 0714663351",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071466335.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1928,7 +2095,8 @@ window.WIAN_TOOLS = {
 "part": "07145825",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07145825.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1937,7 +2105,8 @@ window.WIAN_TOOLS = {
 "part": "07145827",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07145827.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1946,7 +2115,8 @@ window.WIAN_TOOLS = {
 "part": "071458229",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071458229.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1955,7 +2125,8 @@ window.WIAN_TOOLS = {
 "part": "071458281",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071458281.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1964,7 +2135,8 @@ window.WIAN_TOOLS = {
 "part": "07145828",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07145828.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1973,7 +2145,8 @@ window.WIAN_TOOLS = {
 "part": "5997704989090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997704989090.webp"
 },
 {
 "group": "Windscreen tools",
@@ -1991,7 +2164,8 @@ window.WIAN_TOOLS = {
 "part": "5997623021090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997623021090.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2000,7 +2174,8 @@ window.WIAN_TOOLS = {
 "part": "5997623022090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997623022090.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2009,7 +2184,8 @@ window.WIAN_TOOLS = {
 "part": "0702400803",
 "detail": "2 × 1300 W",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0702400803.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2018,7 +2194,8 @@ window.WIAN_TOOLS = {
 "part": "5997623023090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997623023090.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2027,7 +2204,8 @@ window.WIAN_TOOLS = {
 "part": "0988995246990",
 "detail": "With orbital sander and hose",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0988995246990.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2045,7 +2223,8 @@ window.WIAN_TOOLS = {
 "part": "0701114000",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0701114000.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2054,7 +2233,8 @@ window.WIAN_TOOLS = {
 "part": "5997628355",
 "detail": "3 HP · also 5, 7.5, 10 and 15 HP",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997628355.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2063,7 +2243,8 @@ window.WIAN_TOOLS = {
 "part": "5997764764090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997764764090.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2072,7 +2253,8 @@ window.WIAN_TOOLS = {
 "part": "5997656441090",
 "detail": "Max lifting height 1800 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997656441090.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2081,7 +2263,8 @@ window.WIAN_TOOLS = {
 "part": "5997698857090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997698857090.webp"
 },
 {
 "group": "Tool storage",
@@ -2099,7 +2282,8 @@ window.WIAN_TOOLS = {
 "part": "07159320090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07159320090.webp"
 },
 {
 "group": "Tool storage",
@@ -2108,7 +2292,8 @@ window.WIAN_TOOLS = {
 "part": "5997758959090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997758959090.webp"
 },
 {
 "group": "Tool storage",
@@ -2117,7 +2302,8 @@ window.WIAN_TOOLS = {
 "part": "5584699005961",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5584699005961.webp"
 },
 {
 "group": "Tool storage",
@@ -2126,7 +2312,8 @@ window.WIAN_TOOLS = {
 "part": "5997758951090",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997758951090.webp"
 },
 {
 "group": "Tool storage",
@@ -2135,7 +2322,8 @@ window.WIAN_TOOLS = {
 "part": "5997784350090",
 "detail": "300 kg total load",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997784350090.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2144,7 +2332,8 @@ window.WIAN_TOOLS = {
 "part": "0899102230",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899102230.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2153,7 +2342,8 @@ window.WIAN_TOOLS = {
 "part": "0899102250",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899102250.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2171,7 +2361,8 @@ window.WIAN_TOOLS = {
 "part": "0899102110",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899102110.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2180,7 +2371,8 @@ window.WIAN_TOOLS = {
 "part": "0899300332",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899300332.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2189,7 +2381,8 @@ window.WIAN_TOOLS = {
 "part": "0984700400",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0984700400.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2198,7 +2391,8 @@ window.WIAN_TOOLS = {
 "part": "0899200230",
 "detail": "With strap · ratchet version 0899200231",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899200230.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2207,7 +2401,8 @@ window.WIAN_TOOLS = {
 "part": "0899101202",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899101202.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2216,7 +2411,8 @@ window.WIAN_TOOLS = {
 "part": "089940407",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089940407.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2225,7 +2421,8 @@ window.WIAN_TOOLS = {
 "part": "0899400529",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899400529.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2234,7 +2431,8 @@ window.WIAN_TOOLS = {
 "part": "08994602",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08994602.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2243,7 +2441,8 @@ window.WIAN_TOOLS = {
 "part": "089947001",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089947001.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2252,7 +2451,8 @@ window.WIAN_TOOLS = {
 "part": "0899025011",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899025011.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2261,7 +2461,8 @@ window.WIAN_TOOLS = {
 "part": "089941502",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089941502.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2270,7 +2471,8 @@ window.WIAN_TOOLS = {
 "part": "08990281",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08990281.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2306,7 +2508,8 @@ window.WIAN_TOOLS = {
 "part": "0899110501",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899110501.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2315,7 +2518,8 @@ window.WIAN_TOOLS = {
 "part": "0899110499",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899110499.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2324,7 +2528,8 @@ window.WIAN_TOOLS = {
 "part": "0899175020",
 "detail": "Half mask + 2 × A2P3 filters",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899175020.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2333,7 +2538,8 @@ window.WIAN_TOOLS = {
 "part": "0899175000",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899175000.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2342,7 +2548,8 @@ window.WIAN_TOOLS = {
 "part": "0899175011",
 "detail": "Pack of 2",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899175011.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2351,7 +2558,8 @@ window.WIAN_TOOLS = {
 "part": "0891800001",
 "detail": "Compressed-air filling station 0891891001",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891800001.webp"
 },
 {
 "group": "Body & paint tools",

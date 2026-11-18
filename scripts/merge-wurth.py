@@ -7,7 +7,7 @@ Idempotent: removes any existing Würth rows from each target file, then adds th
   LIGHT -> assets/catalogue/accessories-data.js (WIAN_ACCESSORIES)
   TOOLS -> assets/catalogue/tools-data.js       (WIAN_TOOLS, Würth only)
 """
-import json, re, pathlib
+import json, re, pathlib, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CAT = ROOT / "assets" / "catalogue"
@@ -60,3 +60,7 @@ dump("car-care-data.js", "WIAN_CARCARE", care, GEN)
 
 dump("tools-data.js", "WIAN_TOOLS", {"meta": {"source": "Würth Automotive Solutions catalogue Ver. 5.0 (hand-checked)"}, "items": by.get("TOOLS", [])}, GEN)
 print({k: len(v) for k, v in by.items()}, "| oils total", len(oils["items"]), "| accessories", len(acc["items"]), "| car care", len(care["items"]))
+
+# Re-attach product photos (assets/products/<brand>/<part>.webp) after regenerating the data files.
+import subprocess
+subprocess.run([sys.executable, str(ROOT / "scripts" / "add-product-images.py"), "apply"], check=True)
