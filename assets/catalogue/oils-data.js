@@ -425,7 +425,8 @@ window.WIAN_OILS = {
 "detail": "5LTR",
 "mrp": 7762,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/8973.webp"
 },
 {
 "group": "Engine oils",
