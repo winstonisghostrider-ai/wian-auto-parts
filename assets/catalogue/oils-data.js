@@ -132,7 +132,8 @@ window.WIAN_OILS = {
 "detail": "1LTR",
 "mrp": 1470,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/21356.webp"
 },
 {
 "group": "Engine oils",
@@ -732,7 +733,8 @@ window.WIAN_OILS = {
 "detail": "300ML",
 "mrp": 2554,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/3721.webp"
 },
 {
 "group": "Additives",
@@ -852,7 +854,8 @@ window.WIAN_OILS = {
 "detail": "300ML",
 "mrp": 964,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/1802.webp"
 },
 {
 "group": "Additives",
@@ -962,7 +965,8 @@ window.WIAN_OILS = {
 "detail": "250ML",
 "mrp": 1078,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/3722.webp"
 },
 {
 "group": "Additives",
@@ -982,7 +986,8 @@ window.WIAN_OILS = {
 "detail": "250ML",
 "mrp": 827,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/1806.webp"
 },
 {
 "group": "Additives",
