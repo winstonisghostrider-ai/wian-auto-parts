@@ -283,7 +283,8 @@ window.WIAN_OILS = {
 "detail": "5LTR",
 "mrp": 8108,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/8903.webp"
 },
 {
 "group": "Engine oils",
@@ -463,7 +464,8 @@ window.WIAN_OILS = {
 "detail": "5LTR",
 "mrp": 8181,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/20779.webp"
 },
 {
 "group": "Engine oils",
@@ -483,7 +485,8 @@ window.WIAN_OILS = {
 "detail": "5LTR",
 "mrp": 7584,
 "apps": "",
-"segment": "Liqui Moly"
+"segment": "Liqui Moly",
+"img": "/assets/products/liqui-moly/21411.webp"
 },
 {
 "group": "Transmission & gear oils",
