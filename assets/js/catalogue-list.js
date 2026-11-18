@@ -54,7 +54,7 @@
       grid.innerHTML = `<div class="empty"><b>Not listed here?</b> We source most parts within 24–48 hours. <a href="https://wa.me/919108327761?text=${encodeURIComponent("Hi WIAN, I'm looking for: " + search.value)}" target="_blank" rel="noopener">Ask on WhatsApp</a></div>`;
       return;
     }
-    grid.innerHTML = list.slice(0, shown).map((i) => `
+    const card = (i) => `
       <article class="pcard${i.img ? " hasimg" : ""}">
         ${i.img && /^\/assets\/products\/[\w\/-]+\.webp$/.test(i.img) ? `<div class="pimg"><img src="${esc(i.img)}" alt="${esc(i.brand + " " + i.title)}" loading="lazy" decoding="async"></div>` : ""}
         <span class="pmake">${esc(i.brand)} · ${esc(i.group)}</span>
@@ -63,7 +63,24 @@
         ${i.apps ? `<p class="papps">${esc(i.apps)}</p>` : ""}
         <p class="pprice">${i.mrp ? "MRP " + inr(i.mrp) : '<span class="ask">Price on WhatsApp</span>'}</p>
         <a class="pbtn" href="${wa(i)}" target="_blank" rel="noopener">${esc(cfg.cta || "Enquire on WhatsApp")}</a>
-      </article>`).join("") +
+      </article>`;
+    // Brand sections: in the "All" view show a preview of each section with a "See all" button.
+    if (cfg.sections === "segment" && segment === "All") {
+      const per = q || group !== "All" ? 12 : 8;
+      grid.innerHTML = uniq("segment").map((sname) => {
+        const part = list.filter((i) => i.segment === sname);
+        if (!part.length) return "";
+        return `<div class="seghead"><h2>${esc(sname)}</h2><span>${part.length} ${part.length === 1 ? cfg.noun : cfg.noun + "s"}</span></div>` +
+          part.slice(0, per).map(card).join("") +
+          (part.length > per ? `<div class="more"><button type="button" class="seeall" data-seg="${esc(sname)}">See all ${part.length} ${esc(sname)} ${cfg.noun}s</button></div>` : "");
+      }).join("");
+      grid.querySelectorAll(".seeall").forEach((btn) => btn.addEventListener("click", () => {
+        const chip = segChips && segChips.querySelector(`.chip[data-v="${CSS.escape(btn.dataset.seg)}"]`);
+        if (chip) { chip.click(); segChips.scrollIntoView({ behavior: "smooth", block: "start" }); }
+      }));
+      return;
+    }
+    grid.innerHTML = list.slice(0, shown).map(card).join("") +
       (list.length > shown ? `<div class="more"><button type="button" id="loadMore">Show more (${list.length - shown} left)</button></div>` : "");
     const more = document.getElementById("loadMore");
     if (more) more.addEventListener("click", () => { shown += PAGE; render(); });

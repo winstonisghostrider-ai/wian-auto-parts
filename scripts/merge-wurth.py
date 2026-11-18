@@ -37,7 +37,13 @@ items = [i for i in oils["items"] if i["brand"] != "Würth"] + by.get("OIL", [])
 for o in items:
     if litres(o) >= 20 and "Bulk / workshop pack" not in o["detail"]:
         o["detail"] = (o["detail"] + " · Bulk / workshop pack").strip(" ·")
-items.sort(key=lambda o: (litres(o) >= 20, o["group"], o["brand"], o["title"]))
+BRAND_SECTIONS = ["Liqui Moly", "Würth"]          # own sections; every other brand goes to "Other brands"
+for o in items:
+    o["segment"] = o["brand"] if o["brand"] in BRAND_SECTIONS else "Other brands"
+sec = lambda o: BRAND_SECTIONS.index(o["segment"]) if o["segment"] in BRAND_SECTIONS else len(BRAND_SECTIONS)
+GROUP_ORDER = ["Engine oils", "Transmission & gear oils", "Coolant & brake fluid", "Additives", "Grease & lubricants", "Service & care products", "Motorbike"]
+gro = lambda o: GROUP_ORDER.index(o["group"]) if o["group"] in GROUP_ORDER else len(GROUP_ORDER)
+items.sort(key=lambda o: (sec(o), litres(o) >= 20, gro(o), o["brand"], o["title"]))
 oils["items"] = items
 oils["meta"]["source"] = "Liqui Moly retailer list 15 Jul 2025; Hella lube rate list; Würth Automotive Solutions catalogue"
 dump("oils-data.js", "WIAN_OILS", oils, GEN)
