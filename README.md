@@ -37,3 +37,16 @@ The first website foundation is now in place:
 ## Official WIAN business address
 
 The current official address is maintained in [BUSINESS_ADDRESS.md](BUSINESS_ADDRESS.md). Keep the homepage map and all public site footers consistent with that source of truth.
+
+## Ads tracking (Google Ads + GA4)
+
+`assets/js/track.js` is loaded on every page but does nothing until IDs are filled in.
+
+1. Paste the GA4 measurement ID (`G-…`), the Google Ads ID (`AW-…`) and the four conversion labels into `CONFIG` in `assets/js/track.js`.
+2. Add Google's tag domains to the Content-Security-Policy meta tag on every page:
+   - `script-src`: `https://www.googletagmanager.com`
+   - `connect-src`: `https://*.google-analytics.com https://*.analytics.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com`
+   - `img-src`: `https://www.googletagmanager.com https://*.google-analytics.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in`
+3. Bump `track.js?v=` and deploy. Check in Google Ads > Conversions > (action) > "Tag diagnostics".
+
+Events: `whatsapp` (any wa.me link click), `call` (tel: link), `enquiry` (homepage enquiry/finder form), `home_service` (home-service booking form). No personal data is sent.
