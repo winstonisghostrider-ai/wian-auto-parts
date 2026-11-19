@@ -3,6 +3,21 @@
   var form = document.getElementById("homeService");
   if (!form) return;
   var err = document.getElementById("hsErr");
+  var sel = document.getElementById("hsService");
+  function pick(name) {
+    if (!name) return;
+    for (var i = 0; i < sel.options.length; i++) if (sel.options[i].text === name) sel.selectedIndex = i;
+    form.classList.remove("flash"); void form.offsetWidth; form.classList.add("flash");
+    setTimeout(function () { document.getElementById("hsReg").focus({ preventScroll: true }); }, 450);
+  }
+  document.querySelectorAll("[data-service]").forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault(); pick(a.getAttribute("data-service"));
+      document.getElementById("book").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+  // Deep link: /home-service/?service=Brakes#book
+  try { var q = new URLSearchParams(location.search).get("service"); if (q) pick(q.slice(0, 40)); } catch (e) {}
   var d = document.getElementById("hsDate");
   try { d.min = new Date().toISOString().slice(0, 10); } catch (e) {}
   var val = function (id) { return (document.getElementById(id).value || "").replace(/\s+/g, " ").trim(); };
