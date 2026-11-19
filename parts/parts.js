@@ -35,6 +35,7 @@
     }
     grid.innerHTML = list.map((d) => `
       <article class="pcard">
+        ${d.img && /^\/assets\/products\/[\w\/-]+\.webp$/.test(d.img) ? `<div class="pimg"><img src="${esc(d.img)}" alt="${esc(d.brand + " " + d.part)}" loading="lazy" decoding="async"></div>` : ""}
         <span class="pmake">${esc(d.make)}</span>
         <h3>${esc(d.vehicles)}</h3>
         <p class="pline"><b>${esc(d.brand)}</b> · ${esc(d.part)}</p>

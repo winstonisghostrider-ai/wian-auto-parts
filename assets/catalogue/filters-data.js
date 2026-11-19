@@ -12,7 +12,8 @@ window.WIAN_FILTERS = {
 "part": "WA11490A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11490A.webp"
 },
 {
 "group": "Air filters",
@@ -22,7 +23,8 @@ window.WIAN_FILTERS = {
 "part": "WA11497A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11497A.webp"
 },
 {
 "group": "Air filters",
@@ -32,7 +34,8 @@ window.WIAN_FILTERS = {
 "part": "WA11698A",
 "detail": "Air filter",
 "mrp": 810,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11698A.webp"
 },
 {
 "group": "Air filters",
@@ -42,7 +45,8 @@ window.WIAN_FILTERS = {
 "part": "WA11498A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11498A.webp"
 },
 {
 "group": "Air filters",
@@ -52,7 +56,8 @@ window.WIAN_FILTERS = {
 "part": "WA11434A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11434A.webp"
 },
 {
 "group": "Air filters",
@@ -62,7 +67,8 @@ window.WIAN_FILTERS = {
 "part": "WA11495A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11495A.webp"
 },
 {
 "group": "Air filters",
@@ -72,7 +78,8 @@ window.WIAN_FILTERS = {
 "part": "WA11940A",
 "detail": "Air filter",
 "mrp": 349,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11940A.webp"
 },
 {
 "group": "Air filters",
@@ -82,7 +89,8 @@ window.WIAN_FILTERS = {
 "part": "WA11167A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11167A.webp"
 },
 {
 "group": "Air filters",
@@ -92,7 +100,8 @@ window.WIAN_FILTERS = {
 "part": "WA11450A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11450A.webp"
 },
 {
 "group": "Air filters",
@@ -102,7 +111,8 @@ window.WIAN_FILTERS = {
 "part": "WA11451A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11451A.webp"
 },
 {
 "group": "Air filters",
@@ -112,7 +122,8 @@ window.WIAN_FILTERS = {
 "part": "WA9679",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9679.webp"
 },
 {
 "group": "Air filters",
@@ -122,7 +133,8 @@ window.WIAN_FILTERS = {
 "part": "WA11493A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11493A.webp"
 },
 {
 "group": "Air filters",
@@ -132,7 +144,8 @@ window.WIAN_FILTERS = {
 "part": "WA9584",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9584.webp"
 },
 {
 "group": "Air filters",
@@ -142,7 +155,8 @@ window.WIAN_FILTERS = {
 "part": "WA11942A",
 "detail": "Air filter",
 "mrp": 210,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11942A.webp"
 },
 {
 "group": "Air filters",
@@ -162,7 +176,8 @@ window.WIAN_FILTERS = {
 "part": "WA11700A",
 "detail": "Air filter",
 "mrp": 394,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11700A.webp"
 },
 {
 "group": "Air filters",
@@ -172,7 +187,8 @@ window.WIAN_FILTERS = {
 "part": "WA9762",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9762.webp"
 },
 {
 "group": "Air filters",
@@ -182,7 +198,8 @@ window.WIAN_FILTERS = {
 "part": "WA11936A",
 "detail": "Air filter",
 "mrp": 246,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11936A.webp"
 },
 {
 "group": "Air filters",
@@ -192,7 +209,8 @@ window.WIAN_FILTERS = {
 "part": "WA11706A",
 "detail": "Air filter",
 "mrp": 293,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11706A.webp"
 },
 {
 "group": "Air filters",
@@ -202,7 +220,8 @@ window.WIAN_FILTERS = {
 "part": "WA11904A",
 "detail": "Air filter",
 "mrp": 254,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11904A.webp"
 },
 {
 "group": "Air filters",
@@ -212,7 +231,8 @@ window.WIAN_FILTERS = {
 "part": "WA11445A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11445A.webp"
 },
 {
 "group": "Air filters",
@@ -222,7 +242,8 @@ window.WIAN_FILTERS = {
 "part": "WA11442A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11442A.webp"
 },
 {
 "group": "Air filters",
@@ -232,7 +253,8 @@ window.WIAN_FILTERS = {
 "part": "WA11415A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11415A.webp"
 },
 {
 "group": "Air filters",
@@ -242,7 +264,8 @@ window.WIAN_FILTERS = {
 "part": "WA11446A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11446A.webp"
 },
 {
 "group": "Air filters",
@@ -252,7 +275,8 @@ window.WIAN_FILTERS = {
 "part": "WA11435A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11435A.webp"
 },
 {
 "group": "Air filters",
@@ -262,7 +286,8 @@ window.WIAN_FILTERS = {
 "part": "WA11941A",
 "detail": "Air filter",
 "mrp": 275,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11941A.webp"
 },
 {
 "group": "Air filters",
@@ -272,7 +297,8 @@ window.WIAN_FILTERS = {
 "part": "WA11443A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11443A.webp"
 },
 {
 "group": "Air filters",
@@ -282,7 +308,8 @@ window.WIAN_FILTERS = {
 "part": "WA11489A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11489A.webp"
 },
 {
 "group": "Air filters",
@@ -292,7 +319,8 @@ window.WIAN_FILTERS = {
 "part": "WA11894A",
 "detail": "Air filter",
 "mrp": 661,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11894A.webp"
 },
 {
 "group": "Air filters",
@@ -302,7 +330,8 @@ window.WIAN_FILTERS = {
 "part": "WA11888A",
 "detail": "Air filter",
 "mrp": 712,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11888A.webp"
 },
 {
 "group": "Air filters",
@@ -312,7 +341,8 @@ window.WIAN_FILTERS = {
 "part": "WA11432A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11432A.webp"
 },
 {
 "group": "Air filters",
@@ -322,7 +352,8 @@ window.WIAN_FILTERS = {
 "part": "WA11550A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11550A.webp"
 },
 {
 "group": "Air filters",
@@ -332,7 +363,8 @@ window.WIAN_FILTERS = {
 "part": "WA11930A",
 "detail": "Air filter",
 "mrp": 443,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11930A.webp"
 },
 {
 "group": "Air filters",
@@ -342,7 +374,8 @@ window.WIAN_FILTERS = {
 "part": "WA11701A",
 "detail": "Air filter",
 "mrp": 315,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11701A.webp"
 },
 {
 "group": "Air filters",
@@ -352,7 +385,8 @@ window.WIAN_FILTERS = {
 "part": "WA11932A",
 "detail": "Air filter",
 "mrp": 331,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11932A.webp"
 },
 {
 "group": "Air filters",
@@ -362,7 +396,8 @@ window.WIAN_FILTERS = {
 "part": "WA11439A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11439A.webp"
 },
 {
 "group": "Air filters",
@@ -372,7 +407,8 @@ window.WIAN_FILTERS = {
 "part": "WA11938A",
 "detail": "Air filter",
 "mrp": 560,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11938A.webp"
 },
 {
 "group": "Air filters",
@@ -382,7 +418,8 @@ window.WIAN_FILTERS = {
 "part": "WA11944A",
 "detail": "Air filter",
 "mrp": 517,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11944A.webp"
 },
 {
 "group": "Air filters",
@@ -392,7 +429,8 @@ window.WIAN_FILTERS = {
 "part": "WA11441A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11441A.webp"
 },
 {
 "group": "Air filters",
@@ -402,7 +440,8 @@ window.WIAN_FILTERS = {
 "part": "WA11440A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11440A.webp"
 },
 {
 "group": "Air filters",
@@ -412,7 +451,8 @@ window.WIAN_FILTERS = {
 "part": "WA11935A",
 "detail": "Air filter",
 "mrp": 193,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11935A.webp"
 },
 {
 "group": "Air filters",
@@ -422,7 +462,8 @@ window.WIAN_FILTERS = {
 "part": "WA11928A",
 "detail": "Air filter",
 "mrp": 454,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11928A.webp"
 },
 {
 "group": "Air filters",
@@ -432,7 +473,8 @@ window.WIAN_FILTERS = {
 "part": "WA11946A",
 "detail": "Air filter",
 "mrp": 436,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11946A.webp"
 },
 {
 "group": "Air filters",
@@ -442,7 +484,8 @@ window.WIAN_FILTERS = {
 "part": "WA11708A",
 "detail": "Air filter",
 "mrp": 378,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11708A.webp"
 },
 {
 "group": "Air filters",
@@ -452,7 +495,8 @@ window.WIAN_FILTERS = {
 "part": "WA11945A",
 "detail": "Air filter",
 "mrp": 350,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11945A.webp"
 },
 {
 "group": "Air filters",
@@ -462,7 +506,8 @@ window.WIAN_FILTERS = {
 "part": "WA11501A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11501A.webp"
 },
 {
 "group": "Air filters",
@@ -472,7 +517,8 @@ window.WIAN_FILTERS = {
 "part": "WA11933A",
 "detail": "Air filter",
 "mrp": 210,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11933A.webp"
 },
 {
 "group": "Air filters",
@@ -482,7 +528,8 @@ window.WIAN_FILTERS = {
 "part": "WA11705A",
 "detail": "Air filter",
 "mrp": 281,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11705A.webp"
 },
 {
 "group": "Air filters",
@@ -492,7 +539,8 @@ window.WIAN_FILTERS = {
 "part": "WA11499A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11499A.webp"
 },
 {
 "group": "Air filters",
@@ -502,7 +550,8 @@ window.WIAN_FILTERS = {
 "part": "WA11491A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11491A.webp"
 },
 {
 "group": "Air filters",
@@ -512,7 +561,8 @@ window.WIAN_FILTERS = {
 "part": "WA11166A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11166A.webp"
 },
 {
 "group": "Air filters",
@@ -522,7 +572,8 @@ window.WIAN_FILTERS = {
 "part": "WA11903A",
 "detail": "Air filter",
 "mrp": 306,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11903A.webp"
 },
 {
 "group": "Air filters",
@@ -532,7 +583,8 @@ window.WIAN_FILTERS = {
 "part": "WA11170A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11170A.webp"
 },
 {
 "group": "Air filters",
@@ -542,7 +594,8 @@ window.WIAN_FILTERS = {
 "part": "WA11503A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11503A.webp"
 },
 {
 "group": "Air filters",
@@ -552,7 +605,8 @@ window.WIAN_FILTERS = {
 "part": "WA11444A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11444A.webp"
 },
 {
 "group": "Air filters",
@@ -562,7 +616,8 @@ window.WIAN_FILTERS = {
 "part": "WA9561",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9561.webp"
 },
 {
 "group": "Air filters",
@@ -572,7 +627,8 @@ window.WIAN_FILTERS = {
 "part": "WA11504A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11504A.webp"
 },
 {
 "group": "Air filters",
@@ -582,7 +638,8 @@ window.WIAN_FILTERS = {
 "part": "WA11502A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11502A.webp"
 },
 {
 "group": "Air filters",
@@ -592,7 +649,8 @@ window.WIAN_FILTERS = {
 "part": "WA11496A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11496A.webp"
 },
 {
 "group": "Air filters",
@@ -602,7 +660,8 @@ window.WIAN_FILTERS = {
 "part": "WA11505A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11505A.webp"
 },
 {
 "group": "Air filters",
@@ -612,7 +671,8 @@ window.WIAN_FILTERS = {
 "part": "WA11437A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11437A.webp"
 },
 {
 "group": "Air filters",
@@ -622,7 +682,8 @@ window.WIAN_FILTERS = {
 "part": "WA11703A",
 "detail": "Air filter",
 "mrp": 268,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11703A.webp"
 },
 {
 "group": "Air filters",
@@ -632,7 +693,8 @@ window.WIAN_FILTERS = {
 "part": "WA11500A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11500A.webp"
 },
 {
 "group": "Air filters",
@@ -642,7 +704,8 @@ window.WIAN_FILTERS = {
 "part": "WA11934A",
 "detail": "Air filter",
 "mrp": 288,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11934A.webp"
 },
 {
 "group": "Air filters",
@@ -652,7 +715,8 @@ window.WIAN_FILTERS = {
 "part": "WA11937A",
 "detail": "Air filter",
 "mrp": 308,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11937A.webp"
 },
 {
 "group": "Air filters",
@@ -662,7 +726,8 @@ window.WIAN_FILTERS = {
 "part": "WA11699A",
 "detail": "Air filter",
 "mrp": 372,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11699A.webp"
 },
 {
 "group": "Air filters",
@@ -672,7 +737,8 @@ window.WIAN_FILTERS = {
 "part": "WA6761",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA6761.webp"
 },
 {
 "group": "Air filters",
@@ -682,7 +748,8 @@ window.WIAN_FILTERS = {
 "part": "WA9690",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9690.webp"
 },
 {
 "group": "Air filters",
@@ -692,7 +759,8 @@ window.WIAN_FILTERS = {
 "part": "WA11171A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11171A.webp"
 },
 {
 "group": "Air filters",
@@ -702,7 +770,8 @@ window.WIAN_FILTERS = {
 "part": "WA6339",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA6339.webp"
 },
 {
 "group": "Air filters",
@@ -712,7 +781,8 @@ window.WIAN_FILTERS = {
 "part": "WA11931A",
 "detail": "Air filter",
 "mrp": 252,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11931A.webp"
 },
 {
 "group": "Air filters",
@@ -722,7 +792,8 @@ window.WIAN_FILTERS = {
 "part": "WA11943A",
 "detail": "Air filter",
 "mrp": 469,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11943A.webp"
 },
 {
 "group": "Air filters",
@@ -732,7 +803,8 @@ window.WIAN_FILTERS = {
 "part": "WA11438A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11438A.webp"
 },
 {
 "group": "Air filters",
@@ -742,7 +814,8 @@ window.WIAN_FILTERS = {
 "part": "WA11436A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11436A.webp"
 },
 {
 "group": "Air filters",
@@ -752,7 +825,8 @@ window.WIAN_FILTERS = {
 "part": "WA11702A",
 "detail": "Air filter",
 "mrp": 399,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11702A.webp"
 },
 {
 "group": "Air filters",
@@ -762,7 +836,8 @@ window.WIAN_FILTERS = {
 "part": "WA11929A",
 "detail": "Air filter",
 "mrp": 527,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11929A.webp"
 },
 {
 "group": "Air filters",
@@ -772,7 +847,8 @@ window.WIAN_FILTERS = {
 "part": "WA11494A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11494A.webp"
 },
 {
 "group": "Air filters",
@@ -782,7 +858,8 @@ window.WIAN_FILTERS = {
 "part": "WA11178A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11178A.webp"
 },
 {
 "group": "Air filters",
@@ -792,7 +869,8 @@ window.WIAN_FILTERS = {
 "part": "WA11179A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11179A.webp"
 },
 {
 "group": "Air filters",
@@ -802,7 +880,8 @@ window.WIAN_FILTERS = {
 "part": "WA11709A",
 "detail": "Air filter",
 "mrp": 267,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11709A.webp"
 },
 {
 "group": "Air filters",
@@ -812,7 +891,8 @@ window.WIAN_FILTERS = {
 "part": "WA11184A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11184A.webp"
 },
 {
 "group": "Air filters",
@@ -822,7 +902,8 @@ window.WIAN_FILTERS = {
 "part": "WA9929",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9929.webp"
 },
 {
 "group": "Air filters",
@@ -842,7 +923,8 @@ window.WIAN_FILTERS = {
 "part": "WA9644",
 "detail": "Air filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA9644.webp"
 },
 {
 "group": "Air filters",
@@ -852,7 +934,8 @@ window.WIAN_FILTERS = {
 "part": "WA11704A",
 "detail": "Air filter",
 "mrp": 512,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11704A.webp"
 },
 {
 "group": "Air filters",
@@ -862,7 +945,8 @@ window.WIAN_FILTERS = {
 "part": "WA11907A",
 "detail": "Air filter",
 "mrp": 498,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11907A.webp"
 },
 {
 "group": "Filter kits",
@@ -892,7 +976,8 @@ window.WIAN_FILTERS = {
 "part": "WF10586",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10586.webp"
 },
 {
 "group": "Fuel filters",
@@ -902,7 +987,8 @@ window.WIAN_FILTERS = {
 "part": "WF8408",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8408.webp"
 },
 {
 "group": "Fuel filters",
@@ -912,7 +998,8 @@ window.WIAN_FILTERS = {
 "part": "WF10876A",
 "detail": "Fuel filter",
 "mrp": 1436,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10876A.webp"
 },
 {
 "group": "Fuel filters",
@@ -922,7 +1009,8 @@ window.WIAN_FILTERS = {
 "part": "WF10664A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10664A.webp"
 },
 {
 "group": "Fuel filters",
@@ -932,7 +1020,8 @@ window.WIAN_FILTERS = {
 "part": "WF10665A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10665A.webp"
 },
 {
 "group": "Fuel filters",
@@ -942,7 +1031,8 @@ window.WIAN_FILTERS = {
 "part": "WF10883A",
 "detail": "Fuel filter",
 "mrp": 1607,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10883A.webp"
 },
 {
 "group": "Fuel filters",
@@ -952,7 +1042,8 @@ window.WIAN_FILTERS = {
 "part": "WF10887A",
 "detail": "Fuel filter",
 "mrp": 629,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10887A.webp"
 },
 {
 "group": "Fuel filters",
@@ -962,7 +1053,8 @@ window.WIAN_FILTERS = {
 "part": "WF8395",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8395.webp"
 },
 {
 "group": "Fuel filters",
@@ -972,7 +1064,8 @@ window.WIAN_FILTERS = {
 "part": "WF10885A",
 "detail": "Fuel filter",
 "mrp": 360,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10885A.webp"
 },
 {
 "group": "Fuel filters",
@@ -982,7 +1075,8 @@ window.WIAN_FILTERS = {
 "part": "WF8404",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8404.webp"
 },
 {
 "group": "Fuel filters",
@@ -992,7 +1086,8 @@ window.WIAN_FILTERS = {
 "part": "WF10844A",
 "detail": "Fuel filter",
 "mrp": 604,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10844A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1002,7 +1097,8 @@ window.WIAN_FILTERS = {
 "part": "WF10584A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10584A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1012,7 +1108,8 @@ window.WIAN_FILTERS = {
 "part": "WF10847A",
 "detail": "Fuel filter",
 "mrp": 250,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10847A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1022,7 +1119,8 @@ window.WIAN_FILTERS = {
 "part": "WF10846A",
 "detail": "Fuel filter",
 "mrp": 323,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10846A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1032,7 +1130,8 @@ window.WIAN_FILTERS = {
 "part": "WF10848A",
 "detail": "Fuel filter",
 "mrp": 369,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10848A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1042,7 +1141,8 @@ window.WIAN_FILTERS = {
 "part": "WF10878A",
 "detail": "Fuel filter",
 "mrp": 708,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10878A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1052,7 +1152,8 @@ window.WIAN_FILTERS = {
 "part": "WF10786A",
 "detail": "Fuel filter",
 "mrp": 461,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10786A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1062,7 +1163,8 @@ window.WIAN_FILTERS = {
 "part": "WF8277",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8277.webp"
 },
 {
 "group": "Fuel filters",
@@ -1072,7 +1174,8 @@ window.WIAN_FILTERS = {
 "part": "WF8366",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8366.webp"
 },
 {
 "group": "Fuel filters",
@@ -1102,7 +1205,8 @@ window.WIAN_FILTERS = {
 "part": "WF10785A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10785A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1112,7 +1216,8 @@ window.WIAN_FILTERS = {
 "part": "WF10894A",
 "detail": "Fuel filter",
 "mrp": 1289,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10894A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1122,7 +1227,8 @@ window.WIAN_FILTERS = {
 "part": "WF8455",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8455.webp"
 },
 {
 "group": "Fuel filters",
@@ -1132,7 +1238,8 @@ window.WIAN_FILTERS = {
 "part": "WF10875A",
 "detail": "Fuel filter",
 "mrp": 871,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10875A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1142,7 +1249,8 @@ window.WIAN_FILTERS = {
 "part": "WF10881A",
 "detail": "Fuel filter",
 "mrp": 1254,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10881A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1152,7 +1260,8 @@ window.WIAN_FILTERS = {
 "part": "WF10884A",
 "detail": "Fuel filter",
 "mrp": 1502,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10884A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1162,7 +1271,8 @@ window.WIAN_FILTERS = {
 "part": "WF10877A",
 "detail": "Fuel filter",
 "mrp": 1167,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10877A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1182,7 +1292,8 @@ window.WIAN_FILTERS = {
 "part": "WF10874A",
 "detail": "Fuel filter",
 "mrp": 1057,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10874A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1192,7 +1303,8 @@ window.WIAN_FILTERS = {
 "part": "WF10729A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10729A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1202,7 +1314,8 @@ window.WIAN_FILTERS = {
 "part": "WF8429",
 "detail": "Fuel filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF8429.webp"
 },
 {
 "group": "Fuel filters",
@@ -1212,7 +1325,8 @@ window.WIAN_FILTERS = {
 "part": "WF10845A",
 "detail": "Fuel filter",
 "mrp": 260,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10845A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1222,7 +1336,8 @@ window.WIAN_FILTERS = {
 "part": "WF10709A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10709A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1232,7 +1347,8 @@ window.WIAN_FILTERS = {
 "part": "WF10879A",
 "detail": "Fuel filter",
 "mrp": 1291,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10879A.webp"
 },
 {
 "group": "Oil filters",
@@ -1242,7 +1358,8 @@ window.WIAN_FILTERS = {
 "part": "WL10710A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10710A.webp"
 },
 {
 "group": "Oil filters",
@@ -1252,7 +1369,8 @@ window.WIAN_FILTERS = {
 "part": "WL10790A",
 "detail": "Oil filter",
 "mrp": 475,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10790A.webp"
 },
 {
 "group": "Oil filters",
@@ -1272,7 +1390,8 @@ window.WIAN_FILTERS = {
 "part": "WL10495A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10495A.webp"
 },
 {
 "group": "Oil filters",
@@ -1282,7 +1401,8 @@ window.WIAN_FILTERS = {
 "part": "WL7442",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7442.webp"
 },
 {
 "group": "Oil filters",
@@ -1292,7 +1412,8 @@ window.WIAN_FILTERS = {
 "part": "WL10489A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10489A.webp"
 },
 {
 "group": "Oil filters",
@@ -1302,7 +1423,8 @@ window.WIAN_FILTERS = {
 "part": "WL10996A",
 "detail": "Oil filter",
 "mrp": 231,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10996A.webp"
 },
 {
 "group": "Oil filters",
@@ -1312,7 +1434,8 @@ window.WIAN_FILTERS = {
 "part": "WL7477",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7477.webp"
 },
 {
 "group": "Oil filters",
@@ -1322,7 +1445,8 @@ window.WIAN_FILTERS = {
 "part": "WL10791A",
 "detail": "Oil filter",
 "mrp": 262,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10791A.webp"
 },
 {
 "group": "Oil filters",
@@ -1332,7 +1456,8 @@ window.WIAN_FILTERS = {
 "part": "WL10986A",
 "detail": "Oil filter",
 "mrp": 276,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10986A.webp"
 },
 {
 "group": "Oil filters",
@@ -1342,7 +1467,8 @@ window.WIAN_FILTERS = {
 "part": "WL7565",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7565.webp"
 },
 {
 "group": "Oil filters",
@@ -1362,7 +1488,8 @@ window.WIAN_FILTERS = {
 "part": "WL7564",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7564.webp"
 },
 {
 "group": "Oil filters",
@@ -1372,7 +1499,8 @@ window.WIAN_FILTERS = {
 "part": "WL7563",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7563.webp"
 },
 {
 "group": "Oil filters",
@@ -1382,7 +1510,8 @@ window.WIAN_FILTERS = {
 "part": "WL7429",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7429.webp"
 },
 {
 "group": "Oil filters",
@@ -1402,7 +1531,8 @@ window.WIAN_FILTERS = {
 "part": "WL7427",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7427.webp"
 },
 {
 "group": "Oil filters",
@@ -1412,7 +1542,8 @@ window.WIAN_FILTERS = {
 "part": "WL10987A",
 "detail": "Oil filter",
 "mrp": 174,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10987A.webp"
 },
 {
 "group": "Oil filters",
@@ -1422,7 +1553,8 @@ window.WIAN_FILTERS = {
 "part": "WL7566",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7566.webp"
 },
 {
 "group": "Oil filters",
@@ -1432,7 +1564,8 @@ window.WIAN_FILTERS = {
 "part": "WL10985A",
 "detail": "Oil filter",
 "mrp": 251,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10985A.webp"
 },
 {
 "group": "Oil filters",
@@ -1442,7 +1575,8 @@ window.WIAN_FILTERS = {
 "part": "WL10994A",
 "detail": "Oil filter",
 "mrp": 198,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10994A.webp"
 },
 {
 "group": "Oil filters",
@@ -1452,7 +1586,8 @@ window.WIAN_FILTERS = {
 "part": "WL7472",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7472.webp"
 },
 {
 "group": "Oil filters",
@@ -1462,7 +1597,8 @@ window.WIAN_FILTERS = {
 "part": "WL7453",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7453.webp"
 },
 {
 "group": "Oil filters",
@@ -1472,7 +1608,8 @@ window.WIAN_FILTERS = {
 "part": "WL7481",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7481.webp"
 },
 {
 "group": "Oil filters",
@@ -1482,7 +1619,8 @@ window.WIAN_FILTERS = {
 "part": "WL10492A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10492A.webp"
 },
 {
 "group": "Oil filters",
@@ -1492,7 +1630,8 @@ window.WIAN_FILTERS = {
 "part": "WL7172",
 "detail": "Oil filter (imported)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7172.webp"
 },
 {
 "group": "Oil filters",
@@ -1502,7 +1641,8 @@ window.WIAN_FILTERS = {
 "part": "WL7570",
 "detail": "Oil filter",
 "mrp": 228,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL7570.webp"
 },
 {
 "group": "Air filters",
@@ -1512,7 +1652,8 @@ window.WIAN_FILTERS = {
 "part": "WA11893A",
 "detail": "Air filter",
 "mrp": 1046,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11893A.webp"
 },
 {
 "group": "Air filters",
@@ -1522,7 +1663,8 @@ window.WIAN_FILTERS = {
 "part": "WA11385A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11385A.webp"
 },
 {
 "group": "Air filters",
@@ -1532,7 +1674,8 @@ window.WIAN_FILTERS = {
 "part": "WA11665A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11665A.webp"
 },
 {
 "group": "Air filters",
@@ -1542,7 +1685,8 @@ window.WIAN_FILTERS = {
 "part": "WA11388A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11388A.webp"
 },
 {
 "group": "Air filters",
@@ -1552,7 +1696,8 @@ window.WIAN_FILTERS = {
 "part": "WA11552A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11552A.webp"
 },
 {
 "group": "Air filters",
@@ -1562,7 +1707,8 @@ window.WIAN_FILTERS = {
 "part": "WA11553A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11553A.webp"
 },
 {
 "group": "Air filters",
@@ -1572,7 +1718,8 @@ window.WIAN_FILTERS = {
 "part": "WA11392A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11392A.webp"
 },
 {
 "group": "Air filters",
@@ -1582,7 +1729,8 @@ window.WIAN_FILTERS = {
 "part": "WA11889A",
 "detail": "Air filter",
 "mrp": 4220,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11889A.webp"
 },
 {
 "group": "Air filters",
@@ -1592,7 +1740,8 @@ window.WIAN_FILTERS = {
 "part": "WA11546A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11546A.webp"
 },
 {
 "group": "Air filters",
@@ -1602,7 +1751,8 @@ window.WIAN_FILTERS = {
 "part": "WA11664A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11664A.webp"
 },
 {
 "group": "Air filters",
@@ -1612,7 +1762,8 @@ window.WIAN_FILTERS = {
 "part": "WA11364A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11364A.webp"
 },
 {
 "group": "Air filters",
@@ -1622,7 +1773,8 @@ window.WIAN_FILTERS = {
 "part": "WA11372A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11372A.webp"
 },
 {
 "group": "Air filters",
@@ -1632,7 +1784,8 @@ window.WIAN_FILTERS = {
 "part": "WA11366A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11366A.webp"
 },
 {
 "group": "Air filters",
@@ -1642,7 +1795,8 @@ window.WIAN_FILTERS = {
 "part": "WA11551A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11551A.webp"
 },
 {
 "group": "Air filters",
@@ -1652,7 +1806,8 @@ window.WIAN_FILTERS = {
 "part": "WA11371A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11371A.webp"
 },
 {
 "group": "Air filters",
@@ -1662,7 +1817,8 @@ window.WIAN_FILTERS = {
 "part": "WA11253",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11253.webp"
 },
 {
 "group": "Air filters",
@@ -1672,7 +1828,8 @@ window.WIAN_FILTERS = {
 "part": "WA11243",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11243.webp"
 },
 {
 "group": "Air filters",
@@ -1682,7 +1839,8 @@ window.WIAN_FILTERS = {
 "part": "WA11241A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11241A.webp"
 },
 {
 "group": "Air filters",
@@ -1692,7 +1850,8 @@ window.WIAN_FILTERS = {
 "part": "WA11661A",
 "detail": "Air filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WA11661A.webp"
 },
 {
 "group": "Filter kits",
@@ -1922,7 +2081,8 @@ window.WIAN_FILTERS = {
 "part": "WF10662",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10662.webp"
 },
 {
 "group": "Fuel filters",
@@ -1932,7 +2092,8 @@ window.WIAN_FILTERS = {
 "part": "WF10651",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10651.webp"
 },
 {
 "group": "Fuel filters",
@@ -1942,7 +2103,8 @@ window.WIAN_FILTERS = {
 "part": "WF10670A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10670A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1952,7 +2114,8 @@ window.WIAN_FILTERS = {
 "part": "WF10671A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10671A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1962,7 +2125,8 @@ window.WIAN_FILTERS = {
 "part": "WF10652",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10652.webp"
 },
 {
 "group": "Fuel filters",
@@ -1972,7 +2136,8 @@ window.WIAN_FILTERS = {
 "part": "WF10669A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10669A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1982,7 +2147,8 @@ window.WIAN_FILTERS = {
 "part": "WF10747A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10747A.webp"
 },
 {
 "group": "Fuel filters",
@@ -1992,7 +2158,8 @@ window.WIAN_FILTERS = {
 "part": "WF10672A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10672A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2002,7 +2169,8 @@ window.WIAN_FILTERS = {
 "part": "WF10752A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10752A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2012,7 +2180,8 @@ window.WIAN_FILTERS = {
 "part": "WF10684A",
 "detail": "Fuel filter",
 "mrp": 5096,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10684A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2022,7 +2191,8 @@ window.WIAN_FILTERS = {
 "part": "WF10685A",
 "detail": "Fuel filter",
 "mrp": 4467,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10685A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2032,7 +2202,8 @@ window.WIAN_FILTERS = {
 "part": "WF10688A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10688A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2042,7 +2213,8 @@ window.WIAN_FILTERS = {
 "part": "WF10681A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10681A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2052,7 +2224,8 @@ window.WIAN_FILTERS = {
 "part": "WF10680A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10680A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2062,7 +2235,8 @@ window.WIAN_FILTERS = {
 "part": "WF10682A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10682A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2072,7 +2246,8 @@ window.WIAN_FILTERS = {
 "part": "WF10683A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10683A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2082,7 +2257,8 @@ window.WIAN_FILTERS = {
 "part": "WF2152",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF2152.webp"
 },
 {
 "group": "Fuel filters",
@@ -2092,7 +2268,8 @@ window.WIAN_FILTERS = {
 "part": "WF10824A",
 "detail": "Fuel filter",
 "mrp": 2378,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10824A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2102,7 +2279,8 @@ window.WIAN_FILTERS = {
 "part": "WF10748A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10748A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2112,7 +2290,8 @@ window.WIAN_FILTERS = {
 "part": "WF10679A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10679A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2122,7 +2301,8 @@ window.WIAN_FILTERS = {
 "part": "WF10690A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10690A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2132,7 +2312,8 @@ window.WIAN_FILTERS = {
 "part": "WF10750A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10750A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2142,7 +2323,8 @@ window.WIAN_FILTERS = {
 "part": "WF10751A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10751A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2152,7 +2334,8 @@ window.WIAN_FILTERS = {
 "part": "WF10820A",
 "detail": "Fuel filter",
 "mrp": 1077,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10820A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2162,7 +2345,8 @@ window.WIAN_FILTERS = {
 "part": "WF10823A",
 "detail": "Fuel filter",
 "mrp": 1388,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10823A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2172,7 +2356,8 @@ window.WIAN_FILTERS = {
 "part": "WF10663A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10663A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2182,7 +2367,8 @@ window.WIAN_FILTERS = {
 "part": "WF10745A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10745A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2192,7 +2378,8 @@ window.WIAN_FILTERS = {
 "part": "WF10649",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10649.webp"
 },
 {
 "group": "Fuel filters",
@@ -2202,7 +2389,8 @@ window.WIAN_FILTERS = {
 "part": "WF10666A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10666A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2212,7 +2400,8 @@ window.WIAN_FILTERS = {
 "part": "WF10667A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10667A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2222,7 +2411,8 @@ window.WIAN_FILTERS = {
 "part": "WF10648",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10648.webp"
 },
 {
 "group": "Fuel filters",
@@ -2232,7 +2422,8 @@ window.WIAN_FILTERS = {
 "part": "WF10647",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10647.webp"
 },
 {
 "group": "Fuel filters",
@@ -2242,7 +2433,8 @@ window.WIAN_FILTERS = {
 "part": "WF10822A",
 "detail": "Fuel filter",
 "mrp": 1978,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10822A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2252,7 +2444,8 @@ window.WIAN_FILTERS = {
 "part": "WF10749A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10749A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2262,7 +2455,8 @@ window.WIAN_FILTERS = {
 "part": "WF10668A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10668A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2272,7 +2466,8 @@ window.WIAN_FILTERS = {
 "part": "WF10746A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10746A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2282,7 +2477,8 @@ window.WIAN_FILTERS = {
 "part": "WF10767A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10767A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2292,7 +2488,8 @@ window.WIAN_FILTERS = {
 "part": "WF10673A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10673A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2302,7 +2499,8 @@ window.WIAN_FILTERS = {
 "part": "WF10686A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10686A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2312,7 +2510,8 @@ window.WIAN_FILTERS = {
 "part": "WF10687A",
 "detail": "Fuel filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10687A.webp"
 },
 {
 "group": "Fuel filters",
@@ -2322,7 +2521,8 @@ window.WIAN_FILTERS = {
 "part": "WF10821A",
 "detail": "Fuel filter",
 "mrp": 1814,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WF10821A.webp"
 },
 {
 "group": "Oil filters",
@@ -2332,7 +2532,8 @@ window.WIAN_FILTERS = {
 "part": "WL10677A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10677A.webp"
 },
 {
 "group": "Oil filters",
@@ -2342,7 +2543,8 @@ window.WIAN_FILTERS = {
 "part": "WL10672A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10672A.webp"
 },
 {
 "group": "Oil filters",
@@ -2352,7 +2554,8 @@ window.WIAN_FILTERS = {
 "part": "WL10601",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10601.webp"
 },
 {
 "group": "Oil filters",
@@ -2362,7 +2565,8 @@ window.WIAN_FILTERS = {
 "part": "WL10604",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10604.webp"
 },
 {
 "group": "Oil filters",
@@ -2372,7 +2576,8 @@ window.WIAN_FILTERS = {
 "part": "WL10666A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10666A.webp"
 },
 {
 "group": "Oil filters",
@@ -2382,7 +2587,8 @@ window.WIAN_FILTERS = {
 "part": "WL10667A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10667A.webp"
 },
 {
 "group": "Oil filters",
@@ -2392,7 +2598,8 @@ window.WIAN_FILTERS = {
 "part": "WL10745A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10745A.webp"
 },
 {
 "group": "Oil filters",
@@ -2402,7 +2609,8 @@ window.WIAN_FILTERS = {
 "part": "WL10602",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10602.webp"
 },
 {
 "group": "Oil filters",
@@ -2412,7 +2620,8 @@ window.WIAN_FILTERS = {
 "part": "WL10603",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10603.webp"
 },
 {
 "group": "Oil filters",
@@ -2422,7 +2631,8 @@ window.WIAN_FILTERS = {
 "part": "WL10682A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10682A.webp"
 },
 {
 "group": "Oil filters",
@@ -2432,7 +2642,8 @@ window.WIAN_FILTERS = {
 "part": "WL10772A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10772A.webp"
 },
 {
 "group": "Oil filters",
@@ -2442,7 +2653,8 @@ window.WIAN_FILTERS = {
 "part": "WL10679A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10679A.webp"
 },
 {
 "group": "Oil filters",
@@ -2452,7 +2664,8 @@ window.WIAN_FILTERS = {
 "part": "WL10746A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10746A.webp"
 },
 {
 "group": "Oil filters",
@@ -2462,7 +2675,8 @@ window.WIAN_FILTERS = {
 "part": "WL10742A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10742A.webp"
 },
 {
 "group": "Oil filters",
@@ -2472,7 +2686,8 @@ window.WIAN_FILTERS = {
 "part": "WL10890A",
 "detail": "Oil filter",
 "mrp": 1681,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10890A.webp"
 },
 {
 "group": "Oil filters",
@@ -2482,7 +2697,8 @@ window.WIAN_FILTERS = {
 "part": "WL10681A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10681A.webp"
 },
 {
 "group": "Oil filters",
@@ -2492,7 +2708,8 @@ window.WIAN_FILTERS = {
 "part": "WL10744A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10744A.webp"
 },
 {
 "group": "Oil filters",
@@ -2502,7 +2719,8 @@ window.WIAN_FILTERS = {
 "part": "WL10972A",
 "detail": "Oil filter",
 "mrp": 128,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10972A.webp"
 },
 {
 "group": "Oil filters",
@@ -2512,7 +2730,8 @@ window.WIAN_FILTERS = {
 "part": "WL10675A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10675A.webp"
 },
 {
 "group": "Oil filters",
@@ -2522,7 +2741,8 @@ window.WIAN_FILTERS = {
 "part": "WL10669A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10669A.webp"
 },
 {
 "group": "Oil filters",
@@ -2532,7 +2752,8 @@ window.WIAN_FILTERS = {
 "part": "WL10599",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10599.webp"
 },
 {
 "group": "Oil filters",
@@ -2542,7 +2763,8 @@ window.WIAN_FILTERS = {
 "part": "WL10676A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10676A.webp"
 },
 {
 "group": "Oil filters",
@@ -2552,7 +2774,8 @@ window.WIAN_FILTERS = {
 "part": "WL10670A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10670A.webp"
 },
 {
 "group": "Oil filters",
@@ -2562,7 +2785,8 @@ window.WIAN_FILTERS = {
 "part": "WL10664A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10664A.webp"
 },
 {
 "group": "Oil filters",
@@ -2572,7 +2796,8 @@ window.WIAN_FILTERS = {
 "part": "WL10671A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10671A.webp"
 },
 {
 "group": "Oil filters",
@@ -2582,7 +2807,8 @@ window.WIAN_FILTERS = {
 "part": "WL10674A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10674A.webp"
 },
 {
 "group": "Oil filters",
@@ -2602,7 +2828,8 @@ window.WIAN_FILTERS = {
 "part": "WL10665A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10665A.webp"
 },
 {
 "group": "Oil filters",
@@ -2612,7 +2839,8 @@ window.WIAN_FILTERS = {
 "part": "WL10995A",
 "detail": "Oil filter",
 "mrp": 251,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10995A.webp"
 },
 {
 "group": "Oil filters",
@@ -2622,7 +2850,8 @@ window.WIAN_FILTERS = {
 "part": "WL10887A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10887A.webp"
 },
 {
 "group": "Oil filters",
@@ -2632,7 +2861,8 @@ window.WIAN_FILTERS = {
 "part": "WL10886A",
 "detail": "Oil filter",
 "mrp": 3523,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10886A.webp"
 },
 {
 "group": "Oil filters",
@@ -2642,7 +2872,8 @@ window.WIAN_FILTERS = {
 "part": "WL10668A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10668A.webp"
 },
 {
 "group": "Oil filters",
@@ -2652,7 +2883,8 @@ window.WIAN_FILTERS = {
 "part": "WL10888A",
 "detail": "Oil filter",
 "mrp": 1737,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10888A.webp"
 },
 {
 "group": "Oil filters",
@@ -2662,7 +2894,8 @@ window.WIAN_FILTERS = {
 "part": "WL10743A",
 "detail": "Oil filter",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wix/WL10743A.webp"
 }
 ]
 };
