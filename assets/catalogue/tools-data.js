@@ -404,7 +404,8 @@ window.WIAN_TOOLS = {
 "part": "5763114040",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5763114040.webp"
 },
 {
 "group": "Hand tools",
@@ -482,7 +483,8 @@ window.WIAN_TOOLS = {
 "part": "575241101",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/575241101.webp"
 },
 {
 "group": "Hand tools",
@@ -540,7 +542,8 @@ window.WIAN_TOOLS = {
 "part": "071330140",
 "detail": "11, 17 or 28 pcs",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/071330140.webp"
 },
 {
 "group": "Hand tools",
@@ -737,7 +740,8 @@ window.WIAN_TOOLS = {
 "part": "0714031028",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714031028.webp"
 },
 {
 "group": "Hand tools",
@@ -746,7 +750,8 @@ window.WIAN_TOOLS = {
 "part": "0714500",
 "detail": "280 mm",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0714500.webp"
 },
 {
 "group": "Hand tools",
@@ -1433,7 +1438,8 @@ window.WIAN_TOOLS = {
 "part": "0699999007",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0699999007.webp"
 },
 {
 "group": "Pneumatic tools",
@@ -1472,7 +1478,8 @@ window.WIAN_TOOLS = {
 "part": "0699999000",
 "detail": "Male and female couplers, QRC plugs, 1/4\" swivel connector",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0699999000.webp"
 },
 {
 "group": "Workshop equipment",
@@ -1638,7 +1645,8 @@ window.WIAN_TOOLS = {
 "part": "0580005036",
 "detail": "50 and 75 mm, grit 36–120",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0580005036.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1959,7 +1967,8 @@ window.WIAN_TOOLS = {
 "part": "089170005",
 "detail": "1.6 mm nozzle · 1.3 mm nozzle 0891700051",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089170005.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1968,7 +1977,8 @@ window.WIAN_TOOLS = {
 "part": "06992614",
 "detail": "1/4\" · also 3/8\" (06992638)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/06992614.webp"
 },
 {
 "group": "Body & paint tools",
@@ -1977,7 +1987,8 @@ window.WIAN_TOOLS = {
 "part": "0699261401",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0699261401.webp"
 },
 {
 "group": "Body & paint tools",
@@ -2214,7 +2225,8 @@ window.WIAN_TOOLS = {
 "part": "0988995245990",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0988995245990.webp"
 },
 {
 "group": "Workshop equipment",
@@ -2273,7 +2285,8 @@ window.WIAN_TOOLS = {
 "part": "07159322",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/07159322.webp"
 },
 {
 "group": "Tool storage",
@@ -2352,7 +2365,8 @@ window.WIAN_TOOLS = {
 "part": "0899103120",
 "detail": "Also 0899103121 / 0899103122",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899103120.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2481,7 +2495,8 @@ window.WIAN_TOOLS = {
 "part": "5357943",
 "detail": "Sizes 38–46",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5357943.webp"
 },
 {
 "group": "Safety & PPE",
@@ -2490,7 +2505,8 @@ window.WIAN_TOOLS = {
 "part": "5357121",
 "detail": "Sizes 38–45",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5357121.webp"
 },
 {
 "group": "Safety & PPE",

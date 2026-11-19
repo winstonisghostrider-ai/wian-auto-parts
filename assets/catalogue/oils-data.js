@@ -1669,7 +1669,8 @@ window.WIAN_OILS = {
 "detail": "3.5 L",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897105523045.webp"
 },
 {
 "group": "Engine oils",
@@ -1712,7 +1713,8 @@ window.WIAN_OILS = {
 "detail": "5 L · also 210 L (0897185140)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0897185146.webp"
 },
 {
 "group": "Coolant & brake fluid",
@@ -1821,7 +1823,8 @@ window.WIAN_OILS = {
 "detail": "250 ml · also 50 ml (0893016050)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893016250.webp"
 },
 {
 "group": "Additives",
@@ -1831,7 +1834,8 @@ window.WIAN_OILS = {
 "detail": "50 ml · also 250 ml (5861300325)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861300305.webp"
 },
 {
 "group": "Additives",
@@ -1905,7 +1909,8 @@ window.WIAN_OILS = {
 "detail": "50 ml · also 250 ml (5861101250)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/5861101350.webp"
 },
 {
 "group": "Additives",

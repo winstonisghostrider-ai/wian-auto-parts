@@ -146,7 +146,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997725313",
 "detail": "P43t · passenger car",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997725313.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -155,7 +156,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997725315",
 "detail": "P43t · passenger car",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997725315.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -164,7 +166,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997725319",
 "detail": "P43t · cargo / truck",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997725319.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -173,7 +176,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997725316",
 "detail": "PX26d",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997725316.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -182,7 +186,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997725317",
 "detail": "PX26d · off-road use only",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997725317.webp"
 },
 {
 "group": "Bulbs & wipers",
@@ -219,7 +224,8 @@ window.WIAN_ACCESSORIES = {
 "part": "5997772428090",
 "detail": "Cargo / truck xenon-effect bulb",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997772428090.webp"
 },
 {
 "group": "Bulbs & wipers",

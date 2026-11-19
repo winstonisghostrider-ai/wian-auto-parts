@@ -41,7 +41,8 @@ window.WIAN_CARCARE = {
 "part": "0577363004961",
 "detail": "P40–P500",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0577363004961.webp"
 },
 {
 "group": "Abrasives & Sanding",
@@ -150,7 +151,8 @@ window.WIAN_CARCARE = {
 "part": "5997651222090",
 "detail": "P80–P500",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5997651222090.webp"
 },
 {
 "group": "Abrasives & Sanding",
@@ -189,7 +191,8 @@ window.WIAN_CARCARE = {
 "part": "5506442115",
 "detail": "Grit 150–600",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/5506442115.webp"
 },
 {
 "group": "Abrasives & Sanding",
@@ -258,7 +261,8 @@ window.WIAN_CARCARE = {
 "part": "0893764003",
 "detail": "250 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893764003.webp"
 },
 {
 "group": "Air Conditioning Care",
@@ -443,7 +447,8 @@ window.WIAN_CARCARE = {
 "part": "089918200",
 "detail": "45 cm × 200 m · also 90 cm (089936200)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089918200.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -452,7 +457,8 @@ window.WIAN_CARCARE = {
 "part": "0992068024",
 "detail": "24 mm × 30 m · also 48 mm (0992068048)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0992068024.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -479,7 +485,8 @@ window.WIAN_CARCARE = {
 "part": "0890026260",
 "detail": "310 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0890026260.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -498,7 +505,8 @@ window.WIAN_CARCARE = {
 "part": "0899700110",
 "detail": "Yellow 190 µm · orange 260 µm (0899700100)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0899700110.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -536,7 +544,8 @@ window.WIAN_CARCARE = {
 "part": "0893500050",
 "detail": "50 ml · 30, 90 or 210 s working life",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893500050.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -595,7 +604,8 @@ window.WIAN_CARCARE = {
 "part": "08932141",
 "detail": "400 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/08932141.webp"
 },
 {
 "group": "Body Shop Consumables",
@@ -703,7 +713,8 @@ window.WIAN_CARCARE = {
 "part": "0585195",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0585195.webp"
 },
 {
 "group": "Car Care Tools & Accessories",
@@ -902,7 +913,8 @@ window.WIAN_CARCARE = {
 "part": "0891503001",
 "detail": "1000 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0891503001.webp"
 },
 {
 "group": "Car Care Tools & Accessories",
@@ -1118,7 +1130,8 @@ window.WIAN_CARCARE = {
 "part": "0893221525",
 "detail": "500 ml · also 100 ml (089347726)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893221525.webp"
 },
 {
 "group": "Cleaning, Dressing & Protection",
@@ -1154,7 +1167,8 @@ window.WIAN_CARCARE = {
 "part": "0892333032",
 "detail": "32 ml · also 50 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0892333032.webp"
 },
 {
 "group": "Cleaning, Dressing & Protection",
@@ -1163,7 +1177,8 @@ window.WIAN_CARCARE = {
 "part": "0893221",
 "detail": "500 ml",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893221.webp"
 },
 {
 "group": "Cleaning, Dressing & Protection",
@@ -1172,7 +1187,8 @@ window.WIAN_CARCARE = {
 "part": "089026",
 "detail": "300 ml · also 5 L (089026005)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089026.webp"
 },
 {
 "group": "Cleaning, Dressing & Protection",
@@ -1261,7 +1277,8 @@ window.WIAN_CARCARE = {
 "part": "09929208",
 "detail": "VLT 59.8% · solar rejection 35.6% · UV rejection 99%",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/09929208.webp"
 },
 {
 "group": "Paint Care & Polishing",
@@ -1318,7 +1335,8 @@ window.WIAN_CARCARE = {
 "part": "0893012523045",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893012523045.webp"
 },
 {
 "group": "Paint Care & Polishing",
@@ -1366,7 +1384,8 @@ window.WIAN_CARCARE = {
 "part": "0893150060",
 "detail": "1 kg",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893150060.webp"
 },
 {
 "group": "Paint Care & Polishing",
@@ -1385,7 +1404,8 @@ window.WIAN_CARCARE = {
 "part": "0893150010",
 "detail": "1 kg",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0893150010.webp"
 },
 {
 "group": "Paint Care & Polishing",
@@ -1414,7 +1434,8 @@ window.WIAN_CARCARE = {
 "part": "089310004045",
 "detail": "",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/089310004045.webp"
 },
 {
 "group": "Underbody & Rust Protection",
@@ -1423,7 +1444,8 @@ window.WIAN_CARCARE = {
 "part": "0892082105",
 "detail": "500 ml · also 1 L (0892082100)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0892082105.webp"
 },
 {
 "group": "Underbody & Rust Protection",
@@ -1432,7 +1454,8 @@ window.WIAN_CARCARE = {
 "part": "0892075250",
 "detail": "500 ml black · grey 500 ml (0892075350) and 1 L (0892075300)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0892075250.webp"
 },
 {
 "group": "Underbody & Rust Protection",
@@ -1461,7 +1484,8 @@ window.WIAN_CARCARE = {
 "part": "0892070100",
 "detail": "1 L black · grey (0892070200)",
 "mrp": null,
-"apps": ""
+"apps": "",
+"img": "/assets/products/wurth/0892070100.webp"
 },
 {
 "group": "Underbody & Rust Protection",
