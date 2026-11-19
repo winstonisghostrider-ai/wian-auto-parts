@@ -1963,7 +1963,8 @@ window.WIAN_OILS = {
 "detail": "5.5 ml sachets",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08931105045.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -1973,7 +1974,8 @@ window.WIAN_OILS = {
 "detail": "100 g · also 1 kg (08938002)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08938001.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -2004,7 +2006,8 @@ window.WIAN_OILS = {
 "detail": "400 ml",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/08931061045.webp"
 },
 {
 "group": "Grease & lubricants",
@@ -2102,7 +2105,8 @@ window.WIAN_OILS = {
 "detail": "500 ml · also 100 ml (0893101150)",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893105525.webp"
 },
 {
 "group": "Service & care products",
@@ -2156,7 +2160,8 @@ window.WIAN_OILS = {
 "detail": "",
 "mrp": null,
 "apps": "",
-"segment": "Würth"
+"segment": "Würth",
+"img": "/assets/products/wurth/0893449.webp"
 },
 {
 "group": "Service & care products",
